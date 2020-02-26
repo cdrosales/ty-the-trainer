@@ -65,7 +65,7 @@ gulp.task('browser-sync', function() {
   ];
 
   browserSync.init(files, {
-    proxy: 'localhost:8888/ty-coming-soon'
+    proxy: 'localhost:8888/ty-the-trainer'
   });
 
   gulp.watch(files).on('change', browserSync.stream);
