@@ -10,6 +10,11 @@
 <body <?php body_class();?>> 
 
 <div class="header-wrapper">
+
+    <div class="logo-wrapper">
+        <a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/images/ty-logo.png'; ?>" class="header-logo"/></a>
+    </div>
+
     <div class="nav">
             <?php wp_nav_menu( array('theme_location' => 'primary')); ?>
         </div>
