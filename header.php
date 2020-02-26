@@ -8,3 +8,9 @@
     <title><?php bloginfo('title');?></title>
 </head>
 <body <?php body_class();?>> 
+
+<div class="header-wrapper">
+    <div class="nav">
+            <?php wp_nav_menu( array('theme_location' => 'primary')); ?>
+        </div>
+</div>
