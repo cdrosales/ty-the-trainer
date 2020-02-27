@@ -54,6 +54,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.nav {
+  margin: auto 0;
+  width: 35%;
+  min-width: 325px; }
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -67,6 +72,10 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  .menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white; }
 
 .header-logo {
   width: auto;
@@ -74,7 +83,7 @@ table {
 
 .header-wrapper {
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -1,7 +1,16 @@
-
+.nav{
+    margin: auto 0;
+    width: 35%;
+    min-width: 325px;
+}
 .menu{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+    }
 }
