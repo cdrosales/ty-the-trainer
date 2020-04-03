@@ -54,6 +54,16 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+html {
+  font-family: 'helvetica neue';
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #ffffff; }
+
 .nav {
   margin: auto 0;
   width: 35%;
