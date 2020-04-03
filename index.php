@@ -10,7 +10,6 @@
     <h3><?php the_permalink(); ?> 
     <?php the_content(); ?>
 
-
     <?php endwhile; ?> 
 
     <?php the_posts_navigation(); ?> 
