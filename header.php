@@ -13,7 +13,7 @@
 <div class="header-wrapper">
 
     <div class="logo-wrapper">
-        <a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/images/ty-logo.png'; ?>" class="header-logo"/></a>
+        <a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/images/ty-logo-white.png'; ?>" class="header-logo"/></a>
     </div>
 
     <div class="nav">
