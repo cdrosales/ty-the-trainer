@@ -24,9 +24,17 @@
                     <h2>What i can do for you</h2>
                     <hr class="header-line">
                 </div>
-                
-            <?php dynamic_sidebar('sidebar-personal-training'); ?>
-            <?php dynamic_sidebar('sidebar-nutritional-plans'); ?>
+            <div class="personal-training-container"> 
+                <a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-personal-training.svg'; ?>" class="icon-personal-training"/></a>    
+                <h3>Personal Training</h3>    
+                <?php dynamic_sidebar('sidebar-personal-training'); ?>
+            </div>
+
+            <div class="nutritional-plans-container">
+                <a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-nutritional-plans.svg'; ?>" class="icon-nutritional-plans"/></a>    
+                <h3>Nutritional Plans</h3> 
+                <?php dynamic_sidebar('sidebar-nutritional-plans'); ?>
+            </div>
 
         </div>
 
