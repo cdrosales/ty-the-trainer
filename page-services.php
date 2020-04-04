@@ -19,7 +19,8 @@
                 <p>No posts found</p>
         <?php endif; ?>
 
-
+        <?php dynamic_sidebar('sidebar-personal-training'); ?>
+        <?php dynamic_sidebar('sidebar-nutritional-plans'); ?>
 
 
 <?php get_footer(); ?>

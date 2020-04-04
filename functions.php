@@ -29,17 +29,40 @@ function tythetrainer_sidebars_widgets() {
     
     // About Info
     register_sidebar( array(
-        'name' => esc_html('About Page - About Me'),
+        'name' => esc_html('About Page-About Me'),
         'id' => 'sidebar-about',
         'description' => 'Your Story',
         'class' => 'about-info',
         'before_widget' => '<section id="%1$s" class="%2$s tythetrainer-widget"> ',
         'after_widget' => '</section>',
-        'before_title' => '<div class="header-style-container">
-        <hr class="header-line"><h2>',
-        'after_title' => '</h2></div>'
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
     ));
 
+    // What I Can Do For You Info
+    //Personal Training
+    register_sidebar( array(
+        'name' => esc_html('Services-Personal Training'),
+        'id' => 'sidebar-personal-training',
+        'description' => 'Your Services You Offer',
+        'class' => 'services-personal-training',
+        'before_widget' => '<section id="%1$s" class="%2$s tythetrainer-widget"> ',
+        'after_widget' => '</section>',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>'
+    ));
+
+    // Nutritional Plans
+    register_sidebar( array(
+        'name' => esc_html('Services-Nutritional Plans'),
+        'id' => 'sidebar-nutritional-plans',
+        'description' => 'Your Services You Offer',
+        'class' => 'services-nutritional-plans',
+        'before_widget' => '<section id="%1$s" class="%2$s tythetrainer-widget"> ',
+        'after_widget' => '</section>',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>'
+    ));
 }
 add_action('widgets_init', 'tythetrainer_sidebars_widgets');
 

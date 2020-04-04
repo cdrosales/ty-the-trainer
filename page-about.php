@@ -24,7 +24,7 @@
         <div class="about-widget">
             <div class="about-widget-title">
                 <h2> My Story. My Mission </h2>
-                <div class="line-under-title"></div>
+                <hr class="header-line">
             </div>
 
              <?php dynamic_sidebar('sidebar-about'); ?>
