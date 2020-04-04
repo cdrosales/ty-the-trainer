@@ -23,4 +23,24 @@ function tythetrainer_features(){
     ));
 }
 add_action('after_setup_theme', 'tythetrainer_features');
+
+// Initialize Sidebars
+function tythetrainer_sidebars_widgets() {
+    // Front Page - "The Problem"
+    register_sidebar( array(
+        'name' => esc_html('About Page - About Me'),
+        'id' => 'sidebar-about',
+        'description' => 'Your Story',
+        'class' => 'about-info',
+        'before_widget' => '<section id="%1$s" class="%2$s tythetrainer-widget"> ',
+        'after_widget' => '</section>',
+        'before_title' => '<div class="header-style-container">
+        <hr class="header-line"><h2>',
+        'after_title' => '</h2></div>'
+    ));
+
+}
+add_action('widgets_init', 'tythetrainer_sidebars_widgets');
+
 ?>
+

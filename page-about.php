@@ -6,8 +6,6 @@
     while ( have_posts() ):
         the_post();?> 
 
-    <h2><?php the_title(); ?></h2> 
-    <h3><?php the_permalink(); ?> 
     <?php the_content(); ?>
 
 
@@ -18,5 +16,10 @@
 <?php else : ?>
         <p>No posts found</p>
 <?php endif; ?>
+
+        <div class="about-widget">
+            <h2> My Story. My Mission </h2>
+             <?php dynamic_sidebar('sidebar-about'); ?>
+        </div>
 
 <?php get_footer(); ?>
