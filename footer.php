@@ -2,7 +2,7 @@
 
 
 <footer>
-    <div class="footer-containter>
+    <div class="footer-containter">
         <a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/images/ty-logo-black.png'; ?>" class="footer-logo"/></a>
 
         <div class="footer-nav">
