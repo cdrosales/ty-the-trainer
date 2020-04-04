@@ -35,8 +35,6 @@ function tythetrainer_sidebars_widgets() {
         'class' => 'about-info',
         'before_widget' => '<section id="%1$s" class="%2$s tythetrainer-widget"> ',
         'after_widget' => '</section>',
-        'before_title' => '<h2>',
-        'after_title' => '</h2>'
     ));
 
     // What I Can Do For You Info
@@ -48,7 +46,7 @@ function tythetrainer_sidebars_widgets() {
         'class' => 'services-personal-training',
         'before_widget' => '<section id="%1$s" class="%2$s tythetrainer-widget"> ',
         'after_widget' => '</section>',
-        'before_title' => '<h4>',
+        'before_title' => '<h3>Personal Training</h3><h4>',
         'after_title' => '</h4>'
     ));
 
@@ -60,7 +58,7 @@ function tythetrainer_sidebars_widgets() {
         'class' => 'services-nutritional-plans',
         'before_widget' => '<section id="%1$s" class="%2$s tythetrainer-widget"> ',
         'after_widget' => '</section>',
-        'before_title' => '<h4>',
+        'before_title' => '<h3>Nutritional Plans</h3></h4>',
         'after_title' => '</h4>'
     ));
 }

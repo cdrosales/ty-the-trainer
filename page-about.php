@@ -22,8 +22,8 @@
 </div>
 
         <div class="about-widget">
-            <div class="about-widget-title">
-                <h2> My Story. My Mission </h2>
+            <div class="widget-title">
+                <h2> My story. My mission </h2>
                 <hr class="header-line">
             </div>
 

@@ -19,8 +19,15 @@
                 <p>No posts found</p>
         <?php endif; ?>
 
-        <?php dynamic_sidebar('sidebar-personal-training'); ?>
-        <?php dynamic_sidebar('sidebar-nutritional-plans'); ?>
+        <div class="services-widget">
+            <div class="widget-title">
+                    <h2>What i can do for you</h2>
+                    <hr class="header-line">
+                </div>
+                
+            <?php dynamic_sidebar('sidebar-personal-training'); ?>
+            <?php dynamic_sidebar('sidebar-nutritional-plans'); ?>
 
+        </div>
 
 <?php get_footer(); ?>
