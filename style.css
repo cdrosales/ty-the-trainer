@@ -54,15 +54,21 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-html {
+p {
   font-family: 'helvetica neue';
-  font-size: 20px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal; }
+
+h2 {
+  font-family: 'helvetica neue';
+  font-size: 30px;
+  color: #ffffff;
   font-weight: bold;
   font-stretch: normal;
-  font-style: normal;
-  letter-spacing: 2px;
-  text-align: center;
-  color: #ffffff; }
+  font-style: normal; }
 
 .nav {
   margin: auto 0;

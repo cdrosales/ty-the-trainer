@@ -12,21 +12,21 @@
 
     <div class="about-hero-title">
         <?php the_content(); ?>
+ 
+        <?php endwhile; ?> 
+
+        <?php else : ?>
+                <p>No posts found</p>
+        <?php endif; ?>
     </div>
 </div>
 
-
-
-    <?php endwhile; ?> 
-
-    <?php the_posts_navigation(); ?> 
-
-<?php else : ?>
-        <p>No posts found</p>
-<?php endif; ?>
-
         <div class="about-widget">
-            <h2> My Story. My Mission </h2>
+            <div class="about-widget-title">
+                <h2> My Story. My Mission </h2>
+                <div class="line-under-title"></div>
+            </div>
+
              <?php dynamic_sidebar('sidebar-about'); ?>
         </div>
 
