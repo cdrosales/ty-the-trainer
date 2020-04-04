@@ -1,12 +1,20 @@
 <?php get_header(); ?>
 
-<h1><?php bloginfo('name'); ?></h1>
 
 <?php if( have_posts() ): 
     while ( have_posts() ):
         the_post();?> 
 
-    <?php the_content(); ?>
+<div class="about-hero-wrapper">
+    <div class="about-hero">
+        <?php the_post_thumbnail(); ?>
+    </div>
+
+    <div class="about-hero-title">
+        <?php the_content(); ?>
+    </div>
+</div>
+
 
 
     <?php endwhile; ?> 
