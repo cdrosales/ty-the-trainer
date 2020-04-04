@@ -26,7 +26,8 @@ add_action('after_setup_theme', 'tythetrainer_features');
 
 // Initialize Sidebars
 function tythetrainer_sidebars_widgets() {
-    // Front Page - "The Problem"
+    
+    // About Info
     register_sidebar( array(
         'name' => esc_html('About Page - About Me'),
         'id' => 'sidebar-about',
