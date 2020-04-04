@@ -8,7 +8,9 @@ function tythetrainer_files(){
     wp_enqueue_style('font-awesome', "https://use.fontawesome.com/releases/v5.8.1/css/all.css"); 
     wp_enqueue_script('tythetrainer_scripts_js', get_template_directory_uri() . '/js/scripts.js', array('jquery'), null, true);
 
-
+    // Flickity
+    wp_enqueue_style('flickity_styles', "https://unpkg.com/flickity@2/dist/flickity.min.css");
+    wp_enqueue_script('flickity_scripts', "https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js");
 }
 
 add_action('wp_enqueue_scripts', 'tythetrainer_files');//add stylesheet
