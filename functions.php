@@ -61,8 +61,20 @@ function tythetrainer_sidebars_widgets() {
         'class' => 'services-nutritional-plans',
         'before_widget' => '<section id="%1$s" class="%2$s tythetrainer-widget"> ',
         'after_widget' => '</section>',
-        'before_title' => '</h4>',
+        'before_title' => '<h4>',
         'after_title' => '</h4>'
+    ));
+
+     // Testimonials
+     register_sidebar( array(
+        'name' => esc_html('Testimonials'),
+        'id' => 'sidebar-testimonials',
+        'description' => 'Your client testimonials',
+        'class' => 'testimonials',
+        'before_widget' => '<section id="%1$s" class="%2$s tythetrainer-widget"> ',
+        'after_widget' => '</section>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
     ));
 }
 add_action('widgets_init', 'tythetrainer_sidebars_widgets');

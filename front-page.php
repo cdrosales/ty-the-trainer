@@ -1,20 +1,6 @@
 <?php get_header(); ?>
 
 
-<?php if( have_posts() ): 
-    while ( have_posts() ):
-        the_post();?> 
-
-    <?php the_content(); ?>
-
-
-    <?php endwhile; ?> 
-
-    <?php the_posts_navigation(); ?> 
-
-<?php else : ?>
-        <p>No posts found</p>
-<?php endif; ?>
 
 <section class="home-services">
     <div class="home-services-title widget-title">
@@ -74,13 +60,31 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sodales ligula id odio vulputate lobortis non quis nibh. 
             Duis blandit sem a imperdiet tempus. Nunc magna erat, scelerisque ut pellentesque ac, dapibus molestie lorem. Praesent 
             maximus lectus sit amet fringilla pellentesque. Suspendisse potenti. Donec suscipit mattis posuere. </p>
-            <button class="coming-soon-BTN">Coming soon.</button>
+            <button class="coming-soon-BTN">Coming soon</button>
         </div>
         <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-SHIRT-HOME.png'; ?>" class="home-shop-img"/>
     </div>
 </section>
 
 
+<section class="testimonials-container">
+    <?php dynamic_sidebar('sidebar-testimonials'); ?>
+</section>
+
+<?php if( have_posts() ): 
+    while ( have_posts() ):
+        the_post();?> 
+
+    <?php the_content(); ?>
+
+
+    <?php endwhile; ?> 
+
+    <?php the_posts_navigation(); ?> 
+
+<?php else : ?>
+        <p>No posts found</p>
+<?php endif; ?>
 
 <!-- Begin Mailchimp Signup Form -->
 
