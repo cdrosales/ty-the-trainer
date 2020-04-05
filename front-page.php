@@ -16,6 +16,48 @@
         <p>No posts found</p>
 <?php endif; ?>
 
+<section class="home-services">
+    <div class="services-title widget-title">
+            <h2>What I can do for you</h2>
+            <hr class="header-line">
+    </div>
+
+    <div class="home-services-container">
+        <div class="home-personal-training">
+            <img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-personal-training.svg'; ?>" class="icon-home-personal-training"/>
+            <h3>Personal Training</h3>
+            <p>Training with me is a surefire way to ensure you stay 
+            dedicated to your goals, and reap the results you’ve long awaited. 
+            Whether it’s online or in-person, I dedicate myself to you and 
+            your goals.</p>
+            <button class="learn-more-BTN">Learn more</button>
+
+        </div>
+
+        <div class="home-nutritional-plans">
+            <img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-nutritional-plans.svg'; ?>" class="icon-home-nutritional-plans"/>
+            <h3>Nutritional Plans</h3>
+            <p>Whether your goal is weight loss, lean muscle gain or 
+            based on your performance, ensuring that your diet compliments 
+            your training regiment will take you to the next level, much 
+            faster.</p>
+            <button class="learn-more-BTN">Learn more</button>
+
+        </div>
+
+        <div class="home-guides-resources">
+            <img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-resources.svg'; ?>" class="icon-home-resources"/>
+            <h3>Guides & Resources</h3>
+            <p>From quick tips to the do’s and don’t, find free materials 
+            and resources that will help point you in the right direction 
+            no matter where you are in your fitness journey.</p>
+            <button class="learn-more-BTN">Learn more</button>
+        </div>
+    </div>    
+
+
+
+</section>
 
 <!-- Begin Mailchimp Signup Form -->
 
