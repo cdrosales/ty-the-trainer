@@ -1,5 +1,20 @@
 <?php get_header(); ?>
 
+<img src="<?php echo get_template_directory_uri() . '/assets/images/smoke.png'; ?>" class="smoke-img"/>
+<img src="<?php echo get_template_directory_uri() . '/assets/images/hero-img-ty.png'; ?>" class="hero-ty-img"/>
+<div class="hero-box"></div>
+
+<div class='hero-info-container'>
+    <h1>Real work.<br>Real results</h1>
+
+    <div class="hero-text-container">
+        <p>Let's get started</p>
+        <img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-scroll-down.svg'; ?>" class="icon-scroll-down"/>
+    </div>
+</div>
+
+
+
 
 
 <section class="home-services">
