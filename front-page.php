@@ -54,9 +54,12 @@
             <button class="learn-more-BTN">Learn more</button>
         </div>
     </div>    
+</section>
 
 
-
+<section class="home-banner">
+    <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-BANNER-HOME.jpg'; ?>" class="home-banner-img"/>
+    <h2>Work hard.<br> Train hard.</h2>
 </section>
 
 <!-- Begin Mailchimp Signup Form -->
