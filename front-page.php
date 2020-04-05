@@ -17,7 +17,7 @@
 <?php endif; ?>
 
 <section class="home-services">
-    <div class="services-title widget-title">
+    <div class="home-services-title widget-title">
             <h2>What I can do for you</h2>
             <hr class="header-line">
     </div>
@@ -61,6 +61,26 @@
     <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-BANNER-HOME.jpg'; ?>" class="home-banner-img"/>
     <h2>Work hard.<br> Train hard.</h2>
 </section>
+
+
+<section class="home-shop">
+    <div class="home-shop-title widget-title">
+            <h2>Support the movement</h2>
+            <hr class="header-line">
+    </div>
+
+    <div class="home-shop-container">
+        <div class="home-shop-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sodales ligula id odio vulputate lobortis non quis nibh. 
+            Duis blandit sem a imperdiet tempus. Nunc magna erat, scelerisque ut pellentesque ac, dapibus molestie lorem. Praesent 
+            maximus lectus sit amet fringilla pellentesque. Suspendisse potenti. Donec suscipit mattis posuere. </p>
+            <button class="coming-soon-BTN">Coming soon.</button>
+        </div>
+        <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-SHIRT-HOME.png'; ?>" class="home-shop-img"/>
+    </div>
+</section>
+
+
 
 <!-- Begin Mailchimp Signup Form -->
 
