@@ -86,7 +86,16 @@ h2 {
 
 #menu-footer-nav a {
   color: #020004;
-  font-size: 18px; }
+  font-size: 15px; }
+
+.tythetrainer-copyright {
+  text-align: center;
+  color: #484848;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: light;
+  font-stretch: normal;
+  font-style: normal; }
 
 .nav {
   margin: auto 0;
@@ -109,8 +118,17 @@ h2 {
           align-items: center; }
 
 #menu-footer-nav {
-  width: 50%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  min-width: 450px;
+  width: 550px; }
+
+.footer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .logo-wrapper {
   display: -webkit-box;
@@ -141,9 +159,43 @@ h2 {
   z-index: 500;
   position: absolute; }
 
-.footer-logo {
+.footer-logo-wrapper .footer-logo {
   width: auto;
-  height: 100px; }
+  height: 70px; }
+
+footer {
+  width: 100%;
+  padding-bottom: 50px; }
+
+.footer-container {
+  width: 85%;
+  padding: 2.5% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto 30px auto;
+  border-bottom: 2px solid #484848; }
+  .footer-container .footer-social-media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .footer-container .footer-social-media img {
+      width: 30px;
+      height: auto;
+      padding: 0 14px; }
 
 .hero-container {
   overflow: hidden; }

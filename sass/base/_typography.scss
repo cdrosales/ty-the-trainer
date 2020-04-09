@@ -40,8 +40,18 @@ h2{
 #menu-footer-nav{
   a{
     color: $primary-black;
-    font-size: 18px;
+    font-size: 15px;
 
   }
   
+}
+
+.tythetrainer-copyright{
+  text-align: center;
+  color: $primary-grey;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: light;
+  font-stretch: normal;
+  font-style: normal;
 }

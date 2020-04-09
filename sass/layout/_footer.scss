@@ -1,4 +1,34 @@
-.footer-logo{
-    width: auto; 
-    height: 100px;
+.footer-logo-wrapper{
+    .footer-logo{
+        width: auto; 
+        height: 70px;
+    }
+}
+
+
+footer{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.footer-container{
+    width: 85%;
+    padding: 2.5% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto 30px auto;
+    border-bottom: 2px solid #484848;
+    
+    .footer-social-media{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        
+        img{
+            width: 30px;
+            height: auto;
+            padding: 0 14px;
+        }
+    }
 }
