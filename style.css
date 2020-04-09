@@ -74,11 +74,11 @@ h2 {
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Roboto';
+  letter-spacing: 1px;
+  text-align: center;
   font-weight: bold;
   font-stretch: normal;
-  font-style: normal;
-  letter-spacing: 1px;
-  text-align: center; }
+  font-style: normal; }
 
 #menu-nav a {
   color: #ffffff;
@@ -91,9 +91,9 @@ h2 {
 .tythetrainer-copyright {
   text-align: center;
   color: #484848;
-  letter-spacing: 1px;
-  font-size: 16px;
-  font-weight: light;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: lighter;
   font-stretch: normal;
   font-style: normal; }
 

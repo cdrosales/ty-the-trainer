@@ -2,18 +2,15 @@ p{
   font-family: 'helvetica neue';
   font-size: 16px;
   color: $primary-black;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
+  @include font-regular;
 }
 
 h2{
   font-family: 'helvetica neue';
   font-size: 30px;
   color: $primary-black;
-  font-weight:bold;
-  font-stretch: normal;
-  font-style: normal;
+  @include font-bold;
+  
 }
 
 #menu-footer-nav, #menu-nav{
@@ -21,11 +18,9 @@ h2{
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Roboto';
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
     letter-spacing: 1px;
     text-align: center;
+    @include font-bold;
   }
 }
 
@@ -49,9 +44,7 @@ h2{
 .tythetrainer-copyright{
   text-align: center;
   color: $primary-grey;
-  letter-spacing: 1px;
-  font-size: 16px;
-  font-weight: light;
-  font-stretch: normal;
-  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 14px;
+  @include font-light;
 }
