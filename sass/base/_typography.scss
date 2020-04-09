@@ -18,11 +18,29 @@ h2{
 
 #menu-footer-nav, #menu-nav{
   a{
-    color: $primary-black;
     text-decoration: none;
     text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 1px;
+  }
+}
+
+#menu-nav{
+  a{
+    color: $primary-white;
+    font-size: 16px;
 
   }
 }
 
+#menu-footer-nav{
+  a{
+    color: $primary-black;
+    font-size: 18px;
 
+  }
+  
+}

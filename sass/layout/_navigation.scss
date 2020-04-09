@@ -1,8 +1,10 @@
 .nav{
     margin: auto 0;
-    width: 35%;
-    min-width: 325px;
+    min-width: 500px;
+    max-width: 600px;
+    width: 65%;
 }
+
 .menu{
     display: flex;
     flex-direction: row;

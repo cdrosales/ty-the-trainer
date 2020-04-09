@@ -1,12 +1,23 @@
-.header-logo{
-    width: auto; 
-    height: 100px;
+.logo-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .header-logo{
+        width: auto; 
+        height: 80px;        
+    }
 }
+
 .header-wrapper{
+    width: 85%;
+    left: 0;
+    right:0;
     margin: 0 auto;
-    width: 90%;
+    height: 150px;
     display: flex;
     justify-content: space-between;
-    z-index: 100;
+    z-index: 500;
     position: absolute;
+
 }
