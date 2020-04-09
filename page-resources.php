@@ -5,21 +5,17 @@
     while ( have_posts() ):
         the_post();?> 
 
-<div class="hero-container">
-    <div class="hero-wrapper">
-        <div class="hero-img">
-            <?php the_post_thumbnail( 'full' );  ?>
-        </div>
+            <h2><?php the_title(); ?></h2> 
 
-        <div class="hero-title">
-            <?php the_content(); ?>
+
+<?php the_content(); ?>
     
             <?php endwhile; ?> 
 
             <?php else : ?>
                     <p>No posts found</p>
             <?php endif; ?>
-        </div>
-    </div>
-</div>
+
+
+
 <?php get_footer(); ?>

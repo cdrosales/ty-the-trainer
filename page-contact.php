@@ -12,17 +12,21 @@
         </div>
 
         <div class="hero-title">
-            <?php the_content(); ?>
+            <h2><?php the_title(); ?></h2> 
+            
+        </div>
+    </div>
+</div>
+
+<?php the_content(); ?>
     
             <?php endwhile; ?> 
 
             <?php else : ?>
                     <p>No posts found</p>
             <?php endif; ?>
-        </div>
-    </div>
-</div>
 
+            
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
