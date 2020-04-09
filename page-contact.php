@@ -5,23 +5,21 @@
     while ( have_posts() ):
         the_post();?> 
 
-    <div class="hero-wrapper">
-        <div class="hero-img">
-            <?php the_post_thumbnail( 'full' );  ?>
-        </div>
+<div class="hero-wrapper">
+    <div class="hero-img">
+        <?php the_post_thumbnail( 'full' );  ?>
     </div>
 
-    <?php the_content(); ?>
+    <div class="hero-title">
+        <?php the_content(); ?>
+ 
+        <?php endwhile; ?> 
 
-
-    <?php endwhile; ?> 
-
-    <?php the_posts_navigation(); ?> 
-
-<?php else : ?>
-        <p>No posts found</p>
-<?php endif; ?>
-
+        <?php else : ?>
+                <p>No posts found</p>
+        <?php endif; ?>
+    </div>
+</div>
 
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
