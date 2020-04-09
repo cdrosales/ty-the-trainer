@@ -5,19 +5,27 @@
     while ( have_posts() ):
         the_post();?> 
 
-<div class="hero-wrapper">
-    <div class="hero-img">
-        <?php the_post_thumbnail( 'full' );  ?>
+    <div class="hero-container">
+        <div class="hero-wrapper">
+            <div class="hero-img">
+                <?php the_post_thumbnail( 'full' );  ?>
+            </div>
+
+            <div class="hero-title">
+                <h2><?php the_title(); ?></h2> 
+                
+            </div>
+        </div>
     </div>
-</div>
 
-        <?php the_content(); ?>
- 
-        <?php endwhile; ?> 
+    <?php the_content(); ?>
+    
+    <?php endwhile; ?> 
 
-        <?php else : ?>
-                <p>No posts found</p>
-        <?php endif; ?>
+    <?php else : ?>
+        <p>No posts found</p>
+    <?php endif; ?>
+
 
         <div class="services-widget">
             <div class="widget-title">

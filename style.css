@@ -77,7 +77,8 @@ h2 {
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  text-align: center; }
 
 #menu-nav a {
   color: #ffffff;
@@ -178,4 +179,6 @@ h2 {
   text-transform: uppercase; }
   .hero-title h2 {
     color: #ffffff;
-    letter-spacing: 8px; }
+    letter-spacing: 8px;
+    text-align: center;
+    line-height: 1.4; }
