@@ -67,3 +67,12 @@ h2{
     }
   }
 }
+
+
+.hero-info-container{
+  p, h1{
+    color: $primary-white;
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue';
+  }
+}

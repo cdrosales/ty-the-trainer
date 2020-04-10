@@ -109,6 +109,11 @@ h2 {
   font-stretch: normal;
   font-style: normal; }
 
+.hero-info-container p, .hero-info-container h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Helvetica Neue'; }
+
 .nav {
   margin: auto 0;
   min-width: 500px;
@@ -223,6 +228,52 @@ footer {
   width: 100%;
   display: grid;
   grid-template-columns: 30% 70%; }
+
+.home-hero-wrapper {
+  background-color: #020004;
+  position: relative;
+  height: 100vh;
+  overflow: hidden; }
+  .home-hero-wrapper .smoke-img {
+    position: fixed;
+    right: -30%; }
+
+.home-hero-container {
+  width: 90%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  top: 135px;
+  z-index: 50; }
+  .home-hero-container .hero-ty-img {
+    width: 60%;
+    height: auto; }
+
+.hero-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .hero-container {
   overflow: hidden; }

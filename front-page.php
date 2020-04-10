@@ -1,18 +1,24 @@
 <?php get_header(); ?>
 
-<section class="home-hero-container">
-    <img src="<?php echo get_template_directory_uri() . '/assets/images/smoke.png'; ?>" class="smoke-img"/>
-    <img src="<?php echo get_template_directory_uri() . '/assets/images/hero-img-ty.png'; ?>" class="hero-ty-img"/>
-    <div class="hero-box"></div>
+<section class="home-hero-wrapper">
 
-    <div class='hero-info-container'>
-        <h1>Real work.<br>Real results</h1>
+    <div class="home-hero-container">
 
-        <div class="hero-text-container">
-            <p>Let's get started</p>
-            <img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-scroll-down.svg'; ?>" class="icon-scroll-down"/>
+        <img src="<?php echo get_template_directory_uri() . '/assets/images/hero-img-ty.png'; ?>" class="hero-ty-img"/>
+
+        <div class='hero-info-container'>
+            <h1>Real work<br>Real results</h1>
+            <div class="hero-text-container">
+                <p>Let's get started</p>
+                <img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-scroll-down.svg'; ?>" class="icon-scroll-down"/>
+            </div>
         </div>
+
     </div>
+
+    <img src="<?php echo get_template_directory_uri() . '/assets/images/smoke.png'; ?>" class="smoke-img"/>
+
+
 </section>
 
 

@@ -1,0 +1,40 @@
+.home-hero-wrapper{
+    background-color: $primary-black;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    
+    
+    .smoke-img{
+        position: fixed;
+        right: -30%;
+
+    }
+}
+
+.home-hero-container{
+    width: 90%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 135px;
+   
+    z-index: 50;
+
+    .hero-ty-img{
+        width: 60%;
+        height: auto;
+    }
+    
+}
+
+.hero-text-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
