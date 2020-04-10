@@ -21,7 +21,17 @@
 
     </div>
 
-    <p class="tythetrainer-copyright">©2020 Ty The Trainer Inc.</p>
+    <div class="sub-footer-container">
+
+        <div class="tythetrainer-copyright">
+            <p>©2020 Ty The Trainer Inc.</p>
+        </div>
+
+        <div class="sub-footer-nav">
+            <?php wp_nav_menu( array('theme_location' => 'sub-footer')); ?>
+        </div>
+        
+    <div>
 
 </footer>
 

@@ -8,19 +8,30 @@
 .menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
 
 
-}
-#menu-footer-nav{
-    margin: 0 auto;
-    min-width: 450px;
-    width: 550px;
 }
 
 .footer-nav{
+    width: 550px;
+
+}
+
+
+#menu-footer-nav{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 550px;
+    min-width: 400px;
+}
+
+
+
+#menu-sub-footer-nav{
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-between;
 }

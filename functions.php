@@ -22,6 +22,7 @@ function tythetrainer_features(){
     register_nav_menus( array(
         'primary' => 'Primary Menu', 
         'footer' => 'Footer Menu',
+        'sub-footer' => 'Sub Footer Menu',
     ));
 }
 add_action('after_setup_theme', 'tythetrainer_features');

@@ -86,13 +86,25 @@ h2 {
 
 #menu-footer-nav a {
   color: #020004;
-  font-size: 15px; }
+  font-size: 13px; }
 
-.tythetrainer-copyright {
-  text-align: center;
+.tythetrainer-copyright p {
   color: #484848;
   letter-spacing: 2px;
   font-size: 14px;
+  text-transform: capitalize;
+  font-family: 'Helvetica Neue';
+  font-weight: lighter;
+  font-stretch: normal;
+  font-style: normal; }
+
+#menu-sub-footer-nav li a {
+  color: #484848;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Helvetica Neue';
   font-weight: lighter;
   font-stretch: normal;
   font-style: normal; }
@@ -111,24 +123,32 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+
+.footer-nav {
+  width: 550px; }
 
 #menu-footer-nav {
   margin: 0 auto;
-  min-width: 450px;
-  width: 550px; }
+  width: 90%;
+  max-width: 550px;
+  min-width: 400px; }
 
-.footer-nav {
+#menu-sub-footer-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .logo-wrapper {
   display: -webkit-box;
@@ -161,7 +181,7 @@ h2 {
 
 .footer-logo-wrapper .footer-logo {
   width: auto;
-  height: 70px; }
+  height: 50px; }
 
 footer {
   width: 100%;
@@ -180,6 +200,9 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 auto 30px auto;
   border-bottom: 2px solid #484848; }
   .footer-container .footer-social-media {
@@ -193,9 +216,23 @@ footer {
         -ms-flex-align: center;
             align-items: center; }
     .footer-container .footer-social-media img {
-      width: 30px;
+      width: 23px;
       height: auto;
-      padding: 0 14px; }
+      padding: 0 0 0 15px; }
+
+.sub-footer-container {
+  width: 85%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .sub-footer-container .sub-footer-nav {
+    width: 37%; }
+  .sub-footer-container .tythetrainer-copyright {
+    width: 63%; }
 
 .hero-container {
   overflow: hidden; }

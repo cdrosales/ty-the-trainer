@@ -35,16 +35,35 @@ h2{
 #menu-footer-nav{
   a{
     color: $primary-black;
-    font-size: 15px;
+    font-size: 13px;
 
   }
   
 }
 
+
 .tythetrainer-copyright{
-  text-align: center;
-  color: $primary-grey;
-  letter-spacing: 2px;
-  font-size: 14px;
-  @include font-light;
+  p{
+    color: $primary-grey;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: 'Helvetica Neue';
+    @include font-light;
+  }
+}
+
+#menu-sub-footer-nav{
+  li{
+    a{
+      color: $primary-grey;
+      letter-spacing: 2px;
+      font-size: 14px;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-family: 'Helvetica Neue';
+      @include font-light;
+
+    }
+  }
 }

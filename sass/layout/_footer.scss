@@ -1,7 +1,7 @@
 .footer-logo-wrapper{
     .footer-logo{
         width: auto; 
-        height: 70px;
+        height: 50px;
     }
 }
 
@@ -17,6 +17,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin: 0 auto 30px auto;
     border-bottom: 2px solid #484848;
     
@@ -26,9 +27,23 @@ footer{
         align-items: center;
         
         img{
-            width: 30px;
+            width: 23px;
             height: auto;
-            padding: 0 14px;
+            padding: 0 0 0 15px ;
         }
     }
+}
+
+.sub-footer-container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .sub-footer-nav{
+        width: 37%;
+    }
+    .tythetrainer-copyright{
+        width: 63%
+    }
+    
 }
