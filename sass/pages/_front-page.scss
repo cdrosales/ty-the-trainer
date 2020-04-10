@@ -1,13 +1,15 @@
 .home-hero-wrapper{
     background-color: $primary-black;
     position: relative;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
     
     
     .smoke-img{
-        position: fixed;
+        position: absolute;
         right: -30%;
+        overflow: hidden;
 
     }
 }
@@ -35,6 +37,11 @@
 .hero-text-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+
+    .icon-scroll-down{
+        width: 17px;
+        height: auto;
+        margin-left: 10px;
+    }
 }
