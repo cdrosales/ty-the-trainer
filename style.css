@@ -64,7 +64,7 @@ p {
 
 h1 {
   font-family: 'Helvetica Neue';
-  font-size: 2.44em;
+  font-size: 2em;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal; }
@@ -80,7 +80,7 @@ h2 {
 h3 {
   font-family: 'helvetica neue';
   color: #020004;
-  font-size: 1.563em;
+  font-size: 1.53em;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal; }
@@ -257,20 +257,34 @@ footer {
   display: grid;
   grid-template-columns: 30% 70%; }
 
-.home-hero-wrapper {
+.home-hero {
   background-color: #020004;
   position: relative;
   width: 100vw;
   height: 100vh;
   overflow: hidden; }
-  .home-hero-wrapper .smoke-img {
+  .home-hero .smoke-img {
     position: absolute;
-    right: -30%;
+    right: -20%;
     overflow: hidden; }
+
+.home-hero-container-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 25%;
+  margin: 0 auto;
+  border: 5px solid #ffffff;
+  border-radius: 10px;
+  width: 85%;
+  height: 62%;
+  min-height: 500px;
+  z-index: 100; }
 
 .home-hero-container {
   width: 90%;
   margin: 0 auto;
+  top: -65px;
   left: 0;
   right: 0;
   display: -webkit-box;
@@ -280,15 +294,11 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: absolute;
-  top: 135px;
-  z-index: 50; }
+  position: absolute; }
   .home-hero-container img {
-    width: 60%;
-    height: auto; }
+    width: 65%;
+    height: auto;
+    padding-top: 20px; }
 
 .hero-text-container {
   display: -webkit-box;
@@ -305,6 +315,15 @@ footer {
     width: 17px;
     height: auto;
     margin-left: 10px; }
+
+.hero-info-container {
+  margin: auto 0 auto 2.5%; }
+
+@media screen and (min-width: 1440px) {
+  .home-hero-container-wrapper {
+    max-height: 575px; }
+  .home-hero-container {
+    top: -25%; } }
 
 .hero-container {
   overflow: hidden; }

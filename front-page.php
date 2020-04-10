@@ -1,23 +1,25 @@
 <?php get_header(); ?>
 
-<section class="home-hero-wrapper">
+<section class="home-hero">
 
-    <div class="home-hero-container">
+    <div class="home-hero-container-wrapper">
+        <div class="home-hero-container">
 
-        <img src="<?php echo get_template_directory_uri() . '/assets/images/hero-img-ty.png'; ?>" class="hero-ty-img"/>
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/hero-img-ty.png'; ?>" class="hero-ty-img"/>
 
-        <div class='hero-info-container'>
-            <h1>Real work<br>Real results</h1>
-            <div class="hero-text-container">
-                <p>Let's get started</p>
-                <img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-scroll-down.svg'; ?>" class="icon-scroll-down"/>
+            <div class='hero-info-container'>
+                <h1>Real work<br>Real results</h1>
+                <div class="hero-text-container">
+                    <p>Let's get started</p>
+                    <img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-scroll-down.svg'; ?>" class="icon-scroll-down"/>
+                </div>
             </div>
+
         </div>
 
     </div>
 
     <img src="<?php echo get_template_directory_uri() . '/assets/images/smoke.png'; ?>" class="smoke-img"/>
-
 
 </section>
 
@@ -87,7 +89,7 @@
             maximus lectus sit amet fringilla pellentesque. Suspendisse potenti. Donec suscipit mattis posuere. </p>
             <button class="coming-soon-BTN">Coming soon</button>
         </div>
-        <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-SHIRT-HOME.png'; ?>" class="home-shop-img"/>
+        <!-- <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-SHIRT-HOME.png'; ?>" class="home-shop-img"/> -->
     </div>
 </section>
 

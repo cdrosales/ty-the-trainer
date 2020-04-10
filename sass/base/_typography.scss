@@ -7,7 +7,7 @@ p{
 
 h1{
   font-family: 'Helvetica Neue';
-  font-size: 2.44em;
+  font-size: 2em;
   @include font-bold;
 }
 
@@ -23,7 +23,7 @@ h2{
 h3{
   font-family: 'helvetica neue';
   color: $primary-black;
-  font-size: 1.563em;
+  font-size: 1.53em;
   @include font-bold;
 }
 
