@@ -33,5 +33,7 @@
 #menu-sub-footer-nav{
     display: flex;
     justify-content: flex-end;
-    justify-content: space-between;
+    a{
+        padding-left: 20px;
+    }
 }
