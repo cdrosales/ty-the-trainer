@@ -62,10 +62,33 @@ p {
   font-stretch: normal;
   font-style: normal; }
 
+h1 {
+  font-family: 'Helvetica Neue';
+  font-size: 2.44em;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal; }
+
 h2 {
   font-family: 'helvetica neue';
-  font-size: 30px;
   color: #020004;
+  font-size: 1.953em;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal; }
+
+h3 {
+  font-family: 'helvetica neue';
+  color: #020004;
+  font-size: 1.563em;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal; }
+
+h4 {
+  font-family: 'helvetica neue';
+  color: #020004;
+  font-size: 1.25em;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal; }
@@ -256,7 +279,7 @@ footer {
   position: absolute;
   top: 135px;
   z-index: 50; }
-  .home-hero-container .hero-ty-img {
+  .home-hero-container img {
     width: 60%;
     height: auto; }
 

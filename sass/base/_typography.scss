@@ -5,13 +5,38 @@ p{
   @include font-regular;
 }
 
+h1{
+  font-family: 'Helvetica Neue';
+  font-size: 2.44em;
+  @include font-bold;
+}
+
 h2{
   font-family: 'helvetica neue';
-  font-size: 30px;
   color: $primary-black;
-  @include font-bold;
-  
+  font-size: 1.953em;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
 }
+
+h3{
+  font-family: 'helvetica neue';
+  color: $primary-black;
+  font-size: 1.563em;
+  @include font-bold;
+}
+
+h4{
+  font-family: 'helvetica neue';
+  color: $primary-black;
+  font-size: 1.25em;
+  @include font-bold;
+}
+
+
+
+// HEADER  & FOOTER TYPOGRAPHY
 
 #menu-footer-nav, #menu-nav{
   a{
