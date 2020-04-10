@@ -47,7 +47,8 @@
         </div>
 
 
-        <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-BANNER-SERVICES.png'; ?>" class="services-banner-img"/>
-
+        <div class="banner-container">
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-BANNER-SERVICES.png'; ?>" class="services-banner-img"/>
+        </div>
 
 <?php get_footer(); ?>

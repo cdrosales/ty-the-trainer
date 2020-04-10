@@ -61,8 +61,10 @@
 
 
 <section class="home-banner">
-    <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-BANNER-HOME.jpg'; ?>" class="home-banner-img"/>
-    <h2>Work hard.<br> Train hard.</h2>
+    <div class="banner-container">
+        <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-BANNER-HOME.jpg'; ?>" class="home-banner-img"/>
+        <h2>Work hard.<br> Train hard.</h2>
+    </div>
 </section>
 
 

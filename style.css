@@ -135,7 +135,7 @@ h2 {
 
 #menu-footer-nav {
   margin: 0 auto;
-  width: 90%;
+  width: 82%;
   max-width: 550px;
   min-width: 400px; }
 
@@ -261,3 +261,10 @@ footer {
     letter-spacing: 8px;
     text-align: center;
     line-height: 1.4; }
+
+.banner-container {
+  width: 100%; }
+  .banner-container img {
+    width: 100%;
+    height: auto;
+    overflow: hidden; }
