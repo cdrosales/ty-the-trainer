@@ -33,7 +33,7 @@
     @content;
 }
 
-@mixin button-white-hover{
+@mixin button-red{
     color: $primary-white;
     background-color: $primary-red;
     @content;

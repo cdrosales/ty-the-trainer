@@ -457,6 +457,24 @@ footer {
     margin-bottom: 6%;
     max-width: 550px; }
 
+.home-banner-form-img {
+  position: relative; }
+
+.subscribe-form-container {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+  .subscribe-form-container p {
+    color: #ffffff;
+    margin: 2% 0 5% 0; }
+
+.subscribe-form-title {
+  color: #ffffff;
+  letter-spacing: 2px; }
+
 @media screen and (min-width: 900px) and (max-width: 1000px) {
   .home-nutritional-plans, .home-guides-resources, .home-personal-training {
     height: 460px; } }

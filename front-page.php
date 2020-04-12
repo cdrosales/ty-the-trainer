@@ -120,18 +120,22 @@
 
 <!-- Begin Mailchimp Signup Form -->
 
+<div class="subscribe-form banner-container">
+        <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-BANNER-FORM.jpg'; ?>" class="home-banner-form-img"/>
 
-<div id="mc_embed_signup">
-<form action="https://tythetrainer.us18.list-manage.com/subscribe/post?u=c8821d49dfda29df2614af2be&amp;id=1af4e15eaf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target=" " novalidate>
-    <div id="mc_embed_signup_scroll">
-	<label for="mce-EMAIL">Let's stay connected</label>
-    <p>Sign up to receive the latest updates and exclusive offers.</p>
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c8821d49dfda29df2614af2be_1af4e15eaf" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
+        <div id="mc_embed_signup" class="subscribe-form-container">
+            <form action="https://tythetrainer.us18.list-manage.com/subscribe/post?u=c8821d49dfda29df2614af2be&amp;id=1af4e15eaf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target=" " novalidate>
+                <div id="mc_embed_signup_scroll">
+                <label for="mce-EMAIL" ><h2 class="subscribe-form-title">Let's stay connected</h2></label>
+                <p class="subscribe-form-info">Sign up to receive the latest updates and exclusive offers.</p>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c8821d49dfda29df2614af2be_1af4e15eaf" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </div>
+            </form>
+        </div>
+
 </div>
 
 <!--End mc_embed_signup-->
