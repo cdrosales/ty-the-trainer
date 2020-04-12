@@ -94,12 +94,13 @@
     </div>
 </section>
 
-<div class="home-testimonials-title widget-title">
+<section class="testimonials-container">
+
+    <div class="home-testimonials-title widget-title">
             <h2>Client Testimonials</h2>
             <hr class="header-line">
     </div>
 
-<section class="testimonials-container">
     <?php dynamic_sidebar('sidebar-testimonials'); ?>
 </section>
 
