@@ -20,6 +20,18 @@
     @content;
 }
 
+@mixin font-italic{
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+}
+
+@mixin font-bold-italic{
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+}
+
 
 @mixin button-white{
     border: 2px solid $primary-red;

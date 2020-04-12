@@ -93,6 +93,21 @@ h4 {
   font-stretch: normal;
   font-style: normal; }
 
+strong {
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal; }
+
+em {
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic; }
+
+strong em {
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: italic; }
+
 .widget-title {
   text-transform: capitalize; }
 
@@ -600,4 +615,13 @@ footer {
 
 .page-content {
   width: 75%;
-  margin: auto; }
+  margin: 4% auto 0 auto; }
+  .page-content h2 {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 5%; }
+  .page-content p {
+    margin: 2% auto 0 auto;
+    line-height: 2;
+    max-width: 750px; }

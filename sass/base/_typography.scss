@@ -34,6 +34,20 @@ h4{
   @include font-bold;
 }
 
+strong{
+  @include font-bold;
+}
+
+em{
+  @include font-italic;
+}
+
+strong{
+  em{
+    @include font-bold-italic;
+  }
+}
+
 //WIDGET TITLE
 
 .widget-title{
