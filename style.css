@@ -262,13 +262,13 @@ footer {
 
 .about-widget {
   width: 75%;
-  margin: 0 auto; }
+  margin: 7% auto 0 auto; }
 
 .about-container {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-gap: 5%;
-  margin: 5% auto 6% auto; }
+  margin: 5% auto 6.5% auto; }
   .about-container p {
     line-height: 1.6;
     letter-spacing: 1.5px;
@@ -390,5 +390,5 @@ footer {
   background-color: #931616;
   height: 5px;
   width: 50px;
-  margin: 0;
+  margin: 16px 0 0 0;
   border: none; }
