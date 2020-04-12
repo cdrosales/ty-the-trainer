@@ -288,6 +288,10 @@ footer {
   color: #ffffff;
   letter-spacing: 2px; }
 
+.testimonials-container {
+  width: 75%;
+  margin: 0 auto; }
+
 .about-widget {
   width: 75%;
   margin: 0 auto; }
