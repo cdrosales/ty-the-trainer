@@ -586,7 +586,8 @@ footer {
     width: 97%; }
   .personal-training-container h4, .nutritional-plans-container h4 {
     color: #931616;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: 1px; }
 
 .services-info-container {
   display: -webkit-box;
@@ -601,7 +602,8 @@ footer {
           align-items: center;
   margin: 0 0 3.5% 0; }
   .services-info-container h3 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: 1.8px; }
   .services-info-container img {
     width: 80px;
     height: auto;
