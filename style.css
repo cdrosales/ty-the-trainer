@@ -277,8 +277,8 @@ footer {
   border: 5px solid #ffffff;
   border-radius: 10px;
   width: 85%;
-  height: 62%;
-  min-height: 500px;
+  height: 48%;
+  min-height: 470px;
   z-index: 100; }
 
 .home-hero-container {
@@ -297,8 +297,8 @@ footer {
   position: absolute; }
   .home-hero-container img {
     width: 65%;
-    height: auto;
-    padding-top: 20px; }
+    max-width: 700px;
+    height: auto; }
 
 .hero-text-container {
   display: -webkit-box;
@@ -321,9 +321,8 @@ footer {
 
 @media screen and (min-width: 1440px) {
   .home-hero-container-wrapper {
-    max-height: 575px; }
-  .home-hero-container {
-    top: -25%; } }
+    max-height: 575px;
+    top: 200px; } }
 
 .hero-container {
   overflow: hidden; }
@@ -369,3 +368,10 @@ footer {
     width: 100%;
     height: auto;
     overflow: hidden; }
+
+.header-line {
+  background-color: #931616;
+  height: 5px;
+  width: 50px;
+  margin-left: 2px;
+  border: none; }

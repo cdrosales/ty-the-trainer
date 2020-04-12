@@ -22,8 +22,8 @@
     border: 5px solid $primary-white;
     border-radius: 10px;
     width: 85%;
-    height: 62%;
-    min-height: 500px;
+    height: 48%;
+    min-height: 470px;
     z-index: 100;
 }
 
@@ -41,8 +41,8 @@
 
     img{
         width: 65%;
+        max-width: 700px;
         height: auto;
-        padding-top: 20px;
     }
     
 }
@@ -68,9 +68,6 @@
     
     .home-hero-container-wrapper{
         max-height: 575px;
+        top: 200px;
     }
-    .home-hero-container{
-        top: -25%;
-    }
-
 }
