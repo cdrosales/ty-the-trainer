@@ -624,4 +624,5 @@ footer {
   .page-content p {
     margin: 0 auto 3% auto;
     line-height: 2;
-    max-width: 750px; }
+    max-width: 750px;
+    letter-spacing: 1px; }
