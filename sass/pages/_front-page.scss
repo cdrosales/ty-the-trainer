@@ -1,3 +1,5 @@
+//HERO
+
 .home-hero{
     background-color: $primary-black;
     position: relative;
@@ -63,6 +65,27 @@
     margin: auto 0 auto 2.5%;
     
 }
+
+// SERVICES
+
+.home-services{
+    width: 85%;
+    margin: 0 auto 7% auto;
+
+}
+
+.home-services-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 1%;
+}
+
+
+
+
+
+
 
 @media screen and (min-width: 1440px) {
     
