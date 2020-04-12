@@ -89,10 +89,15 @@
             maximus lectus sit amet fringilla pellentesque. Suspendisse potenti. Donec suscipit mattis posuere. </p>
             <button class="coming-soon-BTN">Coming soon</button>
         </div>
-        <!-- <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-SHIRT-HOME.png'; ?>" class="home-shop-img"/> -->
+        
+        <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-SHIRT-HOME.png'; ?>" class="home-shop-img"/>
     </div>
 </section>
 
+<div class="home-testimonials-title widget-title">
+            <h2>Client Testimonials</h2>
+            <hr class="header-line">
+    </div>
 
 <section class="testimonials-container">
     <?php dynamic_sidebar('sidebar-testimonials'); ?>
