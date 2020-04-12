@@ -407,10 +407,29 @@ footer {
           justify-content: space-between;
   height: 400px; }
 
+.banner-container {
+  position: relative; }
+
+.banner-info {
+  position: absolute;
+  bottom: 50px;
+  left: 180px; }
+  .banner-info h2 {
+    color: #ffffff;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 4px; }
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  .home-nutritional-plans, .home-guides-resources, .home-personal-training {
+    height: 460px; } }
+
 @media screen and (min-width: 1440px) {
   .home-hero-container-wrapper {
     max-height: 575px;
-    top: 200px; } }
+    top: 200px; }
+  .home-nutritional-plans, .home-guides-resources, .home-personal-training {
+    height: 380px; } }
 
 .services-widget {
   width: 75%;

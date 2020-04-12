@@ -133,11 +133,38 @@
     height: 400px;
 }
 
+.banner-container{
+    position: relative;
+}
+
+.banner-info{
+    position: absolute;
+    bottom: 50px;
+    left: 180px;
+
+    h2{
+        color: $primary-white;
+        line-height: 1.5;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+}
 
 
 
 
 
+
+
+// MEDIA QUERIES
+
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+
+    .home-nutritional-plans, .home-guides-resources, .home-personal-training{
+        height: 460px;
+    }
+}
 
 
 @media screen and (min-width: 1440px) {
@@ -146,4 +173,10 @@
         max-height: 575px;
         top: 200px;
     }
+
+    .home-nutritional-plans, .home-guides-resources, .home-personal-training{
+        height: 380px;
+    }
 }
+
+
