@@ -377,6 +377,7 @@ footer {
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #931616;
+    background-color: #ffffff;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal; }
@@ -419,6 +420,38 @@ footer {
     line-height: 1.5;
     text-transform: uppercase;
     letter-spacing: 4px; }
+
+.home-shop {
+  width: 85%;
+  margin: 0 auto; }
+
+.home-shop-container {
+  display: grid;
+  grid-template-columns: 50% 50%; }
+  .home-shop-container img {
+    width: 400px;
+    margin-top: -18%; }
+  .home-shop-container button {
+    border: 2px solid #931616;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #931616;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal; }
+
+.home-shop-content {
+  width: 90%;
+  margin-top: -4%; }
+  .home-shop-content p {
+    line-height: 1.7;
+    letter-spacing: 1.5px;
+    margin-bottom: 6%;
+    max-width: 550px; }
 
 @media screen and (min-width: 900px) and (max-width: 1000px) {
   .home-nutritional-plans, .home-guides-resources, .home-personal-training {

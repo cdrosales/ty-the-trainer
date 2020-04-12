@@ -96,13 +96,7 @@
     }
 
     button{
-        border: 2px solid $primary-red;
-        border-radius: 5px;
-        padding: 8px 15px;
-        font-size: 1em;
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-        color: $primary-red;
+        @include button-white;
         @include font-bold;
     }
 
@@ -150,6 +144,40 @@
     }
 }
 
+// SHOP SECTION
+.home-shop{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.home-shop-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    img{
+        width: 400px;
+        margin-top: -18%;
+    }
+
+    button{
+        @include button-white;
+        @include font-bold;
+    }
+}
+
+.home-shop-content{
+    width: 90%;
+    margin-top: -4%;
+
+    p{
+        line-height: 1.7;
+        letter-spacing: 1.5px;
+        margin-bottom: 6%;
+        max-width: 550px;
+    }
+}
+
+
 
 
 
@@ -165,7 +193,6 @@
         height: 460px;
     }
 }
-
 
 @media screen and (min-width: 1440px) {
     

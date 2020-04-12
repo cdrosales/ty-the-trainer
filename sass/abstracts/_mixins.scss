@@ -19,3 +19,16 @@
     font-style: normal;
     @content;
 }
+
+
+@mixin button-white{
+    border: 2px solid $primary-red;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: $primary-red;
+    background-color: $primary-white;
+    @content;
+}
