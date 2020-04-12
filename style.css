@@ -500,7 +500,8 @@ footer {
   margin: 0 auto 7% auto; }
 
 .personal-training-wrapper, .nutritional-plans-wrapper {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 5%; }
 
 .personal-training-container, .nutritional-plans-container {
   width: 95%;
