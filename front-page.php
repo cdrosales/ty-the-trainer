@@ -104,20 +104,28 @@
     <?php dynamic_sidebar('sidebar-testimonials'); ?>
 </section>
 
+<section class="instagram-feed">
+
+<div class="widget-title">
+        <h2> Instagram</h2>
+        <hr class="header-line">
+    </div>
+
 <?php if( have_posts() ): 
-    while ( have_posts() ):
-        the_post();?> 
+while ( have_posts() ):
+    the_post();?> 
 
-    <?php the_content(); ?>
+<?php the_content(); ?>
 
-
-    <?php endwhile; ?> 
-
-    <?php the_posts_navigation(); ?> 
+    
+<?php endwhile; ?> 
 
 <?php else : ?>
-        <p>No posts found</p>
+    <p>No posts found</p>
 <?php endif; ?>
+
+</section>
+
 
 <!-- Begin Mailchimp Signup Form -->
 

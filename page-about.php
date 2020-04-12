@@ -1,9 +1,6 @@
 <?php get_header(); ?>
 
 
-<?php if( have_posts() ): 
-    while ( have_posts() ):
-        the_post();?> 
 
     <div class="hero-container">
         <div class="hero-wrapper">
@@ -24,13 +21,6 @@
         </div>
     </div>
 
-    <?php the_content(); ?>
-    
-    <?php endwhile; ?> 
-
-    <?php else : ?>
-        <p>No posts found</p>
-    <?php endif; ?>
 
         <div class="about-widget">
             <div class="widget-title">
@@ -43,5 +33,26 @@
             </div>
         </div>
 
+    <section class="instagram-feed">
+
+        <div class="widget-title">
+                <h2> Instagram</h2>
+                <hr class="header-line">
+            </div>
+
+        <?php if( have_posts() ): 
+        while ( have_posts() ):
+            the_post();?> 
+
+        <?php the_content(); ?>
+
+            
+        <?php endwhile; ?> 
+
+        <?php else : ?>
+            <p>No posts found</p>
+        <?php endif; ?>
+
+    </section>
 
 <?php get_footer(); ?>
