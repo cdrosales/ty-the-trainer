@@ -145,6 +145,11 @@ h4 {
 .hero-info-container h1 {
   margin-bottom: 25px; }
 
+.exception-text {
+  color: #931616;
+  font-style: italic;
+  text-transform: capitalize; }
+
 .nav {
   margin: auto 0;
   min-width: 500px;
@@ -340,6 +345,47 @@ footer {
   .home-hero-container-wrapper {
     max-height: 575px;
     top: 200px; } }
+
+.services-widget {
+  width: 75%;
+  margin: 0 auto 7% auto; }
+
+.personal-training-wrapper, .nutritional-plans-wrapper {
+  width: 100%; }
+
+.personal-training-container, .nutritional-plans-container {
+  width: 95%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 2%;
+  grid-gap: 5%; }
+  .personal-training-container p, .nutritional-plans-container p {
+    line-height: 1.5;
+    letter-spacing: 1.5;
+    margin-top: 14px;
+    width: 97%; }
+  .personal-training-container h4, .nutritional-plans-container h4 {
+    color: #931616;
+    text-transform: uppercase; }
+
+.services-info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5.5% 0; }
+  .services-info-container h3 {
+    text-transform: uppercase; }
+  .services-info-container img {
+    width: 80px;
+    height: auto;
+    margin-right: 15px; }
 
 .hero-container {
   overflow: hidden; }

@@ -1,0 +1,44 @@
+.services-widget{
+    width: 75%;
+    margin: 0 auto 7% auto;
+}
+
+.personal-training-wrapper, .nutritional-plans-wrapper{
+    width: 100%;
+}
+.personal-training-container, .nutritional-plans-container{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 2%;
+    grid-gap: 5%;
+
+    p{
+        line-height: 1.5;
+        letter-spacing: 1.5;
+        margin-top: 14px;
+        width: 97%;
+    }
+
+    h4{
+        color: $primary-red;
+        text-transform: uppercase;
+    }
+}
+
+.services-info-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5.5% 0;
+
+    h3{
+        text-transform: uppercase;
+    }
+    
+    img{
+        width: 80px;
+        height: auto;
+        margin-right: 15px;
+    }
+}
