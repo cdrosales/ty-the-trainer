@@ -443,6 +443,9 @@ footer {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal; }
+  .home-shop-container button:hover {
+    color: #ffffff;
+    background-color: #931616; }
 
 .home-shop-content {
   width: 90%;

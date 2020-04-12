@@ -32,3 +32,9 @@
     background-color: $primary-white;
     @content;
 }
+
+@mixin button-white-hover{
+    color: $primary-white;
+    background-color: $primary-red;
+    @content;
+}
