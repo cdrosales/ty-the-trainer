@@ -38,7 +38,9 @@
                 <hr class="header-line">
             </div>
 
-             <?php dynamic_sidebar('sidebar-about'); ?>
+            <div class="about-container">
+                <?php dynamic_sidebar('sidebar-about'); ?>
+            </div>
         </div>
 
 

@@ -260,6 +260,20 @@ footer {
   display: grid;
   grid-template-columns: 30% 70%; }
 
+.about-widget {
+  width: 75%;
+  margin: 0 auto; }
+
+.about-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 5%;
+  margin: 5% auto 6% auto; }
+  .about-container p {
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    margin-bottom: 5.5%; }
+
 .home-hero {
   background-color: #020004;
   position: relative;
@@ -376,5 +390,5 @@ footer {
   background-color: #931616;
   height: 5px;
   width: 50px;
-  margin-left: 2px;
+  margin: 0;
   border: none; }

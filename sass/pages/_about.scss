@@ -1,0 +1,19 @@
+
+.about-widget{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.about-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5%;
+    margin: 5% auto 6% auto; 
+
+    p{
+        line-height: 1.6;
+        letter-spacing: 1.5px; 
+        margin-bottom: 5.5%;
+    }
+}
+
