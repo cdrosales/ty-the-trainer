@@ -13,13 +13,13 @@
 <body <?php body_class();?>> 
 
 
-<div class="header-wrapper">
+<div class="header-wrapper" id="header-wrapper-black">
 
     <div class="logo-wrapper">
-        <a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/images/ty-logo-white.png'; ?>" class="header-logo"/></a>
+        <a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/images/ty-logo-black.png'; ?>" class="header-logo"/></a>
     </div>
 
-    <div class="nav">
+    <div class="nav nav-black">
             <?php wp_nav_menu( array('theme_location' => 'primary')); ?>
     </div>
 </div>

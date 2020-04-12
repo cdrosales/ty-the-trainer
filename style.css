@@ -190,6 +190,9 @@ h4 {
   #menu-sub-footer-nav a {
     padding-left: 20px; }
 
+.nav-black #menu-nav a {
+  color: #020004; }
+
 .logo-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -218,6 +221,9 @@ h4 {
           justify-content: space-between;
   z-index: 500;
   position: absolute; }
+
+#header-wrapper-black {
+  position: relative; }
 
 .footer-logo-wrapper .footer-logo {
   width: auto;
@@ -591,3 +597,7 @@ footer {
 
 .widget-title {
   margin-top: 7%; }
+
+.page-content {
+  width: 75%;
+  margin: auto; }

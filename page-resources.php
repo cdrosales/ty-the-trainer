@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header('black'); ?>
 
 
 <?php if( have_posts() ): 
