@@ -93,6 +93,9 @@ h4 {
   font-stretch: normal;
   font-style: normal; }
 
+.widget-title {
+  text-transform: capitalize; }
+
 #menu-footer-nav a, #menu-nav a {
   text-decoration: none;
   text-transform: uppercase;
