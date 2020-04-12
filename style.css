@@ -313,6 +313,55 @@ footer {
   width: 75%;
   margin: 0 auto; }
 
+.instagram-feed {
+  width: 75%;
+  margin: 0 auto 5% auto; }
+  .instagram-feed h3 {
+    text-transform: uppercase; }
+  .instagram-feed p {
+    width: 85%;
+    min-width: 270px;
+    max-width: 550px;
+    line-height: 1.7;
+    letter-spacing: 1.5px;
+    margin: 4% 0; }
+  .instagram-feed button {
+    border: 2px solid #931616;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #931616;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal; }
+  .instagram-feed button:hover {
+    color: #ffffff;
+    background-color: #931616; }
+
+.sb_instagram_header, #sbi_load {
+  display: none; }
+
+.instagram-feed-wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: -4%; }
+
+.instagram-feed-info {
+  width: 100%;
+  margin: auto 0; }
+
+#sb_instagram {
+  max-width: 400px;
+  height: auto;
+  min-width: 300px; }
+
+@media screen and (min-width: 1440px) {
+  .instagram-feed-wrapper {
+    margin-top: -100px; } }
+
 .about-widget {
   width: 75%;
   margin: 0 auto; }
