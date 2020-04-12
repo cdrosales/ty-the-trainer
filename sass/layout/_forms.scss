@@ -1,0 +1,22 @@
+// SUBSCRIBE FORM BANNER
+
+.home-banner-form-img{
+    position: relative;
+}
+
+.subscribe-form-container{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    p{
+        color: $primary-white;
+        margin: 2% 0 5% 0;
+    }
+}
+
+.subscribe-form-title{
+    color: $primary-white;
+    letter-spacing: 2px;
+}
