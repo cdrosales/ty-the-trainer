@@ -126,6 +126,10 @@
     height: 400px;
 }
 
+
+
+/// HOME PAGE BANNER
+
 .banner-container{
     position: relative;
 }
@@ -133,7 +137,7 @@
 .banner-info{
     position: absolute;
     bottom: 50px;
-    left: 180px;
+    left: 12%;
 
     h2{
         color: $primary-white;

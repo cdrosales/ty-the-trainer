@@ -437,7 +437,7 @@ footer {
 .banner-info {
   position: absolute;
   bottom: 50px;
-  left: 180px; }
+  left: 12%; }
   .banner-info h2 {
     color: #ffffff;
     line-height: 1.5;
