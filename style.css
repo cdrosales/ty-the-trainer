@@ -279,6 +279,16 @@ footer {
     letter-spacing: 1.5px;
     margin-bottom: 5.5%; }
 
+#mc_embed_signup_scroll {
+  width: 85%;
+  margin: 0 auto; }
+  #mc_embed_signup_scroll label {
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    font-family: 'Helvetica Neue';
+    text-transform: uppercase; }
+
 .home-hero {
   background-color: #020004;
   position: relative;

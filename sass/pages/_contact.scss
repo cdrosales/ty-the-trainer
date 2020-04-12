@@ -1,0 +1,11 @@
+#mc_embed_signup_scroll{
+    width: 85%;
+    margin: 0 auto;
+
+
+    label{
+        @include font-bold;
+        font-family: 'Helvetica Neue';
+        text-transform: uppercase;
+    }
+}
