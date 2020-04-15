@@ -31,3 +31,15 @@
 .contact-form-title{
     font-size: 1.953em;
 }
+
+#mc_embed_signup #mc-embedded-subscribe{
+    background-color: $primary-red;
+    @include font-bold;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+
+}
+
+#mc_embed_signup #mc-embedded-subscribe:hover{
+    background-color: $primary-hover-red;
+}
