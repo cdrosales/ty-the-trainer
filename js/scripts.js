@@ -10,6 +10,14 @@
         event.preventDefault();
     });
 
+    //      Front Page FLICKITY
+    $('.testimonials-carousel').flickity({
+        // options
+        cellAlign: 'center',
+        contain: true,
+        wrapAround: true
+    });
+
 
 })( jQuery );
 

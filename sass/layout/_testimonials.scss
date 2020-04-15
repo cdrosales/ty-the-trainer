@@ -2,3 +2,12 @@
     width: 75%;
     margin: 0 auto;
 }
+
+.carousel-cell {
+    width: 33%;
+    margin-right: 20px;
+    height: 470px;
+    border: 1px solid $primary-grey;
+    counter-increment: carousel-cell;
+}
+

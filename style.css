@@ -313,6 +313,13 @@ footer {
   width: 75%;
   margin: 0 auto; }
 
+.carousel-cell {
+  width: 33%;
+  margin-right: 20px;
+  height: 470px;
+  border: 1px solid #484848;
+  counter-increment: carousel-cell; }
+
 .instagram-feed {
   width: 75%;
   margin: 0 auto 5% auto; }
