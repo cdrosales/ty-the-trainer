@@ -327,42 +327,42 @@ footer {
 
 .testimonials-wrapper {
   width: 75%;
+  height: auto;
   margin: 0 auto 7% auto;
   font-family: 'Helvetica Neue'; }
 
 .testimonials-carousel {
   width: 100%; }
+  .testimonials-carousel .textwidget {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+    text-align: center; }
+    .testimonials-carousel .textwidget p {
+      width: 85%;
+      margin: 15px auto;
+      font-size: 0.76em;
+      line-height: 1.5;
+      letter-spacing: 1.2px; }
+    .testimonials-carousel .textwidget h5 {
+      margin-top: 10px;
+      text-transform: uppercase; }
+    .testimonials-carousel .textwidget h6 {
+      margin: 5px 0 15px 0; }
 
 .carousel-cell {
   width: 31%;
   margin-right: 20px;
   height: 500px;
   border: 1px solid #484848; }
-
-.textwidget {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 100%;
-  text-align: center; }
-  .textwidget p {
-    width: 85%;
-    margin: 15px auto;
-    font-size: 0.76em;
-    line-height: 1.5;
-    letter-spacing: 1.2px; }
-  .textwidget h5 {
-    margin-top: 10px;
-    text-transform: uppercase; }
-  .textwidget h6 {
-    margin: 5px 0 15px 0; }
 
 .instagram-feed {
   width: 75%;

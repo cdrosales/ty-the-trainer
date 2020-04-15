@@ -1,11 +1,37 @@
 .testimonials-wrapper{
     width: 75%;
+    height: auto;
     margin: 0 auto 7% auto;
     font-family: 'Helvetica Neue';
 }
 
 .testimonials-carousel{
     width: 100%;
+
+
+    .textwidget{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+
+        p{
+            width: 85%;
+            margin: 15px auto;
+            font-size: 0.76em;
+            line-height: 1.5;
+            letter-spacing: 1.2px;
+        }
+        h5{
+            margin-top: 10px;
+            text-transform: uppercase;
+        }
+        h6{
+            margin: 5px 0 15px 0;
+        }
+    }
+
 }
 
 .carousel-cell {
@@ -14,27 +40,3 @@
     height: 500px;
     border: 1px solid $primary-grey;
 }
-
-.textwidget{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    text-align: center;
-
-    p{
-        width: 85%;
-        margin: 15px auto;
-        font-size: 0.76em;
-        line-height: 1.5;
-        letter-spacing: 1.2px;
-    }
-    h5{
-        margin-top: 10px;
-        text-transform: uppercase;
-    }
-    h6{
-        margin: 5px 0 15px 0;
-    }
-}
-
