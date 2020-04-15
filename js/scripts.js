@@ -15,7 +15,8 @@
         // options
         cellAlign: 'center',
         contain: true,
-        wrapAround: true
+        wrapAround: true,
+        autoPlay: 2000
     });
 
 
