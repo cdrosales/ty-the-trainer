@@ -72,7 +72,7 @@ function tythetrainer_sidebars_widgets() {
         'id' => 'sidebar-testimonials',
         'description' => 'Your client testimonials',
         'class' => 'testimonials',
-        'before_widget' => '<section id="%1$s" class="%2$s tythetrainer-widget"> ',
+        'before_widget' => '<section id="%1$s" class="%2$s tythetrainer-widget">',
         'after_widget' => '</section>',
         'before_title' => '<h2>',
         'after_title' => '</h2>'

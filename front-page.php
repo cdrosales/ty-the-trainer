@@ -94,14 +94,17 @@
     </div>
 </section>
 
-<section class="testimonials-container">
+<section class="testimonials-wrapper">
 
     <div class="home-testimonials-title widget-title">
             <h2>Client Testimonials</h2>
             <hr class="header-line">
     </div>
 
-    <?php dynamic_sidebar('sidebar-testimonials'); ?>
+    <div class="testimonials-carousel">
+        <?php dynamic_sidebar('sidebar-testimonials'); ?>
+    </div>
+
 </section>
 
 <section class="instagram-feed">
