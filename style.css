@@ -320,6 +320,12 @@ footer {
   color: #ffffff;
   letter-spacing: 2px; }
 
+.indicates-required {
+  margin-top: -40px; }
+
+.contact-form-title {
+  font-size: 1.953em; }
+
 .testimonials-wrapper {
   width: 75%;
   height: auto;
@@ -355,13 +361,16 @@ footer {
 
 .carousel-cell {
   width: 30%;
-  margin-right: 35px;
+  margin-right: 39px;
   height: 525px;
   -webkit-box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.16);
           box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.16); }
 
 .flickity-viewport {
   padding: 20px 0; }
+
+.flickity-button {
+  display: none; }
 
 .instagram-feed {
   width: 75%;

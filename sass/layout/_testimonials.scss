@@ -35,7 +35,7 @@
 
 .carousel-cell {
     width: 30%;
-    margin-right: 35px;
+    margin-right: 39px;
     height: 525px;
     // border: 1px solid $primary-grey;
     box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.16);
@@ -44,4 +44,8 @@
 
 .flickity-viewport{
     padding: 20px 0;
+}
+
+.flickity-button{
+    display: none;
 }
