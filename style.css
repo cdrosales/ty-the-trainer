@@ -306,8 +306,9 @@ footer {
      object-position: top; }
 
 .subscribe-form-container {
-  width: 70%;
+  width: 65%;
   position: absolute;
+  min-width: 500px;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -319,6 +320,9 @@ footer {
 .subscribe-form-title {
   color: #ffffff;
   letter-spacing: 2px; }
+
+.banner-container #mc_embed_signup #mc-embedded-subscribe {
+  font-size: 1em; }
 
 .indicates-required {
   margin-top: -40px; }
