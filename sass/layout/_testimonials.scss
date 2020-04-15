@@ -8,7 +8,6 @@
 .testimonials-carousel{
     width: 100%;
 
-
     .textwidget{
         display: flex;
         flex-direction: column;
@@ -35,8 +34,14 @@
 }
 
 .carousel-cell {
-    width: 31%;
-    margin-right: 20px;
-    height: 500px;
-    border: 1px solid $primary-grey;
+    width: 30%;
+    margin-right: 35px;
+    height: 525px;
+    // border: 1px solid $primary-grey;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.16);
+}
+
+
+.flickity-viewport{
+    padding: 20px 0;
 }

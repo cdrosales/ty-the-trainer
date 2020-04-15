@@ -176,11 +176,6 @@ strong em {
 .hero-info-container h1 {
   margin-bottom: 25px; }
 
-.exception-text {
-  color: #931616;
-  font-style: italic;
-  text-transform: capitalize; }
-
 .nav {
   margin: auto 0;
   min-width: 500px;
@@ -359,10 +354,14 @@ footer {
       margin: 5px 0 15px 0; }
 
 .carousel-cell {
-  width: 31%;
-  margin-right: 20px;
-  height: 500px;
-  border: 1px solid #484848; }
+  width: 30%;
+  margin-right: 35px;
+  height: 525px;
+  -webkit-box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.16); }
+
+.flickity-viewport {
+  padding: 20px 0; }
 
 .instagram-feed {
   width: 75%;
@@ -661,6 +660,10 @@ footer {
     width: 80px;
     height: auto;
     margin-right: 15px; }
+
+.exception-text {
+  font-style: italic;
+  text-transform: capitalize; }
 
 .hero-container {
   overflow: hidden; }
