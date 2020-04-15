@@ -26,6 +26,12 @@
     font-style: italic;
 }
 
+@mixin font-light-italic{
+    font-weight: lighter;
+    font-stretch: normal;
+    font-style: italic;
+}
+
 @mixin font-bold-italic{
     font-weight: bold;
     font-stretch: normal;

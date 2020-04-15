@@ -34,6 +34,19 @@ h4{
   @include font-bold;
 }
 
+h5{
+  font-family: 'Helvetica Neue';
+  color: $primary-black;
+  font-size: 0.9em;
+  @include font-bold;
+}
+
+h6{
+  color: $primary-black;
+  font-size: 0.8em;
+  @include font-light-italic;
+}
+
 strong{
   @include font-bold;
 }

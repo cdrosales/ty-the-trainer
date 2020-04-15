@@ -93,6 +93,21 @@ h4 {
   font-stretch: normal;
   font-style: normal; }
 
+h5 {
+  font-family: 'Helvetica Neue';
+  color: #020004;
+  font-size: 0.9em;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal; }
+
+h6 {
+  color: #020004;
+  font-size: 0.8em;
+  font-weight: lighter;
+  font-stretch: normal;
+  font-style: italic; }
+
 strong {
   font-weight: bold;
   font-stretch: normal;
@@ -311,14 +326,43 @@ footer {
 
 .testimonials-wrapper {
   width: 75%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-family: 'Helvetica Neue'; }
+
+.testimonials-carousel {
+  width: 100%; }
 
 .carousel-cell {
-  width: 33%;
+  width: 31%;
   margin-right: 20px;
-  height: 470px;
-  border: 1px solid #484848;
-  counter-increment: carousel-cell; }
+  height: 500px;
+  border: 1px solid #484848; }
+
+.textwidget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  text-align: center; }
+  .textwidget p {
+    width: 85%;
+    margin: 15px auto;
+    font-size: 0.76em;
+    line-height: 1.5;
+    letter-spacing: 1.2px; }
+  .textwidget h5 {
+    margin-top: 10px;
+    text-transform: uppercase; }
+  .textwidget h6 {
+    letter-spacing: 1.5px;
+    margin: 5px 0 15px 0; }
 
 .instagram-feed {
   width: 75%;
