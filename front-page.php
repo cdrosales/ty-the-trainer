@@ -94,6 +94,7 @@
     </div>
 </section>
 
+
 <section class="testimonials-wrapper">
 
     <div class="home-testimonials-title widget-title">
@@ -106,6 +107,58 @@
     </div>
 
 </section>
+
+
+
+
+
+<?php
+
+
+        $testimonials = new WP_Query(array(
+                    'post_type' => 'testimonials', 
+                    'posts_per_page' => '6', 
+                    'order_by' => 'date',
+                    'order' => 'ASC'
+
+                ));
+
+
+            while($testimonials->have_posts()) :
+            
+
+            echo $testimonials->the_post();
+
+
+            echo '<div class="'. get_post(get_post_thumbnail_id())->post_title . '">';
+            echo the_post_thumbnail('medium_large');
+            echo '</div>';
+
+            echo '<h5>' . get_the_title() . '</h5>';
+            echo '<h6>' . get_the_excerpt() . '</h6>';
+            echo '<p>' . the_content() . '</p>';
+
+
+            // echo the_permalink();
+     
+            
+
+        endwhile;
+
+        wp_reset_postdata();
+
+?>
+
+
+
+
+
+
+
+
+
+
+
 
 <section class="instagram-feed">
 

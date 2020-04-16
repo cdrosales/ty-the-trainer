@@ -85,7 +85,7 @@ add_action('widgets_init', 'tythetrainer_sidebars_widgets');
 
 function tythetrainer_testimonials(){
     register_post_type('testimonials', array( 
-        'supports' => array('title', 'editor', 'thumbnail'),
+        'supports' => array('title', 'editor', 'thumbnail', 'excerpt'),
         'public' => true,
         'show_in_rest' => true,
         'has_archive' => true,
