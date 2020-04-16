@@ -80,5 +80,29 @@ function tythetrainer_sidebars_widgets() {
 }
 add_action('widgets_init', 'tythetrainer_sidebars_widgets');
 
+
+// TESTIMONIALS
+
+function tythetrainer_testimonials(){
+    register_post_type('testimonials', array( 
+        'supports' => array('title', 'editor', 'thumbnail'),
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'labels' => array(
+            'name' => 'Testimonials', 
+            'add_new_item' => 'Add New Testimonial',
+            'edit_item' => 'Edit Testimonial',
+            'all_items' => 'All testimonials',
+            'singular_name' => 'Testimonial' 
+        ),
+
+        'menu_icon' => 'dashicons-format-quote'
+    ));
+}
+
+add_action('init', 'tythetrainer_testimonials');
+
+
 ?>
 
