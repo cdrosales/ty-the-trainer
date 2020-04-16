@@ -396,6 +396,34 @@ footer {
   -webkit-box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.46);
           box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.46); }
 
+.testimonials-singe-info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto 3% auto;
+  max-width: 750px; }
+  .testimonials-singe-info-container img {
+    margin-right: 40px; }
+
+.testimonials-single-info {
+  width: 50%; }
+  .testimonials-single-info h3 {
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    letter-spacing: 1px; }
+  .testimonials-single-info h4 {
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    letter-spacing: 1px; }
+
 .instagram-feed {
   width: 75%;
   margin: 0 auto 5% auto; }
