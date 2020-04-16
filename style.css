@@ -349,43 +349,52 @@ footer {
 
 .testimonials-carousel {
   width: 100%; }
-  .testimonials-carousel .textwidget {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    height: 100%;
-    text-align: center; }
-    .testimonials-carousel .textwidget p {
-      width: 80%;
-      margin: 15px auto;
-      font-size: 0.76em;
-      line-height: 1.5;
-      letter-spacing: 1.2px; }
-    .testimonials-carousel .textwidget h5 {
-      margin-top: 10px;
-      text-transform: uppercase; }
-    .testimonials-carousel .textwidget h6 {
-      margin: 5px 0 15px 0; }
 
 .carousel-cell {
   width: 30%;
   margin-right: 39px;
   height: 525px;
   -webkit-box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.16);
-          box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.16); }
+          box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.16);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .carousel-cell p {
+    width: 77%;
+    font-size: 0.76em;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    text-align: center;
+    margin: 0 auto; }
+  .carousel-cell h5 {
+    margin-top: 30px;
+    text-transform: uppercase; }
+  .carousel-cell h6 {
+    margin: 5px 0 30px 0; }
+  .carousel-cell a {
+    text-decoration: none;
+    text-align: center;
+    color: #020004; }
 
 .flickity-viewport {
   padding: 20px 0; }
 
 .flickity-button {
   display: none; }
+
+.carousel-cell:hover {
+  -webkit-box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.46);
+          box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.46); }
 
 .instagram-feed {
   width: 75%;

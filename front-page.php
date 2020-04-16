@@ -94,7 +94,7 @@
     </div>
 </section>
 
-
+<!-- 
 <section class="testimonials-wrapper">
 
     <div class="home-testimonials-title widget-title">
@@ -103,17 +103,21 @@
     </div>
 
     <div class="testimonials-carousel">
-        <?php dynamic_sidebar('sidebar-testimonials'); ?>
+        <!-- <?php dynamic_sidebar('sidebar-testimonials'); ?> -->
+    <!-- </div>
+
+</section> --> 
+
+<section class="testimonials-wrapper">
+
+
+    <div class="home-testimonials-title widget-title">
+            <h2>Client Testimonials</h2>
+            <hr class="header-line">
     </div>
-
-</section>
-
-
-
 
 
 <?php
-
 
         $testimonials = new WP_Query(array(
                     'post_type' => 'testimonials', 
@@ -123,12 +127,14 @@
 
                 ));
 
+            echo '<div class="testimonials-carousel">';
 
             while($testimonials->have_posts()) :
             
 
             echo $testimonials->the_post();
 
+            echo '<div class="carousel-cell"><a href="' . get_the_permalink() . '">';
 
             echo '<div class="'. get_post(get_post_thumbnail_id())->post_title . '">';
             echo the_post_thumbnail('medium_large');
@@ -136,18 +142,24 @@
 
             echo '<h5>' . get_the_title() . '</h5>';
             echo '<h6>' . get_the_excerpt() . '</h6>';
-            echo '<p>' . the_content() . '</p>';
+            echo '<p>' . wp_trim_words( get_the_content(), 45, ' [...]' . '</p>' );
 
+            
+            echo '</a></div>';
 
             // echo the_permalink();
      
-            
-
         endwhile;
 
         wp_reset_postdata();
 
+        echo '</div>';
+
+
+
 ?>
+
+</section>
 
 
 
