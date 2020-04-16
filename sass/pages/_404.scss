@@ -1,0 +1,28 @@
+.error-container{
+    margin: 7% auto;
+    text-align: center;
+    height: 25vh;
+
+    h1{
+        font-size: 3em;
+    }
+    h2{
+        margin: 2% auto;
+    }
+}
+.go-back-home-BTN{
+    border-radius: 8px;
+    width: 220px;
+    height: 44px;
+    font-size: 1em;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    @include button-red;
+}
+
+.go-back-home-BTN:hover{
+    background-color: $primary-white;
+    color: $primary-red;
+    border: 2px solid $primary-red;
+}

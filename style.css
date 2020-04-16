@@ -729,6 +729,31 @@ footer {
   font-style: italic;
   text-transform: capitalize; }
 
+.error-container {
+  margin: 7% auto;
+  text-align: center;
+  height: 25vh; }
+  .error-container h1 {
+    font-size: 3em; }
+  .error-container h2 {
+    margin: 2% auto; }
+
+.go-back-home-BTN {
+  border-radius: 8px;
+  width: 220px;
+  height: 44px;
+  font-size: 1em;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffffff;
+  background-color: #931616; }
+
+.go-back-home-BTN:hover {
+  background-color: #ffffff;
+  color: #931616;
+  border: 2px solid #931616; }
+
 .hero-container {
   overflow: hidden; }
   .hero-container .hero-wrapper {
