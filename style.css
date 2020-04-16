@@ -396,6 +396,9 @@ footer {
   -webkit-box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.46);
           box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.46); }
 
+.testimonials-container {
+  margin-bottom: 12%; }
+
 .testimonials-singe-info-container {
   display: -webkit-box;
   display: -ms-flexbox;
