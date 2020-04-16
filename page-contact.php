@@ -66,7 +66,7 @@
 	<input type="text" value="" name="MMERGE3" class="" id="mce-MMERGE3">
 </div>
 <div class="mc-field-group">
-	<label for="mce-MMERGE1">Your goals in the next 90 Days? </label>
+	<label for="mce-MMERGE1">What is your goal in the next 90 Days? </label>
 	<input type="text" value="" name="MMERGE1" class="" id="mce-MMERGE1">
 </div>
 <div class="mc-field-group input-group">
