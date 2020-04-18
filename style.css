@@ -445,6 +445,10 @@ footer {
   .carousel-cell {
     width: 90%; } }
 
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+  .carousel-cell {
+    width: 50%; } }
+
 .instagram-feed {
   width: 75%;
   margin: 0 auto 5% auto; }
