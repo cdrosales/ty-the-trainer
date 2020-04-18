@@ -754,9 +754,14 @@ footer {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse; }
   img.home-shop-img {
-    margin-left: 0;
-    margin-top: 0;
+    margin: 30px 0 50px 0;
     width: 100%; }
+  .home-shop-content p, .home-shop-content button {
+    width: 100%;
+    min-width: 280px;
+    text-align: center; }
+  .home-shop-content button {
+    margin: 20px 0; }
   .home-services-container {
     display: -webkit-box;
     display: -ms-flexbox;
