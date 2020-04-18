@@ -18,3 +18,17 @@
     }
 }
 
+// MEDIA QUERIES
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        
+        img {
+            margin-bottom: 40px;
+        }
+    }
+
+}
