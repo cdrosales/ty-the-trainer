@@ -353,7 +353,28 @@ footer {
   .mc-field-group {
     margin-bottom: 25px; }
   .input-group ul li input {
-    margin: 10px; } }
+    margin: 10px; }
+  .subscribe-form {
+    height: 450px; }
+  .subscribe-form-container {
+    position: relative;
+    width: 80%;
+    top: 150px; }
+    .subscribe-form-container p, .subscribe-form-container h2 {
+      color: #020004;
+      line-height: 1.3;
+      text-align: center; }
+    .subscribe-form-container h2 {
+      font-size: 1.3em;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal; }
+  #mc_embed_signup form {
+    width: 75%;
+    margin: 0 auto; }
+  #mc_embed_signup #mc-embedded-subscribe {
+    height: 45px;
+    margin-top: 8px; } }
 
 .testimonials-wrapper {
   width: 75%;

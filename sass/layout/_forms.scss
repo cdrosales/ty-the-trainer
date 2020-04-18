@@ -83,5 +83,40 @@
             }
         }
     }
+
+    .subscribe-form{
+        height: 450px;
+    }
+
+    .subscribe-form-container{
+        position: relative;
+        width: 80%;
+        top: 150px;
+
+        p, h2{
+        color: $primary-black;
+        line-height: 1.3;
+        text-align: center;
+
+        }
+
+        h2{
+            font-size: 1.3em;
+            @include font-bold;
+        }
+    }
+
+    #mc_embed_signup{
+        form{ 
+            width: 75%;
+            margin: 0 auto;
+        }
+    }
+
+    #mc_embed_signup #mc-embedded-subscribe{
+        height: 45px;
+        margin-top: 8px;
+    }
     
+
 }
