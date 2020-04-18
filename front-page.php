@@ -3,6 +3,7 @@
 <section class="home-hero">
 
     <div class="home-hero-container-wrapper">
+        
         <div class="home-hero-container">
 
             <img src="<?php echo get_template_directory_uri() . '/assets/images/hero-img-ty.png'; ?>" class="hero-ty-img"/>
