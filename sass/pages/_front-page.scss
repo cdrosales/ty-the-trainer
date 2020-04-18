@@ -203,6 +203,30 @@
         margin-top: 0;
         width: 100%;
     }
+
+    .home-services-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-personal-training, .home-nutritional-plans, .home-guides-resources{
+        margin-bottom: 50px;
+        text-align: center;
+
+        p, h3, img, button{
+            width: 100%;
+        }
+
+        button{
+            height: 44px;
+        }
+    }
+
+    .banner-info{
+        h2{
+            display: none;
+        }
+    }
 }
 
 
