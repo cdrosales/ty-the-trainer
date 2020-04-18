@@ -757,6 +757,25 @@ footer {
   font-style: italic;
   text-transform: capitalize; }
 
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .personal-training-container, .nutritional-plans-container, .services-info-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 50px;
+    text-align: center; }
+    .personal-training-container .tythetrainer-widget, .nutritional-plans-container .tythetrainer-widget, .services-info-container .tythetrainer-widget {
+      margin-bottom: 50px; }
+  .services-info-container img {
+    margin-bottom: 40px; } }
+
 .error-container {
   margin: 7% auto;
   text-align: center;
