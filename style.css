@@ -521,16 +521,17 @@ footer {
   border: 5px solid #ffffff;
   border-radius: 10px;
   width: 85%;
-  height: 69%;
-  max-height: 600px;
+  height: 67%;
   z-index: 80; }
 
 .home-hero-container {
   width: 100%;
+  max-height: 750px;
   position: absolute;
-  top: -40px;
   left: -70px;
   right: 0;
+  top: 0;
+  bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -538,10 +539,13 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   z-index: 100; }
   .home-hero-container .hero-ty-img {
-    width: 68%;
-    max-width: 825px;
+    width: 61.5%;
+    min-width: 790px;
     height: auto; }
 
 .hero-text-container {
@@ -560,9 +564,8 @@ footer {
     height: auto;
     margin-left: 10px; }
 
-.hero-info-container {
-  margin: auto;
-  height: 170px; }
+.hero-info-container h1 {
+  width: 320px; }
 
 .home-services {
   width: 75%;
@@ -676,7 +679,7 @@ footer {
 
 @media screen and (min-width: 1440px) {
   .hero-info-container {
-    margin-left: 75px; }
+    margin-left: 50px; }
   .home-nutritional-plans, .home-guides-resources, .home-personal-training {
     height: 380px; } }
 
