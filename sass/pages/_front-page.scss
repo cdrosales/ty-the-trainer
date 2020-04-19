@@ -206,7 +206,6 @@
         p, button{
             width: 100%;
             min-width: 280px;
-            text-align: center;
         }
 
         button{ 
@@ -219,11 +218,20 @@
         flex-direction: column;
     }
 
-    .home-personal-training, .home-nutritional-plans, .home-guides-resources{
-        margin-bottom: 50px;
-        text-align: center;
+    .services-title-info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        img{
+            margin-right: 30px;
+        }
+    }
 
-        p, h3, img, button{
+    .home-personal-training, .home-nutritional-plans, .home-guides-resources{
+        margin-bottom: 25%;
+        height: 320px;
+
+        p, h3, button{
             width: 100%;
         }
 

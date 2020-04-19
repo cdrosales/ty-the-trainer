@@ -826,8 +826,7 @@ footer {
     margin: 30px auto 50px auto; }
   .home-shop-content p, .home-shop-content button {
     width: 100%;
-    min-width: 280px;
-    text-align: center; }
+    min-width: 280px; }
   .home-shop-content button {
     margin: 20px 0; }
   .home-services-container {
@@ -838,10 +837,23 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
+  .services-title-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .services-title-info img {
+      margin-right: 30px; }
   .home-personal-training, .home-nutritional-plans, .home-guides-resources {
-    margin-bottom: 50px;
-    text-align: center; }
-    .home-personal-training p, .home-personal-training h3, .home-personal-training img, .home-personal-training button, .home-nutritional-plans p, .home-nutritional-plans h3, .home-nutritional-plans img, .home-nutritional-plans button, .home-guides-resources p, .home-guides-resources h3, .home-guides-resources img, .home-guides-resources button {
+    margin-bottom: 25%;
+    height: 320px; }
+    .home-personal-training p, .home-personal-training h3, .home-personal-training button, .home-nutritional-plans p, .home-nutritional-plans h3, .home-nutritional-plans button, .home-guides-resources p, .home-guides-resources h3, .home-guides-resources button {
       width: 100%; }
     .home-personal-training button, .home-nutritional-plans button, .home-guides-resources button {
       height: 44px; }
@@ -945,7 +957,7 @@ footer {
   text-transform: capitalize; }
 
 @media screen and (min-width: 300px) and (max-width: 700px) {
-  .personal-training-container, .nutritional-plans-container, .services-info-container {
+  .personal-training-container, .nutritional-plans-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -956,12 +968,21 @@ footer {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-bottom: 50px;
-    text-align: center; }
-    .personal-training-container .tythetrainer-widget, .nutritional-plans-container .tythetrainer-widget, .services-info-container .tythetrainer-widget {
+    margin-bottom: 50px; }
+    .personal-training-container .tythetrainer-widget, .nutritional-plans-container .tythetrainer-widget {
       margin-bottom: 50px; }
-  .services-info-container img {
-    margin-bottom: 40px; } }
+  .services-info-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 10% 5% 16% 0; } }
 
 .error-container {
   margin: 7% auto;
