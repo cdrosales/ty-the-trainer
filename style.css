@@ -627,10 +627,7 @@ footer {
 
 @media screen and (min-width: 700px) and (max-width: 1200px) {
   .about-container {
-    grid-gap: 3.5%; }
-    .about-container p {
-      line-height: 1.3;
-      letter-spacing: 0.75px; } }
+    grid-gap: 3.5%; } }
 
 #mc_embed_signup_scroll {
   width: 85%;
@@ -1094,4 +1091,8 @@ footer {
     height: 70vh;
     top: -30px;
     -o-object-position: top;
-       object-position: top; } }
+       object-position: top; }
+  .widget-title {
+    margin-top: 15%; }
+  .banner-container {
+    margin-top: 10%; } }
