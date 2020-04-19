@@ -259,7 +259,17 @@
         width: 75%;
     }
 
-    
+    .hero-info-container{
+        h1{
+            width: 245px;
+            margin-bottom: 14px; 
+        }
+    }
+
+    .icon-scroll-down{
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 700px) and (max-width: 900px) {
