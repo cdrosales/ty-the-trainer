@@ -97,6 +97,14 @@
     .widget-title{
         margin-top: 25%;
     }
+
+    .banner-container{
+        height: 250px;
+        img{
+            height: 250px;
+            object-fit: cover;
+        }
+    }
 }
 
 @media screen and (min-width: 700px) and (max-width: 1200px) {
