@@ -237,6 +237,29 @@
             display: none;
         }
     }
+
+
+    .smoke-img{
+        display: none;
+    }
+
+    .home-hero-container{
+        display: flex; 
+        flex-direction: column-reverse;
+        left: 0;
+        justify-content: space-evenly;
+        height: 114%;
+
+        .hero-ty-img{
+            min-width: 360px;
+        }
+    }
+
+    .home-hero-container-wrapper{
+        width: 75%;
+    }
+
+    
 }
 
 @media screen and (min-width: 700px) and (max-width: 900px) {

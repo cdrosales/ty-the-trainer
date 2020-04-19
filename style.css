@@ -828,7 +828,26 @@ footer {
     .home-personal-training button, .home-nutritional-plans button, .home-guides-resources button {
       height: 44px; }
   .banner-info h2 {
-    display: none; } }
+    display: none; }
+  .smoke-img {
+    display: none; }
+  .home-hero-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    left: 0;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 114%; }
+    .home-hero-container .hero-ty-img {
+      min-width: 360px; }
+  .home-hero-container-wrapper {
+    width: 75%; } }
 
 @media screen and (min-width: 700px) and (max-width: 900px) {
   .home-services-container {
