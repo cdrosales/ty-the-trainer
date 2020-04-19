@@ -5,7 +5,7 @@
     while ( have_posts() ):
         the_post();?> 
 
-<div class="hero-container">
+<section class="hero-container">
     <div class="hero-wrapper">
         <div class="hero-img">
             <?php the_post_thumbnail( 'full' );  ?>
@@ -16,7 +16,7 @@
             
         </div>
     </div>
-</div>
+</section>
 
 <?php the_content(); ?>
     

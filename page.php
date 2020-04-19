@@ -1,7 +1,7 @@
 <?php get_header('black'); ?>
 
 
-    <div class="page-content">
+    <section class="page-content">
         <?php if( have_posts() ): 
         while ( have_posts() ):
             the_post();?> 
@@ -19,7 +19,7 @@
                         <p>No posts found</p>
                 <?php endif; ?>
 
-    </div>
+    </section>
 
 
 <?php get_footer(); ?>

@@ -1,7 +1,7 @@
 <?php get_header('black'); ?>
 
 
-    <div class="page-content testimonial-single-container">
+    <section class="page-content testimonial-single-container">
         <?php if( have_posts() ): 
         while ( have_posts() ):
             the_post();?> 
@@ -28,7 +28,7 @@
                         <p>No posts found</p>
                 <?php endif; ?>
 
-    </div>
+    </section>
 
 
 <?php get_footer(); ?>
