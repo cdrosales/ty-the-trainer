@@ -543,7 +543,7 @@ footer {
 
 .about-container {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 47.5% 47.5%;
   grid-gap: 5%;
   margin: 0 auto; }
   .about-container p {
@@ -562,6 +562,13 @@ footer {
             flex-direction: column; }
     .about-container img {
       margin-bottom: 40px; } }
+
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+  .about-container {
+    grid-gap: 3.5%; }
+    .about-container p {
+      line-height: 1.3;
+      letter-spacing: 0.75px; } }
 
 #mc_embed_signup_scroll {
   width: 85%;
