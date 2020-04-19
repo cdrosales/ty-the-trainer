@@ -992,6 +992,10 @@ footer {
   .go-back-home-BTN:hover a {
     color: #931616; }
 
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .error-container h2 {
+    margin: 8% auto; } }
+
 @media screen and (min-width: 700px) and (max-width: 900px) {
   .error-container {
     height: 50vh;
