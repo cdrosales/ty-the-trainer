@@ -991,6 +991,25 @@ footer {
   .go-back-home-BTN:hover a {
     color: #931616; }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .error-container {
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .error-container h2 {
+      margin: 50px; } }
+
 .hero-container {
   overflow: hidden; }
   .hero-container .hero-wrapper {
