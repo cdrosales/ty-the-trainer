@@ -41,3 +41,24 @@
         }
     }
 }
+
+@media screen and (min-width: 300px) and (max-width: 700px){
+    #menu-footer-nav{
+        margin: 15px auto 30px auto;
+
+        li{
+            margin: 10px 0;
+        }
+    }
+
+    #menu-sub-footer-nav{
+        margin-bottom: 10px;
+        li{
+            margin: 10px auto;
+            a{
+                padding-left: 0;
+            }
+        }
+        
+    }
+}
