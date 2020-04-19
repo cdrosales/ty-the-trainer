@@ -356,7 +356,7 @@ footer {
             flex-direction: column-reverse; }
   footer {
     width: 100%;
-    margin: 15% auto 0 auto;
+    margin: 20% auto 0 auto;
     text-align: center; } }
 
 .home-banner-form-img {
@@ -429,7 +429,7 @@ footer {
       font-style: normal; }
   #mc_embed_signup form {
     width: 75%;
-    margin: 0 auto; }
+    margin: 0 auto 10%; }
   #mc_embed_signup #mc-embedded-subscribe {
     height: 45px;
     margin-top: 8px; }
@@ -1113,7 +1113,9 @@ footer {
     .banner-container img {
       height: 250px;
       -o-object-fit: cover;
-         object-fit: cover; } }
+         object-fit: cover; }
+  .subscribe-form {
+    height: 100%; } }
 
 @media screen and (min-width: 700px) and (max-width: 1200px) {
   .hero-container, .hero-title {
