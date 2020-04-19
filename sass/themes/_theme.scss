@@ -91,3 +91,20 @@
         letter-spacing: 1px;
     }
 }
+
+
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+    .hero-container, .hero-title{
+        height: 45vh;
+    }
+
+    .hero-container{
+        .hero-wrapper{
+            img{
+                height: 55vh;
+                top: -30px;
+            }
+        }
+    }
+
+}
