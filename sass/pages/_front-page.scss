@@ -157,11 +157,11 @@
 .home-shop-container{
     display: grid;
     grid-template-columns: 50% 50%;
+    height: auto;
 
     img{
-        width: 400px;
-        margin-top: -18%;
-        margin-left: 10%;
+        width: 85%;
+        margin-top: -2%;
     }
 
     button{
@@ -176,7 +176,7 @@
 
 .home-shop-content{
     width: 90%;
-    margin-top: -4%;
+    // margin-top: -4%;
 
     p{
         line-height: 1.7;
@@ -244,6 +244,7 @@
     .home-services-container{
         display: flex;
         flex-direction: column;
+        
     }
     .home-personal-training, .home-nutritional-plans, .home-guides-resources{
         margin-bottom: 70px;
@@ -253,6 +254,14 @@
             width: 550px;
         }
     }
+
+    .home-shop-container{
+        .home-shop-img{
+            margin: 30px 0 0 0;
+            width: 100%;
+        }
+    }
+    
 }
 
 
