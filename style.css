@@ -1022,7 +1022,7 @@ div#mc_embed_signup {
   .icon-scroll-down {
     display: none; } }
 
-@media screen and (min-width: 700px) and (max-width: 1150px) {
+@media screen and (min-width: 700px) and (max-width: 1100px) {
   .home-services-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1052,8 +1052,10 @@ div#mc_embed_signup {
     .home-personal-training p, .home-nutritional-plans p, .home-guides-resources p {
       width: 550px; }
   .home-shop-container .home-shop-img {
-    margin: 30px 0 0 0;
-    width: 100%; }
+    margin: 30px 0 0 75px;
+    width: 80%; }
+  .home-shop-container p {
+    min-width: 350px; }
   .hero-info-container h1 {
     font-size: 1.45em; }
   .home-hero {
