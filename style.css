@@ -352,7 +352,11 @@ div.input-group strong {
 footer {
   width: 85%;
   margin: 6.5% auto 0 auto;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0; }
 
 .footer-container {
   padding: 2.5% 0;
