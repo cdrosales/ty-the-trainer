@@ -206,65 +206,7 @@
 </section>
 
 
-<!-- Begin Mailchimp Signup Form -->
 
-<!-- <div class="subscribe-form banner-container">
-        <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-BANNER-FORM.jpg'; ?>" class="home-banner-form-img"/>
-
-        <div id="mc_embed_signup" class="subscribe-form-container">
-            <form action="https://tythetrainer.us18.list-manage.com/subscribe/post?u=c8821d49dfda29df2614af2be&amp;id=1af4e15eaf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target=" " novalidate>
-                <div id="mc_embed_signup_scroll">
-                <label for="mce-EMAIL" ><h2 class="subscribe-form-title">Let's stay connected</h2></label>
-                <p class="subscribe-form-info">Sign up to receive the latest updates and exclusive offers.</p>
-                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter Email Address" required>
-
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c8821d49dfda29df2614af2be_1af4e15eaf" tabindex="-1" value=""></div>
-                <div class="clear"><input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button subscribe-button"></div>
-                </div>
-            </form>
-        </div>
-
-</div> -->
-
-<!--End mc_embed_signup-->
-
-
-
-
-<!-- Begin Mailchimp Signup Form -->
-<!-- <div class="subscribe-form banner-container">
-
-<img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-BANNER-FORM.jpg'; ?>" class="home-banner-form-img"/>
-
-<div id="mc_embed_signup" class="subscribe-form-container">
-
-
-    <form action="https://tythetrainer.us18.list-manage.com/subscribe/post?u=c8821d49dfda29df2614af2be&amp;id=1af4e15eaf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">
-            <h2 class="subscribe-form-title">Let's stay connected</h2>
-            <p class="subscribe-form-info">Sign up to receive the latest updates and exclusive offers.</p>
-        
-            <div class="mc-field-group">
-                <input type="email" value=" Enter Email Address" onclick="this.value=''" name="EMAIL" class="required email" id="mce-EMAIL">
-            </div>
-            <div class="mc-field-group size1of2 birthday-container">
-                <label for="mce-MMERGE4-month">Birthday* </label>
-                <div class="datefield">
-                    <span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="MMERGE4[month]" id="mce-MMERGE4-month" required></span> / 
-                    <span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="MMERGE4[day]" id="mce-MMERGE4-day" required></span> 
-                </div>
-            </div>	<div id="mce-responses" class="clear">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c8821d49dfda29df2614af2be_1af4e15eaf" tabindex="-1" value=""></div>
-                <div class="clear"><input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-        </div>
-    </form>
-</div>
-</div> --> 
-
-<!--End mc_embed_signup-->
 
 
 <!-- Begin Mailchimp Signup Form -->
