@@ -134,10 +134,11 @@ div#mc_embed_signup{
 #mc_embed_signup #mc-embedded-subscribe{
     background-color: $primary-red;
     @include font-bold;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-size: 1.2em;
-    width: 190px;
-
+    width: 165px;
+    height: 38px;
+    border-radius: 8px;
 }
 
 #mc_embed_signup #mc-embedded-subscribe:hover{
