@@ -430,7 +430,7 @@ div#mc_embed_signup {
      object-position: top; }
 
 .subscribe-form-container {
-  width: 65%;
+  width: 75%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -438,19 +438,69 @@ div#mc_embed_signup {
           transform: translate(-50%, -50%); }
   .subscribe-form-container p {
     color: #ffffff;
-    margin: 2% 0 5% 0; }
+    margin: 0 0 3% 0;
+    text-shadow: 2px 2px 5px #020004; }
 
 .subscribe-form-title {
   color: #ffffff;
   letter-spacing: 2px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px #020004; }
 
-.banner-container #mc_embed_signup #mc-embedded-subscribe {
-  font-size: 1em; }
+#mc_embed_signup div.birthday-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  #mc_embed_signup div.birthday-container input {
+    padding: 3px 1px; }
+  #mc_embed_signup div.birthday-container label {
+    padding-bottom: 0;
+    padding-right: 5px;
+    text-shadow: 2px 2px 4px #484848; }
 
-#mc_embed_signup #mce-EMAIL {
-  max-width: 450px;
+#mc_embed_signup div.mc-field-group {
+  padding-bottom: 5px; }
+
+#mc_embed_signup div.email-container {
+  width: 100%;
+  padding-bottom: 0; }
+  #mc_embed_signup div.email-container input#mce-EMAIL {
+    margin: 0 auto;
+    width: 75%;
+    max-width: 550px; }
+
+#mc_embed_signup div div.mce_inline_error {
+  text-transform: uppercase;
+  color: #931616 !important;
+  background-color: transparent !important;
+  margin-bottom: 0 !important;
+  font-weight: bold !important; }
+
+#mc_embed_signup div div#mce-responses {
+  padding: 0;
+  margin: 0;
   width: 100%; }
+
+#mc_embed_signup div div#mce-success-response {
+  padding-top: 0;
+  margin-top: 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #484848;
+  letter-spacing: 1px; }
 
 #mc_embed_signup_scroll {
   text-align: center;
@@ -462,25 +512,8 @@ div#mc_embed_signup {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
-
-div.birthday-container {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
-div.mc-field-group {
-  margin: 10px 0; }
+  #mc_embed_signup_scroll h2.subscribe-form-title {
+    font-size: 2em; }
 
 #mce-MMERGE4-month, #mce-MMERGE4-day {
   width: 20px;
@@ -509,14 +542,15 @@ div.mc-field-group {
     margin: 0 auto; }
   .subscribe-form-container {
     position: relative;
-    width: 80%;
-    top: 150px; }
+    width: 95%;
+    top: 190px; }
     .subscribe-form-container p, .subscribe-form-container h2, .subscribe-form-container label {
       color: #020004;
       line-height: 1.3;
-      text-align: center; }
+      text-align: center;
+      text-shadow: none; }
     .subscribe-form-container h2 {
-      font-size: 1.3em;
+      font-size: 1.65em !important;
       letter-spacing: normal;
       font-weight: bold;
       font-stretch: normal;
@@ -524,7 +558,15 @@ div.mc-field-group {
     .subscribe-form-container img {
       width: 100%; }
   #mce-MMERGE4-month, #mce-MMERGE4-day {
-    border: 1px solid #ABB0B2; } }
+    border: 1px solid #ABB0B2; }
+  #mc_embed_signup div.birthday-container label {
+    text-shadow: none; }
+  input#mce-EMAIL {
+    width: 100% !important; }
+  .clear #mc-embedded-subscribe {
+    height: 38px !important;
+    width: 100% !important;
+    margin-top: 20px !important; } }
 
 .testimonials-wrapper {
   width: 75%;
