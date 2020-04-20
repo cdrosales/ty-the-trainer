@@ -362,7 +362,7 @@ div.input-group strong {
 
 footer {
   width: 85%;
-  margin: 6.5% auto 0 auto;
+  margin: 1% auto 0 auto;
   padding-bottom: 50px; }
 
 .footer-container {
@@ -753,11 +753,13 @@ div#mc_embed_signup {
   #sb_instagram {
     height: 300px; } }
 
-@media screen and (min-width: 700px) and (max-width: 1440px) {
+@media only screen and (min-width: 700px) {
   .instagram-feed {
     margin: 15% auto; } }
 
 @media screen and (min-width: 1440px) {
+  .instagram-feed {
+    margin: 8% auto 5% auto; }
   .instagram-feed-wrapper {
     margin-top: -100px; }
   .instagram-feed-info {

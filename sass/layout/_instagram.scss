@@ -74,8 +74,7 @@
 
 }
 
-@media screen and (min-width: 700px) and (max-width: 1440px) {
-
+@media only screen and (min-width: 700px) {
     .instagram-feed{
         margin: 15% auto;
     }
@@ -83,6 +82,9 @@
 
 @media screen and (min-width: 1440px) {
 
+    .instagram-feed{
+        margin: 8% auto 5% auto;
+    }
     .instagram-feed-wrapper{
         margin-top: -100px;
     }
