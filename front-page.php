@@ -159,14 +159,6 @@
 
 
 
-
-
-
-
-
-
-
-
 <section class="instagram-feed">
 
     <div class="widget-title">

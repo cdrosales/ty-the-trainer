@@ -286,12 +286,25 @@
 
     .home-services-container{
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column;  
+    }
+    
+    .services-title-info{
+        display: flex;
+        flex-direction: row;
+        align-items: center
+        ;
+        img{
+            margin-right: 5%;
+        }
+
+        h3{
+            min-width: 500px;
+        }
     }
     .home-personal-training, .home-nutritional-plans, .home-guides-resources{
-        margin-bottom: 70px;
-        height: 275px;
+        margin-bottom: 14%;
+        height: 250px;
 
         p{
             width: 550px;
@@ -313,6 +326,7 @@
 
     .home-hero{
         height: 65vh;
+        max-height: 575px;
     }
     .home-hero-container-wrapper{
         height: 55%;
@@ -328,6 +342,7 @@
         display: none;
     }
     .hero-info-container{
+        margin-left: 5%;
         h1{
             margin-bottom: 10px;
         }
