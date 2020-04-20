@@ -54,6 +54,7 @@
 // }
 
 
+
 // FOOTER 
 
 #menu-footer-nav{
@@ -143,6 +144,24 @@
 
     .fa-bars, .fa-times{
         display: none !important;
+    }
+
+    .contact-nav-item{
+        a{
+        background-color: $primary-red !important;
+        padding: 9px 18px;
+        border-radius: 8px;
+    
+        }
+    }
+    
+    #menu-nav{
+        .contact-nav-item{
+            a:hover{
+                background-color: $primary-white !important;
+                color: $primary-red;
+            }
+        }
     }
     
 }

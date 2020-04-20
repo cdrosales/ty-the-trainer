@@ -25,13 +25,10 @@
     });
 
 
-    // SHOP NAV ITEM 
+    // CONTACT NAV
 
-    $('#menu-item-76').removeClass('menu-item menu-item-type-post_type menu-item-object-page menu-item-76').addClass('shop-nav-item');
+    $('#menu-item-24').removeClass('menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-22 current_page_item menu-item-24').addClass('contact-nav-item');
     
-    $('.shop-nav-item').on('click', function(event) {
-        event.preventDefault();
-    });
 
     // FRONT PAGE FLICKITY
     $('.testimonials-carousel').flickity({
