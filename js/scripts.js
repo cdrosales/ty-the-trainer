@@ -1,6 +1,8 @@
 (function( $ ) {
 
 
+    // HAMBURGER MENU MOBILE 
+
     $('.fa-times').hide();
 
     $('.fa-bars').on('click', function(event){
@@ -13,16 +15,14 @@
     });
 
     $('.fa-times').click(function(event){
-        $('#menu-nav').hide();
-        $('.fa-times').hide();
-        $('.fa-bars').show();
+
+        $('#menu-nav').slideToggle( 'slow', function(event) {
+            $('#menu-nav').hide();
+            $('.fa-times').hide();
+            $('.fa-bars').show();
+        });
     });
 
-
-
-    $('.header-wrapper').on('click', function(event) {
-        console.log ('it worked')
-    });
 
     // SHOP NAV ITEM 
 
@@ -32,7 +32,7 @@
         event.preventDefault();
     });
 
-    //      Front Page FLICKITY
+    // FRONT PAGE FLICKITY
     $('.testimonials-carousel').flickity({
         // options
         cellAlign: 'center',

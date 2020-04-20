@@ -16,8 +16,8 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    left: 22.5%;
-    top: 45px;
+    left: 28%;
+    top: 50px;
     z-index: 100;
 }
 .fa-bars, .fa-times{
@@ -32,7 +32,7 @@
 #menu-nav{
     height: 100vh;
     padding-top: 165px;
-    background-color: pink;
+    background-color: $primary-black;
     text-align: center;
     position: fixed;
     left: 0;
@@ -48,9 +48,11 @@
     padding: 40px 0;
 }
 
-#menu-nav li:hover{
-    background-color: $primary-grey;
-}
+// #menu-nav li:hover{
+//     a{
+//         font-size: 1.4em;
+//     }
+// }
 
 
 // FOOTER 
