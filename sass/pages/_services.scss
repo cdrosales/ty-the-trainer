@@ -71,9 +71,18 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin: 10% 5% 16% 0;
+        margin: 15% 5% 16% 0;
     }
 
-
-
 }  
+
+@media only screen and (min-width: 700px) {
+    
+    .personal-training-wrapper, .nutritional-plans-wrapper{
+        margin: 10% auto 15% auto;
+    }
+
+    .personal-training-container, .nutritional-plans-container{
+        margin-top: 8%;
+    }
+}

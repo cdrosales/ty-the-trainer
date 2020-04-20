@@ -57,6 +57,7 @@
     .instagram-feed-wrapper{
         display: flex;
         flex-direction: column;
+        margin-bottom: 15%;
     }
 
     #sbi_images{
@@ -71,6 +72,13 @@
         height: 300px;
     }
 
+}
+
+@media screen and (min-width: 700px) and (max-width: 1440px) {
+
+    .instagram-feed{
+        margin: 15% auto;
+    }
 }
 
 @media screen and (min-width: 1440px) {
