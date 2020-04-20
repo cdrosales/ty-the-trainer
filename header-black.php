@@ -19,6 +19,11 @@
         <a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/images/ty-logo-black.png'; ?>" class="header-logo"/></a>
     </div>
 
+    <div class="hamburger-container">
+    <i class="fas fa-bars"></i> 
+    <i class="fas fa-times"></i>
+    </div>
+
     <div class="nav nav-black">
             <?php wp_nav_menu( array('theme_location' => 'primary')); ?>
     </div>

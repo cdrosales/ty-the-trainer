@@ -339,6 +339,12 @@ div.input-group strong {
 #header-wrapper-black {
   position: relative; }
 
+@media only screen and (max-width: 700px) {
+  #header-wrapper-black div.hamburger-container .fa-bars {
+    color: #020004; }
+  #header-wrapper-black .nav-black a {
+    color: #ffffff; } }
+
 .footer-logo-wrapper .footer-logo {
   width: auto;
   height: 50px; }
@@ -1286,7 +1292,13 @@ div#mc_embed_signup {
       -o-object-fit: cover;
          object-fit: cover; }
   .subscribe-form {
-    height: 100%; } }
+    height: 100%; }
+  .page-content h2 {
+    letter-spacing: 1px;
+    text-align: left;
+    margin-bottom: 20px; }
+  .page-content p {
+    margin: 15% 0; } }
 
 @media screen and (min-width: 700px) and (max-width: 1200px) {
   .hero-container, .hero-title {
