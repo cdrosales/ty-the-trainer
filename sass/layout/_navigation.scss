@@ -151,6 +151,7 @@
         background-color: $primary-red !important;
         padding: 9px 18px;
         border-radius: 8px;
+        color: $primary-white !important;
     
         }
     }
@@ -159,9 +160,18 @@
         .contact-nav-item{
             a:hover{
                 background-color: $primary-white !important;
-                color: $primary-red;
+                color: $primary-red !important;
             }
         }
+    }
+    #header-wrapper-black{
+        #menu-nav{
+            a:hover{
+                border: 2px solid $primary-red;
+                border-radius: 8px;
+            }
+        }
+
     }
     
 }
