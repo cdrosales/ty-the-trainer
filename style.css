@@ -306,13 +306,17 @@ div.input-group strong {
   .fa-bars, .fa-times {
     display: none !important; }
   .contact-nav-item a {
-    background-color: #931616 !important;
+    border: 2px solid #ffffff;
     padding: 9px 18px;
-    border-radius: 8px;
-    color: #ffffff !important; }
+    border-radius: 8px; }
   #menu-nav .contact-nav-item a:hover {
-    background-color: #ffffff !important;
-    color: #931616 !important; }
+    border: none;
+    background-color: #931616 !important;
+    color: #ffffff !important; }
+  #header-wrapper-black .contact-nav-item a {
+    border: 2px solid #020004;
+    padding: 9px 18px;
+    border-radius: 8px; }
   #header-wrapper-black #menu-nav a:hover {
     border: 2px solid #931616;
     border-radius: 8px; } }
