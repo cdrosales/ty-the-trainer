@@ -20,6 +20,7 @@
             $('#menu-nav').hide();
             $('.fa-times').hide();
             $('.fa-bars').show();
+
         });
     });
 

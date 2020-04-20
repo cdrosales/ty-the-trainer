@@ -1279,4 +1279,10 @@ div#mc_embed_signup {
   .widget-title {
     margin-top: 15%; }
   .banner-container {
-    margin-top: 10%; } }
+    margin-top: 10%; }
+  .hero-title {
+    font-size: 0.9em;
+    text-shadow: 2px 2px 4px #484848; }
+    .hero-title ul li {
+      text-shadow: 2px 2px 5px #020004;
+      letter-spacing: 4px !important; } }

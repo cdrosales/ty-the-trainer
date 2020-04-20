@@ -108,8 +108,9 @@
 
     .subscribe-form{
         height: 100%;
-        
+
     }
+
 }
 
 @media screen and (min-width: 700px) and (max-width: 1200px) {
@@ -133,5 +134,17 @@
 
     .banner-container{
         margin-top: 10%;
+    }
+
+    .hero-title{
+    font-size: 0.9em;
+    text-shadow: 2px 2px 4px $primary-grey;
+
+        ul{
+            li{
+        text-shadow: 2px 2px 5px $primary-black;
+        letter-spacing: 4px !important;
+            }
+        }
     }
 }
