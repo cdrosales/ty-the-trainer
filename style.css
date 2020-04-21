@@ -566,13 +566,16 @@ div#mc_embed_signup {
   display: none; }
 
 #macro-form {
-  font-family: 'Helvetica Neue'; }
+  font-family: 'Helvetica Neue';
+  padding: 0; }
+  #macro-form div.macro-col2 {
+    margin-right: 5%; }
   #macro-form label {
-    font-size: 1.42em !important;
+    font-size: 1.2em !important;
     letter-spacing: 0.5px;
     text-transform: capitalize;
     color: #020004; }
-  #macro-form input.bmi-trigger {
+  #macro-form input.bmi-trigger, #macro-form input.macro-trigger {
     border: 1px solid #020004;
     border-radius: 8px;
     color: #020004; }
@@ -582,7 +585,8 @@ div#mc_embed_signup {
     background-color: transparent !important;
     color: #020004; }
   #macro-form .slider-group {
-    font-size: 1.45em; }
+    font-size: 1.2em;
+    height: 60px !important; }
   #macro-form .snack-size label.radio {
     font-size: 1.1em !important; }
   #macro-form i {
@@ -594,6 +598,9 @@ div#mc_embed_signup {
     right: 0;
     bottom: 0;
     top: 2px; }
+  #macro-form .ui-slider-horizontal {
+    border-color: #020004;
+    border-radius: 2px; }
 
 .macro-tool-form-info-container {
   margin: 4% 0; }
@@ -636,6 +643,12 @@ div#mc_embed_signup {
     height: 38px !important;
     width: 100% !important;
     margin-top: 20px !important; } }
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  #macro-form label {
+    font-size: 1em !important; }
+  #macro-form .slider-group {
+    font-size: 1em !important; } }
 
 .testimonials-wrapper {
   width: 75%;

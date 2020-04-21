@@ -158,9 +158,14 @@ div#mc_embed_signup{
 
 #macro-form{
     font-family: 'Helvetica Neue';
+    padding: 0;
+
+    div.macro-col2{
+        margin-right: 5%;
+    }
 
     label{
-        font-size: 1.42em !important;
+        font-size: 1.2em !important;
         letter-spacing: 0.5px;
         text-transform: capitalize;
         color: $primary-black;
@@ -168,7 +173,7 @@ div#mc_embed_signup{
 
     // INPUT BORDEER
     
-    input.bmi-trigger{
+    input.bmi-trigger, input.macro-trigger{
         border: 1px solid $primary-black;
         border-radius: 8px;
         color: $primary-black;
@@ -182,7 +187,8 @@ div#mc_embed_signup{
     }
 
     .slider-group{
-        font-size: 1.45em;
+        font-size: 1.2em;
+        height: 60px !important;
     }
 
     .snack-size{
@@ -202,6 +208,11 @@ div#mc_embed_signup{
         right: 0;
         bottom: 0;
         top: 2px;
+    }
+
+    .ui-slider-horizontal{
+        border-color: $primary-black;
+        border-radius: 2px;
     }
 
 }
@@ -281,5 +292,22 @@ div#mc_embed_signup{
         width: 100% !important;
         margin-top: 20px !important;
     }
+
+
+    
 }
 
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+
+    #macro-form{
+        label{
+            font-size: 1em !important;
+        }
+
+        .slider-group{
+            font-size: 1em !important;
+        }
+    }
+
+}

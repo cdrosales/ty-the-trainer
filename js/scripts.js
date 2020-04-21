@@ -39,6 +39,10 @@
         autoPlay: 2000
     });
 
+    $macroForm = $('.section-4');
+    console.log($macroForm)
+
+
     
 
 })( jQuery );
