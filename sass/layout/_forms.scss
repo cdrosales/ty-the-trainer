@@ -145,6 +145,66 @@ div#mc_embed_signup{
     background-color: $primary-hover-red;
 }
 
+// MACRO TOOL FORM
+
+.macro-tool-form-container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.macro-footer{
+    display: none;
+}
+
+#macro-form{
+    font-family: 'Helvetica Neue';
+
+    label{
+        font-size: 1.42em !important;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        color: $primary-black;
+    }
+    
+    input.bmi-trigger{
+        border: 1px solid $primary-black;
+        border-radius: 8px;
+        color: $primary-black;
+    }
+
+    .callout-box{
+        border: 2px solid $primary-black !important;
+        border-radius: 8px;
+        background-color: transparent !important;
+        color: $primary-black;
+    }
+
+    .slider-group{
+        font-size: 1.45em;
+    }
+
+    .snack-size{
+        label.radio{
+            font-size: 1.1em !important;
+        }
+    }
+
+    i{
+        border-color: $primary-black !important;
+    }
+
+    i::after{
+        height: 14px;
+        width: 14px;
+        left: 2px;
+        right: 0;
+        bottom: 0;
+        top: 2px;
+        background-color: $primary-red !important;
+    }
+
+}
+
 
 
 

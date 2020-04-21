@@ -558,6 +558,44 @@ div#mc_embed_signup {
 #mc_embed_signup #mc-embedded-subscribe:hover {
   background-color: #790000; }
 
+.macro-tool-form-container {
+  width: 75%;
+  margin: 0 auto; }
+
+.macro-footer {
+  display: none; }
+
+#macro-form {
+  font-family: 'Helvetica Neue'; }
+  #macro-form label {
+    font-size: 1.42em !important;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #020004; }
+  #macro-form input.bmi-trigger {
+    border: 1px solid #020004;
+    border-radius: 8px;
+    color: #020004; }
+  #macro-form .callout-box {
+    border: 2px solid #020004 !important;
+    border-radius: 8px;
+    background-color: transparent !important;
+    color: #020004; }
+  #macro-form .slider-group {
+    font-size: 1.45em; }
+  #macro-form .snack-size label.radio {
+    font-size: 1.1em !important; }
+  #macro-form i {
+    border-color: #020004 !important; }
+  #macro-form i::after {
+    height: 14px;
+    width: 14px;
+    left: 2px;
+    right: 0;
+    bottom: 0;
+    top: 2px;
+    background-color: #931616 !important; }
+
 @media screen and (min-width: 300px) and (max-width: 700px) {
   #mc-embedded-subscribe-form {
     width: 75%;
