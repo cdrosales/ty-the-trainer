@@ -569,7 +569,7 @@ div#mc_embed_signup {
   font-family: 'Helvetica Neue'; }
   #macro-form label {
     font-size: 1.42em !important;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-transform: capitalize;
     color: #020004; }
   #macro-form input.bmi-trigger {
@@ -595,6 +595,15 @@ div#mc_embed_signup {
     bottom: 0;
     top: 2px;
     background-color: #931616 !important; }
+
+.macro-tool-form-info-container {
+  margin: 4% 0; }
+  .macro-tool-form-info-container h3 {
+    text-transform: uppercase;
+    letter-spacing: 1.5px; }
+  .macro-tool-form-info-container p {
+    margin: 10px 0;
+    line-height: 1.5; }
 
 @media screen and (min-width: 300px) and (max-width: 700px) {
   #mc-embedded-subscribe-form {

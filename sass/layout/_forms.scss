@@ -161,7 +161,7 @@ div#mc_embed_signup{
 
     label{
         font-size: 1.42em !important;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
         text-transform: capitalize;
         color: $primary-black;
     }
@@ -203,6 +203,20 @@ div#mc_embed_signup{
         background-color: $primary-red !important;
     }
 
+}
+
+.macro-tool-form-info-container{
+    margin: 4% 0;
+
+    h3{
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+
+    p{
+        margin: 10px 0;
+        line-height: 1.5;
+    }
 }
 
 
