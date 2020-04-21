@@ -179,13 +179,12 @@
     }
 
     #header-wrapper-black{
-        #menu-nav{
+        .contact-nav-item{
             a:hover{
                 border: 2px solid $primary-red;
                 border-radius: 8px;
-            }
+            } 
         }
-
     }
     
 }

@@ -165,6 +165,8 @@ div#mc_embed_signup{
         text-transform: capitalize;
         color: $primary-black;
     }
+
+    // INPUT BORDEER
     
     input.bmi-trigger{
         border: 1px solid $primary-black;
@@ -200,10 +202,11 @@ div#mc_embed_signup{
         right: 0;
         bottom: 0;
         top: 2px;
-        background-color: $primary-red !important;
     }
 
 }
+
+
 
 .macro-tool-form-info-container{
     margin: 4% 0;
