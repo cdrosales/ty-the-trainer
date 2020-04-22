@@ -280,7 +280,7 @@ div.input-group strong {
 @media only screen and (min-width: 700px) {
   .nav {
     margin: auto 0;
-    min-width: 500px;
+    min-width: 550px;
     max-width: 600px; }
   #menu-nav {
     width: 100%;
@@ -1254,9 +1254,16 @@ div#mc_embed_signup {
 
 @media only screen and (min-width: 700px) {
   .personal-training-wrapper, .nutritional-plans-wrapper {
-    margin: 10% auto 15% auto; }
+    margin: 8% auto 10% auto; }
   .personal-training-container, .nutritional-plans-container {
-    margin-top: 8%; } }
+    margin-top: 8%;
+    margin-right: 0; } }
+
+@media only screen and (min-width: 1440px) {
+  .personal-training-container, .nutritional-plans-container {
+    margin-top: 3%; }
+  .personal-training-wrapper, .nutritional-plans-wrapper {
+    margin-top: 3%; } }
 
 .error-container {
   margin: 7% auto;

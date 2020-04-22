@@ -79,10 +79,21 @@
 @media only screen and (min-width: 700px) {
     
     .personal-training-wrapper, .nutritional-plans-wrapper{
-        margin: 10% auto 15% auto;
+        margin: 8% auto 10% auto;
     }
 
     .personal-training-container, .nutritional-plans-container{
         margin-top: 8%;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .personal-training-container, .nutritional-plans-container{
+        margin-top: 3%;
+    }
+
+    .personal-training-wrapper, .nutritional-plans-wrapper{
+        margin-top: 3%;
     }
 }
