@@ -828,6 +828,43 @@ div#mc_embed_signup {
   .instagram-feed-info {
     margin-top: 15%; } }
 
+.wcMessages {
+  border: 2px solid #020004 !important;
+  border-radius: 8px !important;
+  margin: 3% auto 0 auto !important;
+  background-color: #ffffff !important; }
+
+.wcMessageUser, .wcMessageContent, .wcCurrentUserName {
+  font-family: 'Helvetica Neue' !important; }
+
+.wcWindowTitle {
+  display: none; }
+
+.wcMessageContent, .wcInput {
+  background-color: #EAEAEA !important; }
+
+.wcControls input.wcSubmitButton {
+  background-color: #931616 !important !important; }
+
+@media only screen and (max-width: 700px) {
+  .wcToolButtonWrapper, .wcCurrentUserName {
+    display: none; }
+  .wcControls {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; }
+  .wcInputContainer {
+    min-width: 280px !important; } }
+
+@media only screen and (min-width: 1000px) {
+  .wcControls, .wcMessages {
+    width: 95% !important;
+    margin: 0 auto; } }
+
 .about-widget {
   width: 75%;
   margin: 0 auto; }
