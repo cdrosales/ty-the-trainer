@@ -1,21 +1,25 @@
-<?php get_header(); ?>
+<?php get_header('black'); ?>
 
-<h1><?php bloginfo('name'); ?></h1>
 
-<?php if( have_posts() ): 
-    while ( have_posts() ):
-        the_post();?> 
+    <section class="page-content">
+        <?php if( have_posts() ): 
+        while ( have_posts() ):
+            the_post();?> 
 
-    <h2><?php the_title(); ?></h2> 
-    <h3><?php the_permalink(); ?> 
-    <?php the_content(); ?>
+            <h2><?php the_title(); ?></h2> 
 
-    <?php endwhile; ?> 
 
-    <?php the_posts_navigation(); ?> 
+            <?php the_post_thumbnail( 'full' );  ?>
 
-<?php else : ?>
-        <p>No posts found</p>
-<?php endif; ?>
+                <?php the_content(); ?>
+        
+                <?php endwhile; ?> 
+
+                <?php else : ?>
+                        <p>No posts found</p>
+                <?php endif; ?>
+
+    </section>
+
 
 <?php get_footer(); ?>
