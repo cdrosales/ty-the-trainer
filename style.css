@@ -1364,6 +1364,43 @@ div#mc_embed_signup {
     .error-container h2 {
       margin: 50px; } }
 
+.shred-challenge-BTN-container, .agreement {
+  text-align: center; }
+
+.shred-challenge-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+a.shred-challenge-BTN {
+  border-radius: 4px !important;
+  background-color: #931616 !important;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase; }
+
+.agreement form {
+  margin-bottom: 20px; }
+
+@media only screen and (max-width: 1100px) {
+  .agreement p {
+    min-width: 350px;
+    max-height: 60px;
+    margin: 25px auto !important; } }
+
 .hero-container {
   overflow: hidden; }
   .hero-container .hero-wrapper {
