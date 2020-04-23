@@ -14,8 +14,8 @@
         </div>
 
         <div class="footer-social-media">
-                <a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-instagram.svg'; ?>" class="icon-instagram"/></a>
-                <a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-facebook.svg'; ?>" class="icon-facebook"/></a>
+                <a href="https://www.instagram.com/ty.thetrainer/"><img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-instagram.svg'; ?>" class="icon-instagram"/></a>
+                <a href="https://www.facebook.com/thetycommunity"><img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-facebook.svg'; ?>" class="icon-facebook"/></a>
                 <a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-linkedin.svg'; ?>" class="icon-linkedin"/></a>
         </div>
 

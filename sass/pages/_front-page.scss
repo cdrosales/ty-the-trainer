@@ -101,10 +101,17 @@
     button{
         @include button-white;
         @include font-bold;
+        a{
+            text-decoration: none;
+            color: $primary-red;
+        }
     }
 
     button:hover{
         @include button-red;
+        a{
+            color: $primary-white;
+        }
     }
 }
 

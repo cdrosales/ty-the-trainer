@@ -778,9 +778,14 @@ div#mc_embed_signup {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal; }
+    .instagram-feed button a {
+      text-decoration: none;
+      color: #931616; }
   .instagram-feed button:hover {
     color: #ffffff;
     background-color: #931616; }
+    .instagram-feed button:hover a {
+      color: #ffffff; }
 
 .sb_instagram_header, #sbi_load {
   display: none; }
@@ -1009,9 +1014,14 @@ div#mc_embed_signup {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal; }
+    .home-services-container button a {
+      text-decoration: none;
+      color: #931616; }
   .home-services-container button:hover {
     color: #ffffff;
     background-color: #931616; }
+    .home-services-container button:hover a {
+      color: #ffffff; }
 
 .home-nutritional-plans img, .home-guides-resources img {
   height: 70px; }

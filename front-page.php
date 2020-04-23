@@ -44,7 +44,7 @@
             dedicated to your goals, and reap the results you’ve long awaited. 
             Whether it’s online or in-person, I dedicate myself to you and 
             your goals.</p>
-            <button class="learn-more-BTN">Learn more</button>
+            <button class="learn-more-BTN"><a href="https://www.tythetrainer.com/services">Learn more</a></button>
 
         </div>
 
@@ -57,7 +57,7 @@
             based on your performance, ensuring that your diet compliments 
             your training regiment will take you to the next level, much 
             faster.</p>
-            <button class="learn-more-BTN">Learn more</button>
+            <button class="learn-more-BTN"><a href="https://www.tythetrainer.com/services">Learn more</a></button>
 
         </div>
 
@@ -69,7 +69,7 @@
             <p>From quick tips to the do’s and don’t, find free materials 
             and resources that will help point you in the right direction 
             no matter where you are in your fitness journey.</p>
-            <button class="learn-more-BTN">Learn more</button>
+            <button class="learn-more-BTN"><a href="https://www.tythetrainer.com/resources">Learn more</a></button>
         </div>
     </div>    
 </section>
@@ -175,7 +175,7 @@
                 tutorials to some crazy workout videos. See what my journey 
                 is all about, whether its fitness related or every day life.    
             </p>
-            <button>Follow on instagram</button>
+            <button><a href="https://www.instagram.com/ty.thetrainer/">Follow on instagram</a></button>
         </div>  
 
         <div class="instagram-feed-container">
