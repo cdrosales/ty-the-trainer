@@ -1331,6 +1331,21 @@ div#mc_embed_signup {
   .personal-training-wrapper, .nutritional-plans-wrapper {
     margin-top: 3%; } }
 
+.coming-soon-resources-container {
+  width: 75%;
+  margin: 0 auto; }
+  .coming-soon-resources-container p {
+    margin-bottom: 10px; }
+
+.resources-coming-soon-IMG {
+  width: 100%;
+  max-width: 1260px;
+  margin-left: -50px; }
+
+@media only screen and (min-width: 300px) and (max-width: 1200px) {
+  .resources-coming-soon-IMG {
+    margin: 0 auto 0 -25px; } }
+
 .error-container {
   margin: 7% auto;
   text-align: center;
