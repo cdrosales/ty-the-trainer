@@ -55,6 +55,8 @@
             event.preventDefault();
         }
     });
+
+    $('.wcSubmitButton').attr('id', 'chat-BTN');
     
 
 })( jQuery );

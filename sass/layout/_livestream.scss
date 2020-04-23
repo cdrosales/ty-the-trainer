@@ -24,20 +24,27 @@
 //     // margin: 0 auto !important;
 // }
 
-.wcWindowTitle{
-    display: none;
+.wcWindowTitle, a.wcInsertEmoticonButton{
+    display: none !important;
 }
 
 .wcMessageContent, .wcInput{
     background-color: #EAEAEA !important;
 }
 
-
 .wcControls{
-    input.wcSubmitButton{
-        background-color: $primary-red !important !important;
+    input#chat-BTN{
+        background: none !important;
+        background-color: $primary-red !important;
+        margin-left: 10px;
+        text-transform: uppercase !important;
+        font-weight: bold !important;
+        letter-spacing: 1px;
+        font-family: 'Roboto';
     }
 }
+
+
 
 
 @media only screen and (max-width: 700px){
@@ -51,8 +58,13 @@
     }
 
     .wcInputContainer{
-        min-width: 280px !important;
+        min-width: 270px !important;
 
+    }
+
+    input#chat-BTN{
+        margin-left: 0 !important;
+        margin-bottom: 5px;
     }
 
 }
