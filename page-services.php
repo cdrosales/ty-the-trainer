@@ -42,7 +42,9 @@
 
                 <div class="personal-training-container">  
                     <?php dynamic_sidebar('sidebar-personal-training'); ?>
+
                 </div>
+
 
             </div>
 
@@ -57,14 +59,21 @@
                     
                     <?php dynamic_sidebar('sidebar-nutritional-plans'); ?>
                 </div>
-                
+
             </div>
 
         </section>
 
 
+
         <section class="banner-container">
             <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-BANNER-SERVICES.png'; ?>" class="services-banner-img"/>
+
+            <div class="black-overlay"></div>
+            <div class="services-contact-container">
+                <h2> Are you ready to get your fitness journey started?</h2>
+                <button class="learn-more-BTN"><a href="https://www.tythetrainer.com/contact">Let's Work</a></button>
+            </div>
         </section>
 
         
