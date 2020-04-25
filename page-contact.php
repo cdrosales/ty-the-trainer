@@ -18,14 +18,20 @@
     </div>
 </section>
 
-<?php the_content(); ?>
-    
-            <?php endwhile; ?> 
 
-            <?php else : ?>
-                    <p>No posts found</p>
-            <?php endif; ?>
+<section class="contact-form-container">
+    <div class="widget-title">
+                <h2>Let's Work</h2> 
+                <hr class="header-line">
+        </div>
 
+        <?php the_content(); ?>
+        
+                <?php endwhile; ?> 
 
+                <?php else : ?>
+                        <p>No posts found</p>
+                <?php endif; ?>
 
+ </section>
 <?php get_footer(); ?>

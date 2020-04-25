@@ -10,6 +10,24 @@
     }
 }
 
+
+.contact-form-container{
+    width: 75%;
+    max-width: 1000px; 
+    margin: 5% auto;
+}
+
+.nf-response-msg{
+    p{
+        line-height: 1;
+        text-transform: initial;
+        @include font-bold;
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+
+}
+
 @media screen and (min-width: 300px) and (max-width: 700px){
     .indicates-required{
         display: none;
