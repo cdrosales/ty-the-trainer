@@ -617,15 +617,26 @@ div#mc_embed_signup {
 div.nf-form-cont {
   margin-left: 0 !important;
   font-family: 'Helvetica Neue';
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 1px; }
+
+div.nf-field {
+  margin-bottom: 50px; }
 
 .nf-field-element input, .nf-field-element textarea {
   border: 1px solid #020004 !important;
   border-radius: 8px !important;
   background-color: white !important; }
 
-input#nf-field-16 {
+.nf-field-element select {
+  border: 1px solid #020004 !important;
+  border-radius: 8px !important;
+  text-transform: capitalize; }
+
+.nf-error-required-error {
+  margin-top: -40px; }
+
+input#nf-field-8 {
   background-color: #931616 !important;
   border: none !important;
   font-family: 'Roboto';
@@ -636,6 +647,11 @@ input#nf-field-16 {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 1.2em; }
+
+input#nf-field-8:hover {
+  color: #931616;
+  background-color: #ffffff !important;
+  border: 2px solid #931616 !important; }
 
 @media screen and (min-width: 300px) and (max-width: 700px) {
   #mc-embedded-subscribe-form {
@@ -669,7 +685,7 @@ input#nf-field-16 {
     height: 38px !important;
     width: 100% !important;
     margin-top: 20px !important; }
-  input#nf-field-16 {
+  input#nf-field-8 {
     width: 100%; } }
 
 @media screen and (min-width: 300px) and (max-width: 900px) {
