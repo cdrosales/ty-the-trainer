@@ -22,7 +22,6 @@ function tythetrainer_features(){
     register_nav_menus( array(
         'primary' => 'Primary Menu', 
         'footer' => 'Footer Menu',
-        'sub-footer' => 'Sub Footer Menu',
     ));
 }
 add_action('after_setup_theme', 'tythetrainer_features');
@@ -66,17 +65,6 @@ function tythetrainer_sidebars_widgets() {
         'after_title' => '</h4>'
     ));
 
-    //  // Testimonials
-    //  register_sidebar( array(
-    //     'name' => esc_html('Testimonials'),
-    //     'id' => 'sidebar-testimonials',
-    //     'description' => 'Your client testimonials',
-    //     'class' => 'testimonials',
-    //     'before_widget' => '<div class="carousel-cell">',
-    //     'after_widget' => '</div>',
-    //     'before_title' => '<h2>',
-    //     'after_title' => '</h2>'
-    // ));
 }
 add_action('widgets_init', 'tythetrainer_sidebars_widgets');
 
