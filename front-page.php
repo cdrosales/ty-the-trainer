@@ -40,10 +40,8 @@
                 <img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-personal-training.svg'; ?>" class="icon-home-personal-training"/>
                 <h3>Personal Training</h3>
             </div>
-            <p>Training with me is a surefire way to ensure you stay 
-            dedicated to your goals, and reap the results you’ve long awaited. 
-            Whether it’s online or in-person, I dedicate myself to you and 
-            your goals.</p>
+            <p>Hiring a personal trainer is a surefire way to ensure you reap the results you’ve long awaited, through a plan tailored to you as an individual. 
+                Whether it’s online or in-person, I dedicate myself to you and your goals.</p>
             <button class="learn-more-BTN"><a href="https://www.tythetrainer.com/services">Learn more</a></button>
 
         </div>
@@ -53,10 +51,8 @@
                 <img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-nutritional-plans.svg'; ?>" class="icon-home-nutritional-plans"/>
                 <h3>Nutritional Plans</h3>
             </div>
-            <p>Whether your goal is weight loss, lean muscle gain or 
-            based on your performance, ensuring that your diet compliments 
-            your training regiment will take you to the next level, much 
-            faster.</p>
+            <p>Whether your goal is weight loss, lean muscle gain or performance-based, ensuring that your diet compliments your training regimen will take 
+                you to the next level, much faster.</p>
             <button class="learn-more-BTN"><a href="https://www.tythetrainer.com/services">Learn more</a></button>
 
         </div>
@@ -66,9 +62,8 @@
                 <img src="<?php echo get_template_directory_uri() . '/assets/icons/icon-resources.svg'; ?>" class="icon-home-resources"/>
                 <h3>Guides & Resources</h3>
             </div>
-            <p>From quick tips to the do’s and don’t, find free materials 
-            and resources that will help point you in the right direction 
-            no matter where you are in your fitness journey.</p>
+            <p>From quick tips to the do’s and don’ts, find free materials and resources that will help point you in the right direction no matter where you 
+                are in your fitness journey. Check out the FREE Macro Calculator!</p>
             <button class="learn-more-BTN"><a href="https://www.tythetrainer.com/resources">Learn more</a></button>
         </div>
     </div>    
@@ -136,13 +131,11 @@
             echo '</div>';
 
             echo '<h5>' . get_the_title() . '</h5>';
-            echo '<h6>' . get_the_excerpt() . '</h6>';
             echo '<p>' . wp_trim_words( get_the_content(), 45, ' [...]' . '</p>' );
 
             
             echo '</a></div>';
 
-            // echo the_permalink();
      
         endwhile;
 
@@ -171,10 +164,9 @@
 
         <div class="instagram-feed-info">
             <h3>@Ty.thetrainer</h3>
-            <p>Follow me on Instagram! From daily motivational quotes and 
-                tutorials to some crazy workout videos. See what my journey 
-                is all about, whether its fitness related or every day life.    
-            </p>
+            <p>Follow me on Instagram! Daily motivational quotes, health quizzes, and some crazy workout 
+                videos are just some of the things you get from me. Come see what my journey is all about, 
+                whether it’s fitness related or everyday life.</p>
             <button><a href="https://www.instagram.com/ty.thetrainer/">Follow on instagram</a></button>
         </div>  
 
