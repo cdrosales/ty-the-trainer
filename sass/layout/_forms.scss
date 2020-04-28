@@ -33,18 +33,6 @@ div#mc_embed_signup{
 
 }
 
-// .banner-container{
-//     #mc_embed_signup #mc-embedded-subscribe{
-//         font-size: 1em;
-//     }
-// }
-
-
-
-// #mc_embed_signup #mce-EMAIL{
-//     max-width: 450px;
-//     width: 100%;
-// }
 
 #mc_embed_signup div.birthday-container{
     width: 100%;
@@ -52,6 +40,7 @@ div#mc_embed_signup{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    letter-spacing: 1.3px;
 
     input{ 
         padding: 3px 1px;
@@ -118,8 +107,6 @@ div#mc_embed_signup{
     }
 }
 
-
-    
     
 #mce-MMERGE4-month, #mce-MMERGE4-day{
     width: 20px;

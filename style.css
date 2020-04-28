@@ -477,7 +477,8 @@ div#mc_embed_signup {
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  letter-spacing: 1.3px; }
   #mc_embed_signup div.birthday-container input {
     padding: 3px 1px; }
   #mc_embed_signup div.birthday-container label {
@@ -1026,7 +1027,20 @@ input#nf-field-8:hover {
     position: relative;
     width: 67.5%;
     max-width: 700px;
-    height: auto; }
+    height: auto;
+    left: -150%;
+    -webkit-animation: slide 0.75s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 0.75s forwards;
+    animation-delay: 1s; }
+
+@-webkit-keyframes slide {
+  100% {
+    left: 0; } }
+
+@keyframes slide {
+  100% {
+    left: 0; } }
 
 .hero-text-container {
   display: -webkit-box;

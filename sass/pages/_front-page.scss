@@ -27,6 +27,7 @@
     z-index: 80;
 }
 
+
 .home-hero-container{
     width: 100%;
     max-width: 1350px;
@@ -46,9 +47,22 @@
         width: 67.5%;
         max-width: 700px;
         height: auto;
+        left: -150%;
+        -webkit-animation: slide 0.75s forwards;
+        -webkit-animation-delay: 1s;
+        animation: slide 0.75s forwards;
+        animation-delay: 1s;
     }
-    
 }
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
 
 .hero-text-container{
     display: flex;
@@ -90,7 +104,6 @@
         width: 60%;
         line-height: 1.3;
         letter-spacing: 2px;
-        // margin-top: 20px;
     }
 
     p{
@@ -135,7 +148,6 @@
     align-items: flex-start;
     justify-content: space-between;
     height: 430px;
-
     p{
         min-height: 62%;
     }
@@ -147,12 +159,11 @@
 }
 
 
-
-
 /// HOME PAGE BANNER
 
 .banner-container{
     position: relative;
+    
 }
 
 .banner-info{
