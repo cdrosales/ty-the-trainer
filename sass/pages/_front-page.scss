@@ -168,44 +168,6 @@
     }
 }
 
-// SHOP SECTION
-.home-shop{
-    width: 75%;
-    margin: 0 auto;
-}
-
-.home-shop-container{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    height: auto;
-
-    img{
-        width: 85%;
-        max-width: 400px;
-        margin-top: -12%;
-    }
-
-    button{
-        @include button-white;
-        @include font-bold;
-    }
-    
-    button:hover{
-        @include button-red;
-    }
-}
-
-.home-shop-content{
-    width: 90%;
-
-    p{
-        line-height: 1.7;
-        letter-spacing: 1.5px;
-        margin-bottom: 6%;
-        max-width: 550px;
-    }
-}
-
 
 
 
@@ -213,25 +175,7 @@
 
 @media screen and (min-width: 300px) and (max-width: 700px) {
 
-    .home-shop-container{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    img.home-shop-img{
-        margin: 30px auto 50px auto;
-    }
-
-    .home-shop-content{
-        p, button{
-            width: 100%;
-            min-width: 280px;
-        }
-
-        button{ 
-            margin: 20px 0;
-        }
-    }
+ 
 
     .home-services-container{
         display: flex;
@@ -363,15 +307,6 @@
         p{
             width: 550px;
         }
-    }
-
-    .home-shop-container{
-        display: flex;
-        flex-direction: column-reverse;
-        .home-shop-img{
-            margin: 30px 0 0 75px;
-            width: 80%;
-        }        
     }
 
 

@@ -78,25 +78,6 @@
 </section>
 
 
-<section class="home-shop">
-    <div class="home-shop-title widget-title">
-            <h2>Support the movement</h2>
-            <hr class="header-line">
-    </div>
-
-    <div class="home-shop-container">
-        <div class="home-shop-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sodales ligula id odio vulputate lobortis non quis nibh. 
-            Duis blandit sem a imperdiet tempus. Nunc magna erat, scelerisque ut pellentesque ac, dapibus molestie lorem. Praesent 
-            maximus lectus sit amet fringilla pellentesque. Suspendisse potenti. Donec suscipit mattis posuere. </p>
-            <button class="coming-soon-BTN">Coming soon</button>
-        </div>
-        
-        <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-SHIRT-HOME.png'; ?>" class="home-shop-img"/>
-    </div>
-</section>
-
-
 
 <section class="testimonials-wrapper">
 
