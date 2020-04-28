@@ -1,16 +1,3 @@
-// .nav{
-//     margin: auto 0;
-//     min-width: 500px;
-//     max-width: 600px;
-//     width: 65%;
-// }
-
-// #menu-nav{
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: space-between;
-//     align-items: center;
-// }
 
 .hamburger-container{
     display: flex;
@@ -47,12 +34,19 @@
     padding: 40px 0;
 }
 
-// #menu-nav li:hover{
-//     a{
-//         font-size: 1.4em;
-//     }
-// }
+#menu-nav li:hover{
+    a{
+       @include font-bold-italic;
+       text-shadow: 4px 4px 10px $primary-black;
+    }
+}
 
+#menu-footer-nav li:hover{
+    a{
+        @include font-bold-italic;
+       color: $primary-red;
+    }
+}
 
 
 // FOOTER 

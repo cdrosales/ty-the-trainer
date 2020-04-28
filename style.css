@@ -228,6 +228,18 @@ div.input-group strong {
   display: block;
   padding: 40px 0; }
 
+#menu-nav li:hover a {
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: italic;
+  text-shadow: 4px 4px 10px #020004; }
+
+#menu-footer-nav li:hover a {
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: italic;
+  color: #931616; }
+
 #menu-footer-nav {
   display: -webkit-box;
   display: -ms-flexbox;
