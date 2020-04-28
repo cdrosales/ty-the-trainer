@@ -53,6 +53,7 @@
             </div>
             <p>Whether your goal is weight loss, lean muscle gain or performance-based, ensuring that your diet compliments your training regimen will take 
                 you to the next level, much faster.</p>
+                <p class="paragraph-filler"><br></p>
             <button class="learn-more-BTN"><a href="https://www.tythetrainer.com/services">Learn more</a></button>
 
         </div>

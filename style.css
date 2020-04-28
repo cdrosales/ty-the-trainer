@@ -1129,12 +1129,11 @@ input#nf-field-8:hover {
           align-items: flex-start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 430px; }
-  .home-nutritional-plans p, .home-guides-resources p, .home-personal-training p {
-    min-height: 62%; }
+          justify-content: space-between; }
   .home-nutritional-plans h3, .home-guides-resources h3, .home-personal-training h3 {
     margin: 18px 0; }
+  .home-nutritional-plans button, .home-guides-resources button, .home-personal-training button {
+    margin-top: 20px; }
 
 .banner-container {
   position: relative; }
@@ -1168,16 +1167,21 @@ input#nf-field-8:hover {
             flex-direction: row;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    margin: 20px 0; }
     .services-title-info img {
-      margin-right: 30px; }
+      margin-right: 5%; }
+    .services-title-info h3 {
+      margin-right: 20px; }
   .home-personal-training, .home-nutritional-plans, .home-guides-resources {
-    margin-bottom: 25%;
-    height: 320px; }
-    .home-personal-training p, .home-personal-training h3, .home-personal-training button, .home-nutritional-plans p, .home-nutritional-plans h3, .home-nutritional-plans button, .home-guides-resources p, .home-guides-resources h3, .home-guides-resources button {
-      width: 100%; }
+    margin: 20px 0; }
     .home-personal-training button, .home-nutritional-plans button, .home-guides-resources button {
-      height: 44px; }
+      width: 100% !important;
+      max-width: 325px; }
+    .home-personal-training p, .home-nutritional-plans p, .home-guides-resources p {
+      width: 100%; }
+  .paragraph-filler {
+    display: none; }
   .banner-info h2 {
     display: none; }
   .smoke-img {
@@ -1223,9 +1227,7 @@ input#nf-field-8:hover {
   .hero-info-container {
     margin-left: 5%; }
     .hero-info-container h1 {
-      margin-bottom: 10px; } }
-
-@media screen and (min-width: 700px) and (max-width: 1200px) {
+      margin-bottom: 10px; }
   .home-services-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1242,32 +1244,19 @@ input#nf-field-8:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-    .services-title-info img {
-      margin-right: 5%; }
+    margin: 20px 0; }
     .services-title-info h3 {
-      min-width: 500px; }
+      width: 100%; }
+    .services-title-info img {
+      margin-right: 30px; }
+  .paragraph-filler {
+    display: none; }
   .home-personal-training, .home-nutritional-plans, .home-guides-resources {
-    margin: 4% 0 5% 0;
-    height: 240px; }
-    .home-personal-training p, .home-nutritional-plans p, .home-guides-resources p {
-      width: 550px; } }
-
-@media only screen and (min-width: 1200px) {
-  .home-nutritional-plans p, .home-guides-resources p, .home-personal-training p {
-    min-height: 205px !important; }
-  .home-nutritional-plans h3, .home-guides-resources h3, .home-personal-training h3 {
     margin: 25px 0; } }
 
 @media only screen and (min-width: 1440px) {
   .hero-info-container {
-    margin-left: 5%; }
-  .home-nutritional-plans, .home-guides-resources, .home-personal-training {
-    min-height: 400px; }
-    .home-nutritional-plans p, .home-guides-resources p, .home-personal-training p {
-      min-height: 177px !important; } }
+    margin-left: 5%; } }
 
 .services-widget {
   width: 75%;
