@@ -14,8 +14,12 @@
 
             <div class="testimonials-single-info">
 
-                <h3><?php the_title(); ?></h3> 
-                <h4><?php echo get_the_excerpt(); ?></h4>
+            <?php global $post;
+            $post_slug = $post->post_name;
+            echo '<h3>' . $post_slug. '</h3>';
+            ?>
+
+                <h4><?php the_title(); ?></h4> 
 
             </div>
         </div>

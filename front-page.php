@@ -112,8 +112,12 @@
             echo the_post_thumbnail('medium_large');
             echo '</div>';
 
-            echo '<h5>' . get_the_title() . '</h5>';
-            echo '<p>' . wp_trim_words( get_the_content(), 45, ' [...]' . '</p>' );
+            // echo '<h5>' . get_the_title() . '</h5>';
+            global $post;
+            $post_slug = $post->post_name;
+            echo '<h5>' . $post_slug. '</h5>';
+            echo '<h6>' . get_the_title() . '</h6>';
+            echo '<p>' . get_the_excerpt() . '</p>';
 
             
             echo '</a></div>';

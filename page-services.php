@@ -80,54 +80,57 @@
         <section class="testimonials-wrapper">
 
 
-            <div class="home-testimonials-title widget-title">
-                    <h2>Client Testimonials</h2>
-                    <hr class="header-line">
-            </div>
+<div class="home-testimonials-title widget-title">
+        <h2>Client Testimonials</h2>
+        <hr class="header-line">
+</div>
 
 
-            <?php
+<?php
 
-                $testimonials = new WP_Query(array(
-                            'post_type' => 'testimonials', 
-                            'posts_per_page' => '6', 
-                            'order_by' => 'date',
-                            'order' => 'ASC'
+    $testimonials = new WP_Query(array(
+                'post_type' => 'testimonials', 
+                'posts_per_page' => '6', 
+                'order_by' => 'date',
+                'order' => 'ASC'
 
-                        ));
+            ));
 
-                    echo '<div class="testimonials-carousel">';
+        echo '<div class="testimonials-carousel">';
 
-                    while($testimonials->have_posts()) :
-                    
+        while($testimonials->have_posts()) :
+        
 
-                    echo $testimonials->the_post();
+        echo $testimonials->the_post();
 
-                    echo '<div class="carousel-cell"><a href="' . get_the_permalink() . '">';
+        echo '<div class="carousel-cell"><a href="' . get_the_permalink() . '">';
 
-                    echo '<div class="'. get_post(get_post_thumbnail_id())->post_title . '">';
-                    echo the_post_thumbnail('medium_large');
-                    echo '</div>';
+        echo '<div class="'. get_post(get_post_thumbnail_id())->post_title . '">';
+        echo the_post_thumbnail('medium_large');
+        echo '</div>';
 
-                    echo '<h5>' . get_the_title() . '</h5>';
-                    echo '<p>' . wp_trim_words( get_the_content(), 45, ' [...]' . '</p>' );
+        // echo '<h5>' . get_the_title() . '</h5>';
+        global $post;
+        $post_slug = $post->post_name;
+        echo '<h5>' . $post_slug. '</h5>';
+        echo '<h6>' . get_the_title() . '</h6>';
+        echo '<p>' . get_the_excerpt() . '</p>';
 
-                    
-                    echo '</a></div>';
+        
+        echo '</a></div>';
 
-                    // echo the_permalink();
-            
-                endwhile;
+ 
+    endwhile;
 
-                wp_reset_postdata();
+    wp_reset_postdata();
 
-                echo '</div>';
-
+    echo '</div>';
 
 
-            ?>
 
-        </section>
+?>
+
+</section>
 
 
 

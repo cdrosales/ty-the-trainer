@@ -738,12 +738,17 @@ input#nf-field-8:hover {
     text-align: center;
     margin: 0 auto; }
   .carousel-cell h5 {
-    margin: 30px auto;
+    margin-top: 15px;
     text-transform: uppercase; }
   .carousel-cell a {
     text-decoration: none;
     text-align: center;
     color: #020004; }
+  .carousel-cell h6 {
+    margin: 10px auto 15px auto;
+    width: 70%;
+    height: 28px;
+    line-height: 1.1; }
 
 .flickity-viewport {
   padding: 20px 0; }
