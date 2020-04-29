@@ -230,7 +230,6 @@ div#mc_embed_signup{
 div.nf-form-cont{
     margin-left: 0 !important;
     font-family: 'Helvetica Neue';
-    text-transform: capitalize;
     letter-spacing: 1px;
 }
 div.nf-field{
@@ -248,7 +247,6 @@ div.nf-field{
     select{
         border: 1px solid $primary-black !important;
         border-radius: 8px !important;
-        text-transform: capitalize;
     }
 }
 
@@ -256,8 +254,8 @@ div.nf-field{
     margin-top: -40px;
 }
 
-.nf-field-element{
-    input#nf-field-16{
+div.nf-field-element{
+    input#nf-field-32{
         background-color: $primary-red !important;
         border: none !important;
         font-family: 'Roboto';
@@ -268,7 +266,7 @@ div.nf-field{
         font-size: 1.2em;
     }
     
-    input#nf-field-16:hover{
+    input#nf-field-32:hover{
         color: $primary-red;
         background-color: $primary-white !important;
         border: 2px solid $primary-red !important;

@@ -1,11 +1,11 @@
 /*
-Theme Name: Ty The Trainer 2020
+Theme Name: Inhabitant
 Author: Cara Denise Rosales
-Description: A theme made for Ty The Trainer
+Description: A theme I made.
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: tythetrainer
+Text Domain: inhabitant
 */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -624,7 +624,6 @@ div#mc_embed_signup {
 div.nf-form-cont {
   margin-left: 0 !important;
   font-family: 'Helvetica Neue';
-  text-transform: capitalize;
   letter-spacing: 1px; }
 
 div.nf-field {
@@ -637,13 +636,12 @@ div.nf-field {
 
 .nf-field-element select {
   border: 1px solid #020004 !important;
-  border-radius: 8px !important;
-  text-transform: capitalize; }
+  border-radius: 8px !important; }
 
 .nf-error-required-error {
   margin-top: -40px; }
 
-input#nf-field-8 {
+div.nf-field-element input#nf-field-32 {
   background-color: #931616 !important;
   border: none !important;
   font-family: 'Roboto';
@@ -655,7 +653,7 @@ input#nf-field-8 {
   text-transform: uppercase;
   font-size: 1.2em; }
 
-input#nf-field-8:hover {
+div.nf-field-element input#nf-field-32:hover {
   color: #931616;
   background-color: #ffffff !important;
   border: 2px solid #931616 !important; }
@@ -908,14 +906,17 @@ input#nf-field-8:hover {
 .wcMessageContent, .wcInput {
   background-color: #EAEAEA !important; }
 
-.wcControls input#chat-BTN {
-  background: none !important;
-  background-color: #931616 !important;
-  margin-left: 10px;
-  text-transform: uppercase !important;
-  font-weight: bold !important;
-  letter-spacing: 1px;
-  font-family: 'Roboto'; }
+.wcControls {
+  background-color: #ffffff !important;
+  background: none !important; }
+  .wcControls input#chat-BTN {
+    background: none !important;
+    background-color: #931616 !important;
+    margin-left: 10px;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    letter-spacing: 1px;
+    font-family: 'Roboto'; }
 
 @media only screen and (max-width: 700px) {
   .wcToolButtonWrapper, .wcCurrentUserName {
