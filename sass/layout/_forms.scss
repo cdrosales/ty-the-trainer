@@ -225,12 +225,14 @@ div#mc_embed_signup{
 
 .nf-before-form-content{
     display: none !important;
+
 }
 
 div.nf-form-cont{
     margin-left: 0 !important;
     font-family: 'Helvetica Neue';
     letter-spacing: 1px;
+    color: $primary-black !important;
 }
 div.nf-field{
     margin-bottom: 50px;
@@ -242,11 +244,15 @@ div.nf-field{
         border: 1px solid $primary-black !important;
         border-radius: 8px !important;
         background-color: white !important;
+    color: $primary-black !important;
+
     }
 
     select{
         border: 1px solid $primary-black !important;
         border-radius: 8px !important;
+    color: $primary-black !important;
+
     }
 }
 

@@ -624,7 +624,8 @@ div#mc_embed_signup {
 div.nf-form-cont {
   margin-left: 0 !important;
   font-family: 'Helvetica Neue';
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  color: #020004 !important; }
 
 div.nf-field {
   margin-bottom: 50px; }
@@ -632,11 +633,13 @@ div.nf-field {
 .nf-field-element input, .nf-field-element textarea {
   border: 1px solid #020004 !important;
   border-radius: 8px !important;
-  background-color: white !important; }
+  background-color: white !important;
+  color: #020004 !important; }
 
 .nf-field-element select {
   border: 1px solid #020004 !important;
-  border-radius: 8px !important; }
+  border-radius: 8px !important;
+  color: #020004 !important; }
 
 .nf-error-required-error {
   margin-top: -40px; }
