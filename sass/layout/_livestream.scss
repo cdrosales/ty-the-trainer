@@ -1,9 +1,3 @@
-
-// .wpstream_player_wrapper{
-//     max-width: 65%;
-//     margin: 0 auto !important;
-// }
-
 // LIVE CHAT 
 
 .wcMessages{
@@ -19,11 +13,6 @@
 }
 
 
-// .wcControls{
-//     // width: 98% !important;
-//     // margin: 0 auto !important;
-// }
-
 .wcWindowTitle, a.wcInsertEmoticonButton{
     display: none !important;
 }
@@ -32,7 +21,10 @@
     background-color: #EAEAEA !important;
 }
 
+
 .wcControls{
+    background-color: $primary-white !important;
+    background: none !important;
     input#chat-BTN{
         background: none !important;
         background-color: $primary-red !important;

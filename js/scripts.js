@@ -27,7 +27,7 @@
 
     // CONTACT NAV
 
-    $('#menu-item-24').removeClass('menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-22 current_page_item menu-item-24').addClass('contact-nav-item');
+    $('#menu-item-49').removeClass('menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-22 current_page_item menu-item-24').addClass('contact-nav-item');
     
 
     // FRONT PAGE FLICKITY
