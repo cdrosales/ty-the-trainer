@@ -231,8 +231,7 @@ div.input-group strong {
 #menu-nav li:hover a {
   font-weight: bold;
   font-stretch: normal;
-  font-style: italic;
-  text-shadow: 4px 4px 10px #020004; }
+  font-style: italic; }
 
 #menu-footer-nav li:hover a {
   font-weight: bold;

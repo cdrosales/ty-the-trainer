@@ -37,7 +37,6 @@
 #menu-nav li:hover{
     a{
        @include font-bold-italic;
-       text-shadow: 4px 4px 10px $primary-black;
     }
 }
 
