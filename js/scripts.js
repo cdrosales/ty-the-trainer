@@ -57,6 +57,13 @@
     });
 
     $('.wcSubmitButton').attr('id', 'chat-BTN');
+    $('.wcTextColorReset').attr('id', 'chat-reset-BTN');
+    $('.wcUserNameApprove').attr('id', 'chat-save-BTN');
+
+
+    
+
+    
     
 
 })( jQuery );

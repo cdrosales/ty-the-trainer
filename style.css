@@ -643,7 +643,7 @@ div.nf-field {
 .nf-error-required-error {
   margin-top: -40px; }
 
-#nf-field-53-wrap div.nf-field-element input#nf-field-53 {
+#nf-field-53-wrap input#nf-field-53.ninja-forms-field.nf-element {
   background-color: #931616 !important !important;
   color: #ffffff !important !important;
   border: none !important;
@@ -656,7 +656,7 @@ div.nf-field {
   text-transform: uppercase;
   font-size: 1.2em; }
 
-#nf-field-53-wrap div.nf-field-element input#nf-field-53:hover {
+#nf-field-53-wrap input#nf-field-53.ninja-forms-field.nf-element:hover {
   color: #931616 !important !important;
   background-color: #ffffff !important !important;
   border: 2px solid #931616 !important; }
@@ -924,6 +924,21 @@ div.nf-field {
     font-weight: bold !important;
     letter-spacing: 1px;
     font-family: 'Roboto'; }
+
+.wcCustomizationsProperty {
+  width: 100%;
+  margin-bottom: 10px; }
+
+input#chat-reset-BTN, input#chat-saveBTN {
+  background: none !important;
+  background-color: #931616 !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  letter-spacing: 1px;
+  font-family: 'Roboto'; }
+
+input.wcUserName {
+  background-color: #EAEAEA !important; }
 
 @media only screen and (max-width: 700px) {
   .wcToolButtonWrapper, .wcCurrentUserName {

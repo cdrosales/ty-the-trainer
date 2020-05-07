@@ -257,8 +257,7 @@ div.nf-field{
 }
 
 #nf-field-53-wrap{
-    div.nf-field-element{
-        input#nf-field-53{
+        input#nf-field-53.ninja-forms-field.nf-element{
             background-color: $primary-red !important !important;
             color: $primary-white !important !important;
             border: none !important;
@@ -270,12 +269,11 @@ div.nf-field{
             font-size: 1.2em;
         }
         
-        input#nf-field-53:hover{
+        input#nf-field-53.ninja-forms-field.nf-element:hover{
             color: $primary-red !important !important;
             background-color: $primary-white !important !important; 
             border: 2px solid $primary-red !important;
         }
-    }
 }
 
 
@@ -346,6 +344,8 @@ div.nf-field{
 
     
 }
+
+
 
 
 @media screen and (min-width: 300px) and (max-width: 900px) {

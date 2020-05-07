@@ -36,6 +36,26 @@
     }
 }
 
+.wcCustomizationsProperty{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+input#chat-reset-BTN, input#chat-saveBTN{
+    background: none !important;
+    background-color: $primary-red !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    letter-spacing: 1px;
+    font-family: 'Roboto';
+}
+
+input.wcUserName{
+    background-color: #EAEAEA !important;
+}
+
+
 
 
 
