@@ -1,8 +1,12 @@
-html{
+html, body{
     -webkit-appearance: none !important;
-    overflow-x: hidden !important;
 }
 
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    html, body{
+        overflow-x: hidden !important;
+    }
+}
 //HERO FOR ABOUT-SERVICES-CONTACT
 
 .hero-container{
