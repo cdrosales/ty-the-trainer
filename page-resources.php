@@ -24,7 +24,7 @@
                 <?php endif; ?>
 </section>
 
-<section class="coming-soon-resources-container">
+<!-- <section class="coming-soon-resources-container">
 
     <div class="widget-title">
             <h2>Coming Soon</h2> 
@@ -34,7 +34,7 @@
     <p>Working on getting you more resources to help your fitness journey. Check back later!</p>
 
     <img src="<?php echo get_template_directory_uri() . '/assets/images/resources-coming-soon-IMG.png'; ?>" class="resources-coming-soon-IMG"/>
-</section>
+</section> -->
 
 <section class="home-equipment-container top-five-wrapper">
 
@@ -59,7 +59,7 @@
             echo $equipment->the_post();
             
             echo '<div class="top-five-item-container">';
-            echo '<h4>' . get_the_title() . '</h4>';
+            echo '<h5>' . get_the_title() . '</h5>';
             echo the_content();
             echo '</div>';
      
