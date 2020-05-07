@@ -641,7 +641,7 @@ div.nf-field {
 .nf-error-required-error {
   margin-top: -40px; }
 
-div#nf-field-53-wrap input#nf-field-53 {
+#nf-field-53-wrap div.nf-field-element input#nf-field-53 {
   background-color: #931616 !important !important;
   color: #ffffff !important !important;
   border: none !important;
@@ -654,7 +654,7 @@ div#nf-field-53-wrap input#nf-field-53 {
   text-transform: uppercase;
   font-size: 1.2em; }
 
-div#nf-field-53-wrap input#nf-field-53:hover {
+#nf-field-53-wrap div.nf-field-element input#nf-field-53:hover {
   color: #931616 !important !important;
   background-color: #ffffff !important !important;
   border: 2px solid #931616 !important; }

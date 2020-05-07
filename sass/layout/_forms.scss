@@ -254,7 +254,8 @@ div.nf-field{
     margin-top: -40px;
 }
 
-div#nf-field-53-wrap{
+#nf-field-53-wrap{
+    div.nf-field-element{
         input#nf-field-53{
             background-color: $primary-red !important !important;
             color: $primary-white !important !important;
@@ -272,7 +273,9 @@ div#nf-field-53-wrap{
             background-color: $primary-white !important !important; 
             border: 2px solid $primary-red !important;
         }
+    }
 }
+
 
 
 

@@ -77,7 +77,7 @@
             <div class="black-overlay"></div>
             <div class="services-contact-container">
                 <h2> Are you ready to get your fitness journey started?</h2>
-                <button class="learn-more-BTN"><a href="https://www.tythetrainer.com/contact">Let's Work</a></button>
+                <a href="https://www.tythetrainer.com/contact"><button class="learn-more-BTN">Let's Work</button></a>
             </div>
         </section>
 

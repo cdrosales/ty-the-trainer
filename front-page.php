@@ -42,7 +42,7 @@
             </div>
             <p>Hiring a personal trainer is a surefire way to ensure you reap the results you’ve long awaited, through a plan tailored to you as an individual. 
                 Whether it’s online or in-person, I dedicate myself to you and your goals.</p>
-            <button class="learn-more-BTN"><a href="https://www.tythetrainer.com/services">Learn more</a></button>
+                <a href="https://www.tythetrainer.com/services"><button class="learn-more-BTN">Learn more</button></a>
 
         </div>
 
@@ -54,7 +54,7 @@
             <p>Whether your goal is weight loss, lean muscle gain or performance-based, ensuring that your diet compliments your training regimen will take 
                 you to the next level, much faster.</p>
                 <p class="paragraph-filler"><br></p>
-            <button class="learn-more-BTN"><a href="https://www.tythetrainer.com/services">Learn more</a></button>
+                <a href="https://www.tythetrainer.com/services"><button class="learn-more-BTN">Learn more</button></a>
 
         </div>
 
@@ -65,7 +65,7 @@
             </div>
             <p>From quick tips to the do’s and don’ts, find free materials and resources that will help point you in the right direction no matter where you 
                 are in your fitness journey. Check out the FREE Macro Calculator!</p>
-            <button class="learn-more-BTN"><a href="https://www.tythetrainer.com/resources">Learn more</a></button>
+                <a href="https://www.tythetrainer.com/resources"><button class="learn-more-BTN">Learn more</button></a>
         </div>
     </div>    
 </section>
