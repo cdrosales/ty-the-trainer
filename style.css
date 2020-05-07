@@ -929,16 +929,24 @@ div.nf-field {
   width: 100%;
   margin-bottom: 10px; }
 
-input#chat-reset-BTN, input#chat-saveBTN {
+input#chat-reset-BTN {
+  background: none !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  letter-spacing: 1px;
+  font-family: 'Roboto';
+  color: #931616 !important; }
+
+input.wcUserName {
+  background-color: #EAEAEA !important; }
+
+.wcCustomizationsProperty input#chat-save-BTN {
   background: none !important;
   background-color: #931616 !important;
   text-transform: uppercase !important;
   font-weight: bold !important;
   letter-spacing: 1px;
   font-family: 'Roboto'; }
-
-input.wcUserName {
-  background-color: #EAEAEA !important; }
 
 @media only screen and (max-width: 700px) {
   .wcToolButtonWrapper, .wcCurrentUserName {
@@ -955,7 +963,11 @@ input.wcUserName {
     min-width: 270px !important; }
   input#chat-BTN {
     margin-left: 0 !important;
-    margin-bottom: 5px; } }
+    margin-bottom: 5px;
+    margin-top: 10px; }
+  input#chat-save-BTN {
+    width: 100%;
+    margin: 10px 0; } }
 
 @media only screen and (min-width: 1000px) {
   .wcControls, .wcMessages {

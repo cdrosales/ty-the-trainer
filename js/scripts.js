@@ -1,9 +1,9 @@
 (function( $ ) {
 
-
     // HAMBURGER MENU MOBILE 
 
     $('.fa-times').hide();
+
 
     $('.fa-bars').on('click', function(event){
 
@@ -40,7 +40,7 @@
     });
 
     $macroForm = $('.section-4');
-    console.log($macroForm)
+    console.log("05/07/20 7:16PM")
 
   
     // SHRED CHALLENGE BTN

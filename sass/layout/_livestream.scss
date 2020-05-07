@@ -42,18 +42,31 @@
 
 }
 
-input#chat-reset-BTN, input#chat-saveBTN{
+input#chat-reset-BTN{
     background: none !important;
-    background-color: $primary-red !important;
     text-transform: uppercase !important;
     font-weight: bold !important;
     letter-spacing: 1px;
     font-family: 'Roboto';
+    color: $primary-red !important;
 }
 
 input.wcUserName{
     background-color: #EAEAEA !important;
 }
+
+.wcCustomizationsProperty{
+    input#chat-save-BTN{
+        background: none !important;
+        background-color: $primary-red !important;
+        text-transform: uppercase !important;
+        font-weight: bold !important;
+        letter-spacing: 1px;
+        font-family: 'Roboto';
+    }
+} 
+
+
 
 
 
@@ -77,6 +90,12 @@ input.wcUserName{
     input#chat-BTN{
         margin-left: 0 !important;
         margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+     input#chat-save-BTN{
+        width: 100%;
+        margin: 10px 0;
     }
 
 }
