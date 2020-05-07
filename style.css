@@ -1586,7 +1586,8 @@ a.shred-challenge-BTN {
     margin: 25px auto !important; } }
 
 html {
-  -webkit-appearance: none !important; }
+  -webkit-appearance: none !important;
+  overflow-x: hidden !important; }
 
 .hero-container {
   overflow: hidden; }

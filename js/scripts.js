@@ -8,7 +8,7 @@
     $('.fa-bars').on('click', function(event){
 
         $('#menu-nav').slideToggle( 'slow', function(event) {
-            $('.fa-bars').hide();
+            $('.fa-bars').hide('fast', 'linear');
             $('.fa-times').show();
             $('#menu-nav').show();
             });
@@ -17,8 +17,8 @@
     $('.fa-times').click(function(event){
 
         $('#menu-nav').slideToggle( 'slow', function(event) {
-            $('#menu-nav').hide();
-            $('.fa-times').hide();
+            $('#menu-nav').hide('fast', 'linear');
+            $('.fa-times').hide('fast', 'linear');
             $('.fa-bars').show();
 
         });
