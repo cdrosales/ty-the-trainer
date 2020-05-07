@@ -126,10 +126,12 @@ div#mc_embed_signup{
     width: 165px;
     height: 38px;
     border-radius: 8px;
+    -webkit-appearance: none !important !important !important;
 }
 
 #mc_embed_signup #mc-embedded-subscribe:hover{
     background-color: $primary-hover-red;
+    -webkit-appearance: none !important !important !important;
 }
 
 // MACRO TOOL FORM

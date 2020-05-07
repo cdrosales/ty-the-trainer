@@ -14,22 +14,24 @@
         letter-spacing: 1.5px;
         margin: 5% 0;
     }
+    a{
+        text-decoration: none;
+        color: $primary-red;
 
-    button{
-        @include button-white;
-        @include font-bold;
-        a{
-            text-decoration: none;
-            color: $primary-red;
+        button{
+            @include button-white;
+            @include font-bold;
+            
         }
     }
-
-    button:hover{
-        @include button-red;
-        a{
-            color: $primary-white;
+    
+    a:hover {
+        color: $primary-white;
+        button{
+            @include button-red;
         }
     }
+    
 }
 
 .sb_instagram_header, #sbi_load{
@@ -64,6 +66,13 @@
         display: flex;
         flex-direction: column;
         margin-bottom: 15%;
+
+        a{
+            width: 100% !important;
+            button{
+                width: 100% !important;
+            }
+        }
     }
 
     #sbi_images{

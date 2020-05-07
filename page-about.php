@@ -46,12 +46,11 @@
 
             <div class="instagram-feed-info">
                 <h3>@Ty.thetrainer</h3>
-                <p>Follow me on Instagram! From daily motivational quotes and 
-                    tutorials to some crazy workout videos. See what my journey 
-                    is all about, whether its fitness related or every day life.    
-                </p>
-                <button>Follow on instagram</button>
-            </div>  
+                <p>Follow me on Instagram! Daily motivational quotes, health quizzes, and some crazy workout 
+                    videos are just some of the things you get from me. Come see what my journey is all about, 
+                    whether it’s fitness related or everyday life.</p>
+                <a href="https://www.instagram.com/ty.thetrainer/"><button>Follow on instagram</button></a>
+            </div>    
 
             <div class="instagram-feed-container">
                 <?php if( have_posts() ): 

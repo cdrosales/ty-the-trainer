@@ -112,21 +112,24 @@
         width: 82%;
     }
 
-    button{
-        @include button-white;
-        @include font-bold;
-        a{
-            text-decoration: none;
-            color: $primary-red;
+    a{
+        text-decoration: none;
+        color: $primary-red;
+        
+        button{
+            @include button-white;
+            @include font-bold; 
         }
     }
+    
+    a:hover{
+        color: $primary-white;
 
-    button:hover{
-        @include button-red;
-        a{
-            color: $primary-white;
+        button{
+            @include button-red;
         }
     }
+    
 }
 
 .home-nutritional-plans, .home-guides-resources{
@@ -213,6 +216,10 @@
 
     .home-personal-training, .home-nutritional-plans, .home-guides-resources{
         margin: 20px 0;
+
+        a{
+            width: 100% !important; 
+        }
 
         button{
             width: 100% !important;

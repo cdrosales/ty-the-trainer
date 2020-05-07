@@ -153,7 +153,7 @@
             <p>Follow me on Instagram! Daily motivational quotes, health quizzes, and some crazy workout 
                 videos are just some of the things you get from me. Come see what my journey is all about, 
                 whether it’s fitness related or everyday life.</p>
-            <button><a href="https://www.instagram.com/ty.thetrainer/">Follow on instagram</a></button>
+            <a href="https://www.instagram.com/ty.thetrainer/"><button>Follow on instagram</button></a>
         </div>  
 
         <div class="instagram-feed-container">

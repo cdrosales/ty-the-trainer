@@ -560,10 +560,12 @@ div#mc_embed_signup {
   font-size: 1.2em;
   width: 165px;
   height: 38px;
-  border-radius: 8px; }
+  border-radius: 8px;
+  -webkit-appearance: none !important !important !important; }
 
 #mc_embed_signup #mc-embedded-subscribe:hover {
-  background-color: #790000; }
+  background-color: #790000;
+  -webkit-appearance: none !important !important !important; }
 
 .macro-tool-form-container {
   width: 75%;
@@ -819,32 +821,32 @@ div.nf-field {
     line-height: 1.7;
     letter-spacing: 1.5px;
     margin: 5% 0; }
-  .instagram-feed button {
-    border: 2px solid #931616;
-    border-radius: 5px;
-    padding: 8px 15px;
-    font-size: 1em;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #931616;
-    background-color: #ffffff;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal; }
-    .instagram-feed button a {
-      text-decoration: none;
-      color: #931616; }
-  .instagram-feed button:hover {
-    border: 2px solid #931616;
-    border-radius: 5px;
-    padding: 8px 15px;
-    font-size: 1em;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #ffffff;
-    background-color: #931616; }
-    .instagram-feed button:hover a {
-      color: #ffffff; }
+  .instagram-feed a {
+    text-decoration: none;
+    color: #931616; }
+    .instagram-feed a button {
+      border: 2px solid #931616;
+      border-radius: 5px;
+      padding: 8px 15px;
+      font-size: 1em;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #931616;
+      background-color: #ffffff;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal; }
+  .instagram-feed a:hover {
+    color: #ffffff; }
+    .instagram-feed a:hover button {
+      border: 2px solid #931616;
+      border-radius: 5px;
+      padding: 8px 15px;
+      font-size: 1em;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #ffffff;
+      background-color: #931616; }
 
 .sb_instagram_header, #sbi_load {
   display: none; }
@@ -873,6 +875,10 @@ div.nf-field {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-bottom: 15%; }
+    .instagram-feed-wrapper a {
+      width: 100% !important; }
+      .instagram-feed-wrapper a button {
+        width: 100% !important; }
   #sbi_images {
     margin-left: -10px; }
   .instagram-feed-info {
@@ -1100,32 +1106,32 @@ div.nf-field {
     line-height: 1.5;
     letter-spacing: 1px;
     width: 82%; }
-  .home-services-container button {
-    border: 2px solid #931616;
-    border-radius: 5px;
-    padding: 8px 15px;
-    font-size: 1em;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #931616;
-    background-color: #ffffff;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal; }
-    .home-services-container button a {
-      text-decoration: none;
-      color: #931616; }
-  .home-services-container button:hover {
-    border: 2px solid #931616;
-    border-radius: 5px;
-    padding: 8px 15px;
-    font-size: 1em;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #ffffff;
-    background-color: #931616; }
-    .home-services-container button:hover a {
-      color: #ffffff; }
+  .home-services-container a {
+    text-decoration: none;
+    color: #931616; }
+    .home-services-container a button {
+      border: 2px solid #931616;
+      border-radius: 5px;
+      padding: 8px 15px;
+      font-size: 1em;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #931616;
+      background-color: #ffffff;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal; }
+  .home-services-container a:hover {
+    color: #ffffff; }
+    .home-services-container a:hover button {
+      border: 2px solid #931616;
+      border-radius: 5px;
+      padding: 8px 15px;
+      font-size: 1em;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #ffffff;
+      background-color: #931616; }
 
 .home-nutritional-plans img, .home-guides-resources img {
   height: 70px; }
@@ -1193,6 +1199,8 @@ div.nf-field {
       margin-right: 20px; }
   .home-personal-training, .home-nutritional-plans, .home-guides-resources {
     margin: 20px 0; }
+    .home-personal-training a, .home-nutritional-plans a, .home-guides-resources a {
+      width: 100% !important; }
     .home-personal-training button, .home-nutritional-plans button, .home-guides-resources button {
       width: 100% !important;
       max-width: 325px; }
