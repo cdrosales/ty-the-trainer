@@ -13,7 +13,7 @@
                     <ul>
                         <li>Certified Atheltic Trainer</li>
                         <li>Personal training specialist</li>
-                        <li>Former NCAA Athelete</li>
+                        <li>Former NCAA Athlete</li>
                     </ul>
                 </h2> 
                 
