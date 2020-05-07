@@ -42,7 +42,6 @@
 
                 <div class="personal-training-container">  
                     <?php dynamic_sidebar('sidebar-personal-training'); ?>
-
                 </div>
 
 
@@ -56,13 +55,19 @@
                 </div>
 
                 <div class="nutritional-plans-container">
-                    
                     <?php dynamic_sidebar('sidebar-nutritional-plans'); ?>
                 </div>
 
             </div>
 
+
+                <div class="nutritional-plans-container">
+                    <?php dynamic_sidebar('sidebar-macro-calculator'); ?>
+                </div>
+
+
         </section>
+
 
 
 

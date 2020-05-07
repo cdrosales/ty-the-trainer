@@ -65,8 +65,22 @@ function tythetrainer_sidebars_widgets() {
         'after_title' => '</h4>'
     ));
 
+    // macro calculator
+    register_sidebar( array(
+        'name' => esc_html('Services-Macro Calculator'),
+        'id' => 'sidebar-macro-calculator',
+        'description' => 'Your Services You Offer',
+        'class' => 'services-macro-calculator',
+        'before_widget' => '<section id="%1$s" class="%2$s tythetrainer-widget"> ',
+        'after_widget' => '</section>',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>'
+    ));
+
 }
 add_action('widgets_init', 'tythetrainer_sidebars_widgets');
+
+
 
 
 // TESTIMONIALS
