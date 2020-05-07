@@ -91,6 +91,28 @@ function tythetrainer_testimonials(){
 
 add_action('init', 'tythetrainer_testimonials');
 
+// HOME TRAINING EQUIPTMENT
+
+function tythetrainer_equipment(){
+    register_post_type('equipment', array( 
+        'supports' => array('title', 'editor', 'thumbnail', 'excerpt'),
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'labels' => array(
+            'name' => 'Home Equipment', 
+            'add_new_item' => 'Add New Equipment',
+            'edit_item' => 'Edit Equipment',
+            'all_items' => 'All Equipments',
+            'singular_name' => 'Equipment' 
+        ),
+
+        'menu_icon' => 'dashicons-admin-post'
+    ));
+}
+
+add_action('init', 'tythetrainer_equipment');
+
 
 ?>
 

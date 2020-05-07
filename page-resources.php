@@ -36,4 +36,41 @@
     <img src="<?php echo get_template_directory_uri() . '/assets/images/resources-coming-soon-IMG.png'; ?>" class="resources-coming-soon-IMG"/>
 </section>
 
+<section class="home-equipment-container top-five-wrapper">
+
+<div class="widget-title">
+            <h2>Ty's Top 5 Home Equipment</h2> 
+            <hr class="header-line">
+    </div>
+<?php
+
+        $equipment = new WP_Query(array(
+                    'post_type' => 'equipment', 
+                    'posts_per_page' => '12', 
+                    'order_by' => 'date',
+                    'order' => 'ASC'
+
+                ));
+
+                echo '<div class="top-five-container">';
+
+            while($equipment->have_posts()) :
+
+            echo $equipment->the_post();
+            
+            echo '<div class="top-five-item-container">';
+            echo '<h4>' . get_the_title() . '</h4>';
+            echo the_content();
+            echo '</div>';
+     
+        endwhile;
+
+        wp_reset_postdata();
+
+        echo '</div>';
+
+?>
+
+</section>
+
 <?php get_footer(); ?>
