@@ -90,7 +90,7 @@
 
     $testimonials = new WP_Query(array(
                 'post_type' => 'testimonials', 
-                'posts_per_page' => '6', 
+                'posts_per_page' => '12', 
                 'order_by' => 'date',
                 'order' => 'ASC'
 
