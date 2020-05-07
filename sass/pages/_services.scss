@@ -22,9 +22,20 @@
     }
 
     h4{
-        color: $primary-red;
         text-transform: uppercase;
         letter-spacing: 1px;
+    }
+    i{
+        margin-left: 5px;
+    }
+
+    a{
+        color: $primary-red;
+        @include font-bold;
+        text-transform: uppercase;
+    }
+    a:hover{
+        @include font-bold-italic;
     }
 }
 
