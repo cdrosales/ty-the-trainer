@@ -24,22 +24,11 @@
                 <?php endif; ?>
 </section>
 
-<!-- <section class="coming-soon-resources-container">
-
-    <div class="widget-title">
-            <h2>Coming Soon</h2> 
-            <hr class="header-line">
-    </div>
-
-    <p>Working on getting you more resources to help your fitness journey. Check back later!</p>
-
-    <img src="<?php echo get_template_directory_uri() . '/assets/images/resources-coming-soon-IMG.png'; ?>" class="resources-coming-soon-IMG"/>
-</section> -->
 
 <section class="home-equipment-container top-five-wrapper">
 
 <div class="widget-title">
-            <h2>Ty's Top 5 Home Equipment</h2> 
+            <h2>Ty's Top 5 At-home pieces of training equipment</h2> 
             <hr class="header-line">
     </div>
 <?php
@@ -72,5 +61,7 @@
 ?>
 
 </section>
+
+
 
 <?php get_footer(); ?>
