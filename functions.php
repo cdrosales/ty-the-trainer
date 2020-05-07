@@ -91,7 +91,7 @@ function tythetrainer_testimonials(){
 
 add_action('init', 'tythetrainer_testimonials');
 
-// HOME TRAINING EQUIPTMENT
+// HOME TRAINING EQUIPMENT
 
 function tythetrainer_equipment(){
     register_post_type('equipment', array( 
@@ -112,6 +112,54 @@ function tythetrainer_equipment(){
 }
 
 add_action('init', 'tythetrainer_equipment');
+
+
+
+
+// SUPPLEMENTS
+
+function tythetrainer_supplements(){
+    register_post_type('supplements', array( 
+        'supports' => array('title', 'editor', 'thumbnail', 'excerpt'),
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'labels' => array(
+            'name' => 'Supplements', 
+            'add_new_item' => 'Add New Supplement',
+            'edit_item' => 'Edit Supplement',
+            'all_items' => 'All Supplements',
+            'singular_name' => 'supplement' 
+        ),
+
+        'menu_icon' => 'dashicons-admin-post'
+    ));
+}
+
+add_action('init', 'tythetrainer_supplements');
+
+
+// Books
+
+function tythetrainer_books(){
+    register_post_type('books', array( 
+        'supports' => array('title', 'editor', 'thumbnail', 'excerpt'),
+        'public' => true,
+        'show_in_rest' => true,
+        'has_archive' => true,
+        'labels' => array(
+            'name' => 'Library', 
+            'add_new_item' => 'Add New Book',
+            'edit_item' => 'Edit Book',
+            'all_items' => 'All Books',
+            'singular_name' => 'Book' 
+        ),
+
+        'menu_icon' => 'dashicons-admin-post'
+    ));
+}
+
+add_action('init', 'tythetrainer_books');
 
 
 ?>

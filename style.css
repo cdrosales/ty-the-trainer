@@ -1464,6 +1464,19 @@ div#nf-field-53-wrap input#nf-field-53:hover {
     line-height: 1.3;
     text-align: center; }
 
+.library-container h5 {
+  font-size: 0.8em; }
+
+.library-container p {
+  font-size: 0.7em;
+  text-align: center;
+  width: 123px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  color: #484848;
+  margin-top: 7px; }
+
 @media only screen and (min-width: 700px) and (max-width: 1200px) {
   .top-five-item-container {
     width: 20%;
@@ -1471,7 +1484,11 @@ div#nf-field-53-wrap input#nf-field-53:hover {
     .top-five-item-container h5 {
       font-size: 0.65em;
       height: 35px;
-      text-align: center; } }
+      text-align: center;
+      max-width: 115px; }
+  .library-container h5 {
+    font-size: 0.6em;
+    max-width: 115px; } }
 
 .error-container {
   margin: 7% auto;

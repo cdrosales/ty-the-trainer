@@ -40,6 +40,20 @@
     }
 }
 
+.library-container{
+
+    h5{
+        font-size: 0.8em;
+    }
+    p{
+        font-size: 0.7em;
+        text-align: center;
+        width: 123px;
+        @include font-italic;
+        color: $primary-grey;
+        margin-top: 7px;
+    }
+}
 
 @media only screen and (min-width: 700px) and (max-width: 1200px) {
 
@@ -51,6 +65,14 @@
             font-size: 0.65em;
             height: 35px;
             text-align: center;
+            max-width: 115px;
+        }
+    }
+
+    .library-container{
+        h5{
+            font-size: 0.6em;
+            max-width: 115px;
         }
     }
 

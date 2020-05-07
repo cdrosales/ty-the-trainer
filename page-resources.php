@@ -63,5 +63,80 @@
 </section>
 
 
+<section class="supplements-container top-five-wrapper">
+
+<div class="widget-title">
+            <h2>Ty's Top 5 supplements</h2> 
+            <hr class="header-line">
+    </div>
+<?php
+
+        $supplements = new WP_Query(array(
+                    'post_type' => 'supplements', 
+                    'posts_per_page' => '12', 
+                    'order_by' => 'date',
+                    'order' => 'ASC'
+
+                ));
+
+                echo '<div class="top-five-container">';
+
+            while($supplements->have_posts()) :
+
+            echo $supplements->the_post();
+            
+            echo '<div class="top-five-item-container">';
+            echo '<h5>' . get_the_title() . '</h5>';
+            echo the_content();
+            echo '</div>';
+     
+        endwhile;
+
+        wp_reset_postdata();
+
+        echo '</div>';
+
+?>
+
+</section>
+
+<section class="library-container top-five-wrapper">
+
+<div class="widget-title">
+            <h2>Ty's Library</h2> 
+            <hr class="header-line">
+    </div>
+<?php
+
+        $books = new WP_Query(array(
+                    'post_type' => 'books', 
+                    'posts_per_page' => '12', 
+                    'order_by' => 'date',
+                    'order' => 'ASC'
+
+                ));
+
+                echo '<div class="top-five-container">';
+
+            while($books->have_posts()) :
+
+            echo $books->the_post();
+            
+            echo '<div class="top-five-item-container">';
+            echo '<h5>' . get_the_title() . '</h5>';
+            echo the_content();
+            echo '</div>';
+     
+        endwhile;
+
+        wp_reset_postdata();
+
+        echo '</div>';
+
+?>
+
+</section>
+
+
 
 <?php get_footer(); ?>
