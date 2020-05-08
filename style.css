@@ -277,7 +277,10 @@ div.input-group strong {
   color: #020004; }
 
 @media screen and (min-width: 300px) and (max-width: 700px) {
+  .footer-nav {
+    width: 100%; }
   #menu-footer-nav {
+    min-width: 325px;
     margin: 15px auto 30px auto; }
     #menu-footer-nav li {
       margin: 10px 0; }
@@ -561,11 +564,13 @@ div#mc_embed_signup {
   width: 165px;
   height: 38px;
   border-radius: 8px;
-  -webkit-appearance: none !important !important !important; }
+  -webkit-appearance: none;
+  -moz-appearance: none; }
 
 #mc_embed_signup #mc-embedded-subscribe:hover {
   background-color: #790000;
-  -webkit-appearance: none !important !important !important; }
+  -webkit-appearance: none;
+  -moz-appearance: none; }
 
 .macro-tool-form-container {
   width: 75%;
@@ -925,7 +930,9 @@ div.nf-field-element input#nf-field-53.ninja-forms-field.nf-element:hover {
     text-transform: uppercase !important;
     font-weight: bold !important;
     letter-spacing: 1px;
-    font-family: 'Roboto'; }
+    font-family: 'Roboto';
+    -webkit-appearance: none;
+    -moz-appearance: none; }
 
 .wcCustomizationsProperty {
   width: 100%;
@@ -948,7 +955,9 @@ input.wcUserName {
   text-transform: uppercase !important;
   font-weight: bold !important;
   letter-spacing: 1px;
-  font-family: 'Roboto'; }
+  font-family: 'Roboto';
+  -webkit-appearance: none;
+  -moz-appearance: none; }
 
 @media only screen and (max-width: 700px) {
   .wcToolButtonWrapper, .wcCurrentUserName {

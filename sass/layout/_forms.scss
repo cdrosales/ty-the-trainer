@@ -126,12 +126,14 @@ div#mc_embed_signup{
     width: 165px;
     height: 38px;
     border-radius: 8px;
-    -webkit-appearance: none !important !important !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 #mc_embed_signup #mc-embedded-subscribe:hover{
     background-color: $primary-hover-red;
-    -webkit-appearance: none !important !important !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 // MACRO TOOL FORM
@@ -267,7 +269,7 @@ div.nf-field-element{
             letter-spacing: 2px;
             text-transform: uppercase;
             font-size: 1.2em;
-    -webkit-appearance: none !important;
+        -webkit-appearance: none !important;
 
         }
         
@@ -275,7 +277,7 @@ div.nf-field-element{
             background: $primary-white !important;
             color: $primary-red !important;
             border: 2px solid $primary-red !important;
-    -webkit-appearance: none !important;
+        -webkit-appearance: none !important;
 
 
         }
