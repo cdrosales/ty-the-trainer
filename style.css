@@ -756,6 +756,10 @@ div.nf-field-element input#nf-field-53.ninja-forms-field.nf-element:hover {
     width: 70%;
     height: 28px;
     line-height: 1.1; }
+  .carousel-cell img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px; }
 
 .flickity-viewport {
   padding: 20px 0; }

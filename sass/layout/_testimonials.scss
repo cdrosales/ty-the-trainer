@@ -43,6 +43,11 @@
         height: 28px;
         line-height: 1.1;
     }
+    img{
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+    }
 }
 
 
@@ -92,6 +97,9 @@
         @include font-italic;
         letter-spacing: 1px;
     }
+
+
+    
 }
 
 
