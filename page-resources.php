@@ -24,6 +24,10 @@
                 <?php endif; ?>
 </section>
 
+        <section class="banner-container">
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-BANNER-RESOURCES.jpg'; ?>" class="resources-banner-img"/>
+        </section>
+
 
 <section class="home-equipment-container top-five-wrapper">
 
