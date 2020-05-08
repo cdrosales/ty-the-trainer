@@ -114,7 +114,6 @@
         echo the_post_thumbnail('medium_large');
         echo '</div>';
 
-        // echo '<h5>' . get_the_title() . '</h5>';
         global $post;
         $post_slug = $post->post_name;
         echo '<h5>' . $post_slug. '</h5>';

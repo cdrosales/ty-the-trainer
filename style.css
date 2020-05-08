@@ -1465,29 +1465,14 @@ input.wcUserName {
   .personal-training-wrapper, .nutritional-plans-wrapper {
     margin-top: 3%; } }
 
-.coming-soon-resources-container {
-  width: 75%;
-  margin: 0 auto; }
-  .coming-soon-resources-container p {
-    margin-bottom: 10px; }
-
-.resources-coming-soon-IMG {
-  width: 100%;
-  max-width: 1260px;
-  margin-left: -50px; }
-
 .top-five-wrapper {
   margin: 0 auto;
   width: 75%; }
 
 .top-five-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  max-width: 1000px; }
 
 .top-five-item-container {
   width: 12%;
@@ -1514,21 +1499,29 @@ input.wcUserName {
   color: #484848;
   margin-top: 7px; }
 
-@media only screen and (min-width: 300px) and (max-width: 700px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
   .top-five-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row-gap: 30px; }
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 30px;
+    margin-top: 12%; }
+  .macro-tool-form-container .widget-title {
+    margin-bottom: 12%; }
   .top-five-item-container h5 {
     height: 38px; } }
 
-@media only screen and (min-width: 700px) and (max-width: 1200px) {
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .top-five-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 10px; }
   .top-five-item-container {
     width: 20%;
-    margin-right: 0; }
+    margin-right: 0;
+    margin-bottom: 20px; }
     .top-five-item-container h5 {
       font-size: 0.65em;
-      height: 35px;
+      height: 30px;
       text-align: center;
       max-width: 115px; }
   .library-container h5 {
@@ -1683,7 +1676,8 @@ a.shred-challenge-BTN {
   border: none; }
 
 .widget-title {
-  margin-top: 7%; }
+  margin-top: 7%;
+  line-height: 1.3; }
 
 .page-content {
   width: 75%;

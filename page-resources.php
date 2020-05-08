@@ -28,15 +28,15 @@
 <section class="home-equipment-container top-five-wrapper">
 
 <div class="widget-title">
-            <h2>Ty's Top 5 At-home pieces of training equipment</h2> 
+            <h2>Ty's Top 5 At-home training equipment</h2> 
             <hr class="header-line">
     </div>
 <?php
 
         $equipment = new WP_Query(array(
                     'post_type' => 'equipment', 
-                    'posts_per_page' => '12', 
-                    'order_by' => 'date',
+                    'posts_per_page' => '8', 
+                    'order_by' => 'title',
                     'order' => 'ASC'
 
                 ));
@@ -73,8 +73,8 @@
 
         $supplements = new WP_Query(array(
                     'post_type' => 'supplements', 
-                    'posts_per_page' => '12', 
-                    'order_by' => 'date',
+                    'posts_per_page' => '8', 
+                    'order_by' => 'title',
                     'order' => 'ASC'
 
                 ));
@@ -110,8 +110,8 @@
 
         $books = new WP_Query(array(
                     'post_type' => 'books', 
-                    'posts_per_page' => '12', 
-                    'order_by' => 'date',
+                    'posts_per_page' => '8', 
+                    'order_by' => 'title',
                     'order' => 'ASC'
 
                 ));
