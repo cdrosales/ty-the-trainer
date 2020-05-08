@@ -11,7 +11,7 @@
             <div class="hero-title">
                 <h2>
                     <ul>
-                        <li>Certified Atheltic Trainer</li>
+                        <li>Certified Athletic Trainer</li>
                         <li>Personal training specialist</li>
                         <li>Former NCAA Athlete</li>
                     </ul>
@@ -24,7 +24,7 @@
 
         <section class="about-widget">
             <div class="widget-title">
-                <h2> My story. My mission </h2>
+                <h2> My story. My mission.</h2>
                 <hr class="header-line">
             </div>
 

@@ -773,6 +773,10 @@ div.nf-field-element input#nf-field-53.ninja-forms-field.nf-element:hover {
 
 .testimonials-container {
   margin-bottom: 12%; }
+  .testimonials-container img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px; }
 
 .testimonials-singe-info-container {
   display: -webkit-box;
@@ -788,7 +792,10 @@ div.nf-field-element input#nf-field-53.ninja-forms-field.nf-element:hover {
   margin: 0 auto 3% auto;
   max-width: 750px; }
   .testimonials-singe-info-container img {
-    margin-right: 40px; }
+    margin-right: 40px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px; }
 
 .testimonials-single-info {
   width: 70%; }
