@@ -55,6 +55,22 @@
     }
 }
 
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+
+    .top-five-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 30px; 
+    }
+
+    .top-five-item-container{
+        h5{
+            height: 38px;
+        }
+    }
+
+}
+
 @media only screen and (min-width: 700px) and (max-width: 1200px) {
 
     .top-five-item-container{

@@ -695,7 +695,7 @@ div.nf-field-element input#nf-field-53.ninja-forms-field.nf-element:hover {
     height: 38px !important;
     width: 100% !important;
     margin-top: 20px !important; }
-  input#nf-field-8 {
+  input#nf-field-53 {
     width: 100%; } }
 
 @media screen and (min-width: 300px) and (max-width: 900px) {
@@ -1514,6 +1514,14 @@ input.wcUserName {
   color: #484848;
   margin-top: 7px; }
 
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+  .top-five-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px; }
+  .top-five-item-container h5 {
+    height: 38px; } }
+
 @media only screen and (min-width: 700px) and (max-width: 1200px) {
   .top-five-item-container {
     width: 20%;
@@ -1692,6 +1700,8 @@ a.shred-challenge-BTN {
     letter-spacing: 1px; }
 
 @media screen and (min-width: 300px) and (max-width: 700px) {
+  .hero-title h2 {
+    margin-top: -225px; }
   .widget-title {
     margin-top: 25%; }
   .banner-container {

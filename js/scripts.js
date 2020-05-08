@@ -40,7 +40,7 @@
     });
 
     $macroForm = $('.section-4');
-    console.log("05/07/20 7:16PM")
+    console.log("05/07/20 7:54PM")
 
   
     // SHRED CHALLENGE BTN
