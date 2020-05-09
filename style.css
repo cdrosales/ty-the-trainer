@@ -478,7 +478,6 @@ div#mc_embed_signup {
   text-shadow: 2px 2px 5px #020004; }
 
 #mc_embed_signup div.birthday-container {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -492,7 +491,8 @@ div#mc_embed_signup {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  letter-spacing: 1.3px; }
+  letter-spacing: 1.3px;
+  margin-top: -18px; }
   #mc_embed_signup div.birthday-container input {
     padding: 3px 1px; }
   #mc_embed_signup div.birthday-container label {
@@ -508,8 +508,34 @@ div#mc_embed_signup {
   padding-bottom: 0; }
   #mc_embed_signup div.email-container input#mce-EMAIL {
     margin: 0 auto;
-    width: 75%;
-    max-width: 550px; }
+    max-width: 550px;
+    color: #484848;
+    font-family: 'Helvetica'; }
+
+#mc_embed_signup div.name-container {
+  width: 55%;
+  margin-right: 4%; }
+  #mc_embed_signup div.name-container input#mce-NAME {
+    margin: 0 auto;
+    height: 14px;
+    max-width: 550px;
+    color: #484848;
+    font-family: 'Helvetica'; }
+
+.name-birthday-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 550px; }
 
 #mc_embed_signup div div.mce_inline_error {
   text-transform: uppercase;
@@ -564,6 +590,7 @@ div#mc_embed_signup {
   width: 165px;
   height: 38px;
   border-radius: 8px;
+  text-transform: uppercase;
   -webkit-appearance: none;
   -moz-appearance: none; }
 
@@ -692,8 +719,21 @@ div.nf-field-element input#nf-field-53.ninja-forms-field.nf-element:hover {
       width: 100%; }
   #mce-MMERGE4-month, #mce-MMERGE4-day {
     border: 1px solid #ABB0B2; }
-  #mc_embed_signup div.birthday-container label {
-    text-shadow: none; }
+  #mc_embed_signup div.birthday-container {
+    width: 100%; }
+    #mc_embed_signup div.birthday-container label {
+      text-shadow: none; }
+    #mc_embed_signup div.birthday-container .datefield {
+      color: #020004; }
+  #mc_embed_signup div.name-container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0; }
+  .name-birthday-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
   input#mce-EMAIL {
     width: 100% !important; }
   .clear #mc-embedded-subscribe {
@@ -704,13 +744,28 @@ div.nf-field-element input#nf-field-53.ninja-forms-field.nf-element:hover {
     width: 100%; }
   div#mce-success-response {
     color: #020004 !important;
-    text-shadow: none !important; } }
+    text-shadow: none !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important; } }
 
 @media screen and (min-width: 300px) and (max-width: 900px) {
   #macro-form label {
     font-size: 1em !important; }
   #macro-form .slider-group {
     font-size: 1em !important; } }
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .name-birthday-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  #mc_embed_signup div.name-container {
+    margin: -10px 0 0 0; }
+  #mc_embed_signup div.name-container, #mc_embed_signup div.email-container {
+    width: 100%; }
+  .home-banner-form-img {
+    min-height: 400px !important; } }
 
 .testimonials-wrapper {
   width: 75%;

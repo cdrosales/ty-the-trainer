@@ -35,12 +35,12 @@ div#mc_embed_signup{
 
 
 #mc_embed_signup div.birthday-container{
-    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     letter-spacing: 1.3px;
+    margin-top: -18px;
 
     input{ 
         padding: 3px 1px;
@@ -57,16 +57,45 @@ div#mc_embed_signup{
 
 }
 
+
 #mc_embed_signup div.email-container{
     width: 100%;
     padding-bottom: 0;
 
     input#mce-EMAIL{
         margin: 0 auto;
-        width: 75%;
         max-width: 550px;
+        color: $primary-grey;
+        font-family: 'Helvetica';
+
     }
 }
+
+#mc_embed_signup div.name-container{
+    width: 55%;
+    margin-right: 4%;
+
+    input#mce-NAME{
+        margin: 0 auto;
+        height: 14px;
+        max-width: 550px;
+        color: $primary-grey;
+        font-family: 'Helvetica';
+
+    }
+
+}
+
+.name-birthday-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 550px;
+}
+
+
 
 #mc_embed_signup div{
     div.mce_inline_error{
@@ -126,6 +155,7 @@ div#mc_embed_signup{
     width: 165px;
     height: 38px;
     border-radius: 8px;
+    text-transform: uppercase;
     -webkit-appearance: none;
     -moz-appearance: none;
 }
@@ -135,6 +165,7 @@ div#mc_embed_signup{
     -webkit-appearance: none;
     -moz-appearance: none;
 }
+
 
 // MACRO TOOL FORM
 
@@ -330,9 +361,22 @@ div.nf-field-element{
     }
 
     #mc_embed_signup div.birthday-container{
+        width: 100%;
         label{
             text-shadow: none;
         }
+        .datefield{
+            color: $primary-black;
+        }
+    }
+    #mc_embed_signup div.name-container{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .name-birthday-wrapper{
+        flex-direction: column;
     }
 
     input#mce-EMAIL{
@@ -352,6 +396,8 @@ div.nf-field-element{
     div#mce-success-response{
         color: $primary-black !important;
         text-shadow: none !important;
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
     }
 
     
@@ -373,4 +419,24 @@ div.nf-field-element{
     }
 
 
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+
+    .name-birthday-wrapper{
+        flex-direction: column;
+    }
+    
+    #mc_embed_signup div.name-container{
+        margin: -10px 0 0 0;
+    }
+    #mc_embed_signup div.name-container, #mc_embed_signup div.email-container{
+        width: 100%;
+    }
+
+    
+
+    .home-banner-form-img{
+        min-height: 400px !important;
+    }
 }

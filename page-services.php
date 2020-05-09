@@ -138,6 +138,7 @@
 
 
 
+
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -145,38 +146,52 @@
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
-
 <div class="subscribe-form banner-container">
+
 
     <img src="<?php echo get_template_directory_uri() . '/assets/images/IMG-BANNER-FORM.jpg'; ?>" class="home-banner-form-img"/>
 
 
-    <div id="mc_embed_signup" class="subscribe-form-container">
-    <form action="https://tythetrainer.us18.list-manage.com/subscribe/post?u=c8821d49dfda29df2614af2be&amp;id=1af4e15eaf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">
-        <h2 class="subscribe-form-title">Let's stay connected</h2>
-        <p class="subscribe-form-info">Sign up to receive the latest updates and exclusive offers.</p>
-            
-    <div class="mc-field-group email-container">
-        <input type="email" value=" Enter Email Address" onfocus="this.value=''" name="EMAIL" class="required email" id="mce-EMAIL">
-    </div>
-    <div class="mc-field-group size1of2 birthday-container">
-        <label for="mce-MMERGE4-month">Birthday*</label>
-        <div class="datefield">
-            <span class="subfield monthfield"><input class="birthday required" type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="MMERGE4[month]" id="mce-MMERGE4-month"></span> / 
-            <span class="subfield dayfield"><input class="birthday required " type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="MMERGE4[day]" id="mce-MMERGE4-day"></span> 
+        <div id="mc_embed_signup" class="subscribe-form-container">
+            <form action="https://tythetrainer.us18.list-manage.com/subscribe/post?u=c8821d49dfda29df2614af2be&amp;id=1af4e15eaf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                <h2 class="subscribe-form-title">Let's stay connected</h2>
+                <p class="subscribe-form-info">Sign up to receive the latest updates and exclusive offers.</p>
+                
+
+           
+            <div class="mc-field-group email-container">
+                <input type="email" value=" Enter Email Address" placeholder=" Enter Email Address" onfocus="this.value=''" name="EMAIL" class="required email" id="mce-EMAIL">
+            </div>
+
+            <div class="name-birthday-wrapper">
+                    <div class="mc-field-group name-container">
+                        <input type="text" value=" Name" placeholder=" Name" onfocus="this.value=''" name="NAME" class="required" id="mce-NAME">
+                    </div>
+
+
+                    <div class="mc-field-group size1of2 birthday-container">
+                        <label for="mce-MMERGE4-month">Birthday*</label>
+
+                        <div class="datefield">
+                            <span class="subfield monthfield"><input class="birthday required" type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="MMERGE4[month]" id="mce-MMERGE4-month"></span> / 
+                            <span class="subfield dayfield"><input class="birthday required" type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="MMERGE4[day]" id="mce-MMERGE4-day"></span> 
+                        </div>
+                    </div>
+                </div> <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c8821d49dfda29df2614af2be_1af4e15eaf" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+            </form>
         </div>
-    </div>	<div id="mce-responses" class="clear">
-            <div class="response" id="mce-error-response" style="display:none"></div>
-            <div class="response" id="mce-success-response" style="display:none"></div>
-        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c8821d49dfda29df2614af2be_1af4e15eaf" tabindex="-1" value=""></div>
-        <div class="clear"><input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-        </div>
-    </form>
-    </div>
 </div>
+
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='MMERGE4';ftypes[4]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
+
 <!--End mc_embed_signup-->
 
 
